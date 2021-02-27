@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name LitterRobot)(type KiCad)(uri ${KIPRJMOD}/LitterRobot.pretty)(options "")(descr ""))
+)
