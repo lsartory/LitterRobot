@@ -181,4 +181,30 @@ F 3 "" H 1500 4450 50  0001 C CNN
 	1    1500 4450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_02x05_Counter_Clockwise_MountingPin J4
+U 1 1 603E9ABF
+P 2050 6250
+F 0 "J4" H 2100 6667 50  0000 C CNN
+F 1 "DF11C-10DP-2V(57)" H 2100 6576 50  0000 C CNN
+F 2 "LitterRobot:Hirose_DF11C-10DP-2V(57)" H 2050 6250 50  0001 C CNN
+F 3 "~" H 2050 6250 50  0001 C CNN
+	1    2050 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 6650 2100 6700
+$Comp
+L power:GND #PWR?
+U 1 1 603F0326
+P 2100 6700
+F 0 "#PWR?" H 2100 6450 50  0001 C CNN
+F 1 "GND" H 2105 6527 50  0000 C CNN
+F 2 "" H 2100 6700 50  0001 C CNN
+F 3 "" H 2100 6700 50  0001 C CNN
+	1    2100 6700
+	1    0    0    -1  
+$EndComp
+Text Notes 1700 5800 0    50   ~ 0
+Extension connector
 $EndSCHEMATC
