@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 16
 Title "Litter Robot 3 - Main board"
 Date "2021-02-27"
 Rev "A1"
@@ -207,4 +207,24 @@ F 3 "" H 2100 6700 50  0001 C CNN
 $EndComp
 Text Notes 1700 5800 0    50   ~ 0
 Extension connector
+$Sheet
+S 5500 1500 1050 1000
+U 603F1DCE
+F0 "Power supply" 50
+F1 "PowerSupply.sch" 50
+$EndSheet
+$Sheet
+S 5500 3000 1000 1000
+U 603F1F4D
+F0 "FPGA" 50
+F1 "FPGA.sch" 50
+$EndSheet
+$Sheet
+S 8000 3000 1000 1000
+U 603F20AB
+F0 "Motor driver" 50
+F1 "MotorDriver.sch" 50
+$EndSheet
+Text Notes 5500 5500 0    98   ~ 0
+TODO: Bluetooth?\ne.g. MDBT40?
 $EndSCHEMATC
