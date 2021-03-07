@@ -18,9 +18,10 @@ L Connector_Generic_MountingPin:Conn_02x03_Odd_Even_MountingPin J2
 U 1 1 603BB210
 P 2050 3150
 F 0 "J2" H 2100 3467 50  0000 C CNN
-F 1 "Hirose_DF11C-6DP-2V(57)" H 2100 3376 50  0000 C CNN
+F 1 "DF11C-6DP-2V(57)" H 2100 3376 50  0000 C CNN
 F 2 "LitterRobot:Hirose_DF11C-6DP-2V(57)" H 2050 3150 50  0001 C CNN
 F 3 "https://www.hirose.com/en/product/document?clcode=CL0543-0683-4-57&productname=DF11C-6DP-2V(57)&series=DF11&documenttype=2DDrawing&lang=en&documentid=0000926113" H 2050 3150 50  0001 C CNN
+F 4 "DF11C-6DP-2V(57)" H 2050 3150 50  0001 C CNN "Part_Number"
 	1    2050 3150
 	1    0    0    -1  
 $EndComp
@@ -32,16 +33,17 @@ F 0 "J3" H 2100 4967 50  0000 C CNN
 F 1 "DF11C-8DP-2V(57)" H 2100 4876 50  0000 C CNN
 F 2 "LitterRobot:Hirose_DF11C-8DP-2V(57)" H 2050 4650 50  0001 C CNN
 F 3 "https://www.hirose.com/en/product/document?clcode=CL0543-0684-7-57&productname=DF11C-8DP-2V(57)&series=DF11&documenttype=2DDrawing&lang=en&documentid=0000999153" H 2050 4650 50  0001 C CNN
+F 4 "DF11C-8DP-2V(57)" H 2050 4650 50  0001 C CNN "Part_Number"
 	1    2050 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2100 1850 2100 1900
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR03
 U 1 1 603BD2EA
 P 2100 1900
-F 0 "#PWR0101" H 2100 1650 50  0001 C CNN
+F 0 "#PWR03" H 2100 1650 50  0001 C CNN
 F 1 "GND" H 2105 1727 50  0000 C CNN
 F 2 "" H 2100 1900 50  0001 C CNN
 F 3 "" H 2100 1900 50  0001 C CNN
@@ -56,16 +58,17 @@ F 0 "J1" H 2100 1767 50  0000 C CNN
 F 1 "DF11C-4DP-2V(57)" H 2100 1676 50  0000 C CNN
 F 2 "LitterRobot:Hirose_DF11C-4DP-2V(57)" H 2050 1550 50  0001 C CNN
 F 3 "https://www.hirose.com/en/product/document?clcode=CL0543-0682-1-57&productname=DF11C-4DP-2V(57)&series=DF11&documenttype=2DDrawing&lang=en&documentid=0000926110" H 2050 1550 50  0001 C CNN
+F 4 "DF11C-4DP-2V(57)" H 2050 1550 50  0001 C CNN "Part_Number"
 	1    2050 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2100 3450 2100 3500
 $Comp
-L power:GND #PWR0102
+L power:GND #PWR04
 U 1 1 603C0906
 P 2100 3500
-F 0 "#PWR0102" H 2100 3250 50  0001 C CNN
+F 0 "#PWR04" H 2100 3250 50  0001 C CNN
 F 1 "GND" H 2105 3327 50  0000 C CNN
 F 2 "" H 2100 3500 50  0001 C CNN
 F 3 "" H 2100 3500 50  0001 C CNN
@@ -75,10 +78,10 @@ $EndComp
 Wire Wire Line
 	2100 5050 2100 5100
 $Comp
-L power:GND #PWR0103
+L power:GND #PWR05
 U 1 1 603C0C1B
 P 2100 5100
-F 0 "#PWR0103" H 2100 4850 50  0001 C CNN
+F 0 "#PWR05" H 2100 4850 50  0001 C CNN
 F 1 "GND" H 2105 4927 50  0000 C CNN
 F 2 "" H 2100 5100 50  0001 C CNN
 F 3 "" H 2100 5100 50  0001 C CNN
@@ -122,10 +125,10 @@ Black
 Text Notes 2450 4850 0    50   ~ 0
 Black
 $Comp
-L power:GND #PWR0104
+L power:GND #PWR08
 U 1 1 603D1C90
 P 2450 4950
-F 0 "#PWR0104" H 2450 4700 50  0001 C CNN
+F 0 "#PWR08" H 2450 4700 50  0001 C CNN
 F 1 "GND" H 2455 4777 50  0000 C CNN
 F 2 "" H 2450 4950 50  0001 C CNN
 F 3 "" H 2450 4950 50  0001 C CNN
@@ -155,11 +158,11 @@ Black
 Wire Wire Line
 	1850 4650 1000 4650
 Text Label 1000 4650 0    50   ~ 0
-HallSensorR
+Hall_Sensor_R
 Wire Wire Line
 	3200 4550 2350 4550
-Text Label 2750 4550 0    50   ~ 0
-HallSensorL
+Text Label 2700 4550 0    50   ~ 0
+Hall_Sensor_L
 Wire Wire Line
 	1850 4550 1500 4550
 Wire Wire Line
@@ -171,10 +174,10 @@ F0 "Control panel" 50
 F1 "ControlPanel.sch" 50
 $EndSheet
 $Comp
-L LitterRobot:+7V #PWR?
+L LitterRobot:+7V #PWR02
 U 1 1 60414DA6
 P 1500 4450
-F 0 "#PWR?" H 1500 4300 50  0001 C CNN
+F 0 "#PWR02" H 1500 4300 50  0001 C CNN
 F 1 "+7V" H 1515 4623 50  0000 C CNN
 F 2 "" H 1500 4450 50  0001 C CNN
 F 3 "" H 1500 4450 50  0001 C CNN
@@ -189,16 +192,17 @@ F 0 "J4" H 2100 6667 50  0000 C CNN
 F 1 "DF11C-10DP-2V(57)" H 2100 6576 50  0000 C CNN
 F 2 "LitterRobot:Hirose_DF11C-10DP-2V(57)" H 2050 6250 50  0001 C CNN
 F 3 "~" H 2050 6250 50  0001 C CNN
+F 4 "DF11C-10DP-2V(57)" H 2050 6250 50  0001 C CNN "Part_Number"
 	1    2050 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2100 6650 2100 6700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 603F0326
 P 2100 6700
-F 0 "#PWR?" H 2100 6450 50  0001 C CNN
+F 0 "#PWR06" H 2100 6450 50  0001 C CNN
 F 1 "GND" H 2105 6527 50  0000 C CNN
 F 2 "" H 2100 6700 50  0001 C CNN
 F 3 "" H 2100 6700 50  0001 C CNN
@@ -224,7 +228,87 @@ S 8000 3000 1000 1000
 U 603F20AB
 F0 "Motor driver" 50
 F1 "MotorDriver.sch" 50
+F2 "Motor_PWM_P" I L 8000 3200 50 
+F3 "Motor_PWM_N" I L 8000 3300 50 
+F4 "Motor_P" O R 9000 3500 50 
+F5 "Motor_N" O R 9000 3600 50 
 $EndSheet
 Text Notes 5500 5500 0    98   ~ 0
-TODO: Bluetooth?\ne.g. MDBT40?
+TODO: 2 V diode for the Hall sensors supply + pull-up resistors\n\nTODO: Bluetooth?\ne.g. MDBT40?
+Wire Wire Line
+	1850 3050 1500 3050
+Wire Wire Line
+	1500 3050 1500 2950
+$Comp
+L power:+15V #PWR01
+U 1 1 6046C18F
+P 1500 2950
+F 0 "#PWR01" H 1500 2800 50  0001 C CNN
+F 1 "+15V" H 1515 3123 50  0000 C CNN
+F 2 "" H 1500 2950 50  0001 C CNN
+F 3 "" H 1500 2950 50  0001 C CNN
+	1    1500 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3050 2450 3050
+Wire Wire Line
+	2450 3050 2450 3350
+$Comp
+L power:GND #PWR07
+U 1 1 6046CCE3
+P 2450 3350
+F 0 "#PWR07" H 2450 3100 50  0001 C CNN
+F 1 "GND" H 2455 3177 50  0000 C CNN
+F 2 "" H 2450 3350 50  0001 C CNN
+F 3 "" H 2450 3350 50  0001 C CNN
+	1    2450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3150 1850 3150
+Wire Wire Line
+	1000 3250 1850 3250
+Text Label 1000 3150 0    50   ~ 0
+Motor_P
+Text Label 1000 3250 0    50   ~ 0
+Motor_N
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 60470C32
+P 1300 2950
+F 0 "#FLG01" H 1300 3025 50  0001 C CNN
+F 1 "PWR_FLAG" V 1300 3077 50  0000 L CNN
+F 2 "" H 1300 2950 50  0001 C CNN
+F 3 "~" H 1300 2950 50  0001 C CNN
+	1    1300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 60471B9C
+P 2750 3050
+F 0 "#FLG02" H 2750 3125 50  0001 C CNN
+F 1 "PWR_FLAG" V 2750 3178 50  0000 L CNN
+F 2 "" H 2750 3050 50  0001 C CNN
+F 3 "~" H 2750 3050 50  0001 C CNN
+	1    2750 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 3050 2450 3050
+Connection ~ 2450 3050
+Wire Wire Line
+	1500 3050 1300 3050
+Wire Wire Line
+	1300 3050 1300 2950
+Connection ~ 1500 3050
+Wire Wire Line
+	9000 3500 9500 3500
+Wire Wire Line
+	9000 3600 9500 3600
+Text Label 9200 3500 0    50   ~ 0
+Motor_P
+Text Label 9200 3600 0    50   ~ 0
+Motor_N
 $EndSCHEMATC

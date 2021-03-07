@@ -5,4 +5,9 @@ D Power symbol creates a global label with name "+7V"
 K power-flag
 $ENDCMP
 #
+$CMP MPM54304
+D 4V to 16V Input, Quad-Output Power Module with I2C and MTP in Ultra-Thin Package
+F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM54304/document_id/4982/
+$ENDCMP
+#
 #End Doc Library
