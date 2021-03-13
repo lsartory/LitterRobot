@@ -233,8 +233,8 @@ F3 "Motor_PWM_N" I L 8000 3300 50
 F4 "Motor_P" O R 9000 3500 50 
 F5 "Motor_N" O R 9000 3600 50 
 $EndSheet
-Text Notes 5500 5500 0    98   ~ 0
-TODO: 2 V diode for the Hall sensors supply + pull-up resistors\n\nTODO: Bluetooth?\ne.g. MDBT40?
+Text Notes 5500 6150 0    98   ~ 0
+TODO:\n- Fuse\n- Hall sensors (2 V diode for the supply + 2 × MOS level shifter)\n- Cat sensor\n- Tray full sensors\n- Pinch sensor\n- Luminosity sensor (VEML6035)\n- Dome LED\n\nTODO later:\n- Bluetooth (MDBT40?)
 Wire Wire Line
 	1850 3050 1500 3050
 Wire Wire Line
