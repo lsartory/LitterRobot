@@ -184,29 +184,17 @@ F 3 "" H 1500 4450 50  0001 C CNN
 	1    1500 4450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic_MountingPin:Conn_02x05_Counter_Clockwise_MountingPin J4
-U 1 1 603E9ABF
-P 2050 6250
-F 0 "J4" H 2100 6667 50  0000 C CNN
-F 1 "DF11C-10DP-2V(57)" H 2100 6576 50  0000 C CNN
-F 2 "LitterRobot:Hirose_DF11C-10DP-2V(57)" H 2050 6250 50  0001 C CNN
-F 3 "~" H 2050 6250 50  0001 C CNN
-F 4 "DF11C-10DP-2V(57)" H 2050 6250 50  0001 C CNN "Part_Number"
-	1    2050 6250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2100 6650 2100 6700
+	2100 6450 2100 6500
 $Comp
 L power:GND #PWR06
 U 1 1 603F0326
-P 2100 6700
-F 0 "#PWR06" H 2100 6450 50  0001 C CNN
-F 1 "GND" H 2105 6527 50  0000 C CNN
-F 2 "" H 2100 6700 50  0001 C CNN
-F 3 "" H 2100 6700 50  0001 C CNN
-	1    2100 6700
+P 2100 6500
+F 0 "#PWR06" H 2100 6250 50  0001 C CNN
+F 1 "GND" H 2105 6327 50  0000 C CNN
+F 2 "" H 2100 6500 50  0001 C CNN
+F 3 "" H 2100 6500 50  0001 C CNN
+	1    2100 6500
 	1    0    0    -1  
 $EndComp
 Text Notes 1700 5800 0    50   ~ 0
@@ -311,4 +299,16 @@ Text Label 9200 3500 0    50   ~ 0
 Motor_P
 Text Label 9200 3600 0    50   ~ 0
 Motor_N
+$Comp
+L Connector_Generic_MountingPin:Conn_02x03_Odd_Even_MountingPin J4
+U 1 1 6051969D
+P 2050 6150
+F 0 "J4" H 2100 6467 50  0000 C CNN
+F 1 "DF11C-6DP-2V(57)" H 2100 6376 50  0000 C CNN
+F 2 "LitterRobot:Hirose_DF11C-6DP-2V(57)" H 2050 6150 50  0001 C CNN
+F 3 "https://www.hirose.com/en/product/document?clcode=CL0543-0683-4-57&productname=DF11C-6DP-2V(57)&series=DF11&documenttype=2DDrawing&lang=en&documentid=0000926113" H 2050 6150 50  0001 C CNN
+F 4 "DF11C-6DP-2V(57)" H 2050 6150 50  0001 C CNN "Part_Number"
+	1    2050 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
