@@ -639,4 +639,6 @@ F 4 "CR0603-FX-3301ELF" H 6900 5500 50  0001 C CNN "Part_Number"
 	1    6900 5500
 	1    0    0    -1  
 $EndComp
+Text Notes 1000 6550 0    197  ~ 0
+TODO:\nPower good (GPIO)\n→ FPGA reset
 $EndSCHEMATC

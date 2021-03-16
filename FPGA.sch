@@ -13,6 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 1000 3950 0    197  ~ 0
-TODO: Cyclone 10 + 50 MHz oscillator + configuration EEPROM
+Text Notes 1500 4150 0    197  ~ 0
+TODO:\n- Cyclone 10 (10CL016YE144C8G)\n- Oscillator (KC7050K16.3840C1GE00)\n- Configuration EEPROM (MT25QL128ABA8ESF-0AAT)
 $EndSCHEMATC
