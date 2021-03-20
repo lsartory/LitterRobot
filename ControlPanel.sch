@@ -137,19 +137,19 @@ F 3 "~" H 6000 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 3000 1650 2    50   Output ~ 0
-Power_Button
+Power_button
 Wire Wire Line
 	3000 1650 2600 1650
 Text HLabel 5500 1650 2    50   Output ~ 0
-Cycle_Button
+Cycle_button
 Wire Wire Line
 	5500 1650 5100 1650
 Text HLabel 8000 1650 2    50   Output ~ 0
-Empty_Button
+Empty_button
 Wire Wire Line
 	8000 1650 7600 1650
 Text HLabel 10500 1650 2    50   Output ~ 0
-Reset_Button
+Reset_button
 Wire Wire Line
 	10500 1650 10100 1650
 Text HLabel 1500 2650 0    50   Input ~ 0
