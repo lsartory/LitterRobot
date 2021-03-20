@@ -10,4 +10,10 @@ D 4V to 16V Input, Quad-Output Power Module with I2C and MTP in Ultra-Thin Packa
 F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM54304/document_id/4982/
 $ENDCMP
 #
+$CMP VEML6035
+D Low Power, High Sensitivity, I2C Ambient Light Sensor
+K opto ambient light sensor
+F https://www.vishay.com/docs/84889/veml6035.pdf
+$ENDCMP
+#
 #End Doc Library

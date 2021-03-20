@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 16
+Sheet 1 17
 Title "Litter Robot 3 - Main board"
 Date "2021-02-27"
 Rev "A1"
@@ -384,6 +384,9 @@ F27 "Power_LED_B" O R 7500 1550 50
 F28 "Power_LED_G" O R 7500 1650 50 
 F29 "Power_LED_R" O R 7500 1750 50 
 F30 "Dome_LED" O R 7500 1100 50 
+F31 "Light_sensor_SDA" B L 6000 2100 50 
+F32 "Light_sensor_SCL" O L 6000 2200 50 
+F33 "Light_sensor_INT" I L 6000 2300 50 
 $EndSheet
 Wire Wire Line
 	7500 1550 9000 1550
@@ -526,14 +529,29 @@ Cat_sensor_N
 Text Label 3500 4850 2    50   ~ 0
 Dome_LED_N
 $Comp
-L power:+15V #PWR?
+L power:+15V #PWR03
 U 1 1 60622B0D
 P 1650 5950
-F 0 "#PWR?" H 1650 5800 50  0001 C CNN
+F 0 "#PWR03" H 1650 5800 50  0001 C CNN
 F 1 "+15V" H 1665 6123 50  0000 C CNN
 F 2 "" H 1650 5950 50  0001 C CNN
 F 3 "" H 1650 5950 50  0001 C CNN
 	1    1650 5950
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 4000 2000 1000 500 
+U 60624089
+F0 "Light sensor" 50
+F1 "LightSensor.sch" 50
+F2 "Light_sensor_SDA" B R 5000 2100 50 
+F3 "Light_sensor_SCL" I R 5000 2200 50 
+F4 "Light_sensor_INT" O R 5000 2300 50 
+$EndSheet
+Wire Wire Line
+	5000 2100 6000 2100
+Wire Wire Line
+	6000 2200 5000 2200
+Wire Wire Line
+	5000 2300 6000 2300
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 16
+Sheet 2 17
 Title "Litter Robot 3 - Control panel"
 Date "2021-02-28"
 Rev "A1"

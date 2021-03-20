@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 16
+Sheet 15 17
 Title "Litter Robot 3 - FPGA"
 Date "2021-03-02"
 Rev "A1"
@@ -131,4 +131,16 @@ Wire Wire Line
 	9000 1000 9500 1000
 Text HLabel 9500 1000 2    50   Output ~ 0
 Dome_LED
+Wire Wire Line
+	1500 2700 2000 2700
+Text HLabel 1500 2500 0    50   BiDi ~ 0
+Light_sensor_SDA
+Text HLabel 2000 2600 2    50   Output ~ 0
+Light_sensor_SCL
+Text HLabel 1500 2700 0    50   Input ~ 0
+Light_sensor_INT
+Wire Wire Line
+	2000 2500 1500 2500
+Wire Wire Line
+	1500 2600 2000 2600
 $EndSCHEMATC
