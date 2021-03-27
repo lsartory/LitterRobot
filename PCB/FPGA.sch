@@ -122,9 +122,9 @@ Wire Wire Line
 Wire Wire Line
 	9000 5000 9500 5000
 Text HLabel 9500 5100 2    50   Output ~ 0
-Motor_PWM_N
+Motor_PWM_2
 Text HLabel 9500 5000 2    50   Output ~ 0
-Motor_PWM_P
+Motor_PWM_1
 Text Notes 950  6750 0    197  ~ 0
 TODO:\n- Cyclone 10 (10CL016YE144C8G)\n- JTAG pull-up / down resistors\n- Config signals\n- Connect I/Os (and double-check)
 Wire Wire Line

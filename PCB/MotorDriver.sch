@@ -116,9 +116,9 @@ Wire Wire Line
 	6000 2400 6000 2500
 Connection ~ 6000 2500
 Text HLabel 4900 4100 0    50   Input ~ 0
-Motor_PWM_P
+Motor_PWM_1
 Text HLabel 4900 4200 0    50   Input ~ 0
-Motor_PWM_N
+Motor_PWM_2
 Wire Wire Line
 	4900 4100 5100 4100
 Wire Wire Line

@@ -191,8 +191,8 @@ S 9000 4500 1000 500
 U 603F20AB
 F0 "Motor driver" 50
 F1 "MotorDriver.sch" 50
-F2 "Motor_PWM_P" I L 9000 4600 50 
-F3 "Motor_PWM_N" I L 9000 4700 50 
+F2 "Motor_PWM_1" I L 9000 4600 50 
+F3 "Motor_PWM_2" I L 9000 4700 50 
 F4 "Motor_P" O R 10000 4800 50 
 F5 "Motor_N" O R 10000 4900 50 
 $EndSheet
@@ -355,8 +355,8 @@ S 6000 1000 1500 4000
 U 603F1F4D
 F0 "FPGA" 50
 F1 "FPGA.sch" 50
-F2 "Motor_PWM_P" O R 7500 4600 50 
-F3 "Motor_PWM_N" O R 7500 4700 50 
+F2 "Motor_PWM_1" O R 7500 4600 50 
+F3 "Motor_PWM_2" O R 7500 4700 50 
 F4 "Cycle_button" I L 6000 1350 50 
 F5 "Empty_button" I L 6000 1450 50 
 F6 "Reset_button" I L 6000 1550 50 
