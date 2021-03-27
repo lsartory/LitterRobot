@@ -521,7 +521,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 3050 2000 3050
 Text Notes 4000 7300 0    98   ~ 0
-TODO:\n- Reverse polarity protection diode\n- Hall sensors (2 V diode for the supply + 2 × MOS level shifter)\n- Cat sensor\n- Tray full sensors\n- Pinch sensor\n- Luminosity sensor (VEML6035)\n- Dome LED\n- Power good → FPGA reset\n\nTODO later:\n- Bluetooth (MDBT40?)
+TODO:\n- Reverse polarity protection diode\n- Hall sensors (2 V diode for the supply + 2 × MOS level shifter)\n- Cat sensor\n- Tray full sensor\n- Pinch sensor\n- Dome LED\n- Power good → FPGA reset\n\nTODO later:\n- Bluetooth (MDBT40?)
 Text Label 1000 4850 0    50   ~ 0
 Dome_LED_P
 Text Label 3500 4750 2    50   ~ 0

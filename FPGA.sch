@@ -125,8 +125,8 @@ Text HLabel 9500 5100 2    50   Output ~ 0
 Motor_PWM_N
 Text HLabel 9500 5000 2    50   Output ~ 0
 Motor_PWM_P
-Text Notes 950  6400 0    197  ~ 0
-TODO:\n- Cyclone 10 (10CL016YE144C8G)\n- JTAG pull-up / down resistors\n- Config signals
+Text Notes 950  6750 0    197  ~ 0
+TODO:\n- Cyclone 10 (10CL016YE144C8G)\n- JTAG pull-up / down resistors\n- Config signals\n- Connect I/Os (and double-check)
 Wire Wire Line
 	9000 1000 9500 1000
 Text HLabel 9500 1000 2    50   Output ~ 0
