@@ -21,8 +21,7 @@ F 0 "J2" H 2250 3467 50  0000 C CNN
 F 1 "DF11C-6DP-2V(57)" H 2250 3376 50  0000 C CNN
 F 2 "LitterRobot:Hirose_DF11C-6DP-2V(57)" H 2200 3150 50  0001 C CNN
 F 3 "https://www.hirose.com/en/product/document?clcode=CL0543-0683-4-57&productname=DF11C-6DP-2V(57)&series=DF11&documenttype=2DDrawing&lang=en&documentid=0000926113" H 2200 3150 50  0001 C CNN
-F 4 "" H 2200 3150 50  0001 C CNN "Part_Number"
-F 5 "DF11C-6DP-2V(57)" H 2200 3150 50  0001 C CNN "Part_number"
+F 4 "DF11C-6DP-2V(57)" H 2200 3150 50  0001 C CNN "Part_number"
 	1    2200 3150
 	1    0    0    -1  
 $EndComp
@@ -47,8 +46,7 @@ F 0 "J1" H 2250 1767 50  0000 C CNN
 F 1 "DF11C-4DP-2V(57)" H 2250 1676 50  0000 C CNN
 F 2 "LitterRobot:Hirose_DF11C-4DP-2V(57)" H 2200 1550 50  0001 C CNN
 F 3 "https://www.hirose.com/en/product/document?clcode=CL0543-0682-1-57&productname=DF11C-4DP-2V(57)&series=DF11&documenttype=2DDrawing&lang=en&documentid=0000926110" H 2200 1550 50  0001 C CNN
-F 4 "" H 2200 1550 50  0001 C CNN "Part_Number"
-F 5 "DF11C-4DP-2V(57)" H 2200 1550 50  0001 C CNN "Part_number"
+F 4 "DF11C-4DP-2V(57)" H 2200 1550 50  0001 C CNN "Part_number"
 	1    2200 1550
 	1    0    0    -1  
 $EndComp
@@ -225,8 +223,7 @@ F 0 "J4" H 2250 6467 50  0000 C CNN
 F 1 "DF11C-6DP-2V(57)" H 2250 6376 50  0000 C CNN
 F 2 "LitterRobot:Hirose_DF11C-6DP-2V(57)" H 2200 6150 50  0001 C CNN
 F 3 "https://www.hirose.com/en/product/document?clcode=CL0543-0683-4-57&productname=DF11C-6DP-2V(57)&series=DF11&documenttype=2DDrawing&lang=en&documentid=0000926113" H 2200 6150 50  0001 C CNN
-F 4 "" H 2200 6150 50  0001 C CNN "Part_Number"
-F 5 "DF11C-6DP-2V(57)" H 2200 6150 50  0001 C CNN "Part_number"
+F 4 "DF11C-6DP-2V(57)" H 2200 6150 50  0001 C CNN "Part_number"
 	1    2200 6150
 	1    0    0    -1  
 $EndComp
@@ -272,8 +269,7 @@ F 0 "J3" H 2250 4967 50  0000 C CNN
 F 1 "DF11C-8DP-2V(57)" H 2250 4876 50  0000 C CNN
 F 2 "LitterRobot:Hirose_DF11C-8DP-2V(57)" H 2200 4650 50  0001 C CNN
 F 3 "https://www.hirose.com/en/product/document?clcode=CL0543-0684-7-57&productname=DF11C-8DP-2V(57)&series=DF11&documenttype=2DDrawing&lang=en&documentid=0000999153" H 2200 4650 50  0001 C CNN
-F 4 "" H 2200 4650 50  0001 C CNN "Part_Number"
-F 5 "DF11C-8DP-2V(57)" H 2200 4650 50  0001 C CNN "Part_number"
+F 4 "DF11C-8DP-2V(57)" H 2200 4650 50  0001 C CNN "Part_number"
 	1    2200 4650
 	1    0    0    -1  
 $EndComp

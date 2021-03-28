@@ -40,8 +40,7 @@ F 0 "Q19" H 4091 4246 50  0000 L CNN
 F 1 "BC817" H 4091 4155 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 4125 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 3900 4200 50  0001 L CNN
-F 4 "" H 3900 4200 50  0001 C CNN "Part_Number"
-F 5 "BC817-25,215" H 3900 4200 50  0001 C CNN "Part_number"
+F 4 "BC817-25,215" H 3900 4200 50  0001 C CNN "Part_number"
 	1    3900 4200
 	1    0    0    -1  
 $EndComp
@@ -72,8 +71,7 @@ F 0 "R22" H 4070 4696 50  0000 L CNN
 F 1 "178R" H 4070 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3930 4650 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4000 4650 50  0001 C CNN
-F 4 "" H 4000 4650 50  0001 C CNN "Part_Number"
-F 5 "CR0603-FX-1780ELF" H 4000 4650 50  0001 C CNN "Part_number"
+F 4 "CR0603-FX-1780ELF" H 4000 4650 50  0001 C CNN "Part_number"
 	1    4000 4650
 	1    0    0    -1  
 $EndComp
@@ -102,8 +100,7 @@ F 0 "D7" H 5500 3697 50  0000 C CNN
 F 1 "SMLVN6RGB1U" H 5500 3606 50  0000 C CNN
 F 2 "LitterRobot:ROHM_SMLVN6" H 5500 2850 50  0001 C CNN
 F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_multi/smlvn6rgb1w-e.pdf" H 5500 3150 50  0001 C CNN
-F 4 "" H 5500 3200 50  0001 C CNN "Part_Number"
-F 5 "SMLVN6RGB1U1" H 5500 3200 50  0001 C CNN "Part_number"
+F 4 "SMLVN6RGB1U1" H 5500 3200 50  0001 C CNN "Part_number"
 	1    5500 3200
 	0    1    1    0   
 $EndComp
@@ -134,8 +131,7 @@ F 0 "R23" H 5570 4696 50  0000 L CNN
 F 1 "221R" H 5570 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 4650 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5500 4650 50  0001 C CNN
-F 4 "" H 5500 4650 50  0001 C CNN "Part_Number"
-F 5 "CR0603-FX-2210ELF" H 5500 4650 50  0001 C CNN "Part_number"
+F 4 "CR0603-FX-2210ELF" H 5500 4650 50  0001 C CNN "Part_number"
 	1    5500 4650
 	1    0    0    -1  
 $EndComp
@@ -166,8 +162,7 @@ F 0 "R24" H 7070 4696 50  0000 L CNN
 F 1 "221R" H 7070 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 4650 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 7000 4650 50  0001 C CNN
-F 4 "" H 7000 4650 50  0001 C CNN "Part_Number"
-F 5 "CR0603-FX-2210ELF" H 7000 4650 50  0001 C CNN "Part_number"
+F 4 "CR0603-FX-2210ELF" H 7000 4650 50  0001 C CNN "Part_number"
 	1    7000 4650
 	1    0    0    -1  
 $EndComp
@@ -363,8 +358,7 @@ F 0 "Q20" H 5591 4246 50  0000 L CNN
 F 1 "BC817" H 5591 4155 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5600 4125 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 5400 4200 50  0001 L CNN
-F 4 "" H 5400 4200 50  0001 C CNN "Part_Number"
-F 5 "BC817-25,215" H 5400 4200 50  0001 C CNN "Part_number"
+F 4 "BC817-25,215" H 5400 4200 50  0001 C CNN "Part_number"
 	1    5400 4200
 	1    0    0    -1  
 $EndComp
@@ -395,8 +389,7 @@ F 0 "Q21" H 7091 4246 50  0000 L CNN
 F 1 "BC817" H 7091 4155 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7100 4125 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 6900 4200 50  0001 L CNN
-F 4 "" H 6900 4200 50  0001 C CNN "Part_Number"
-F 5 "BC817-25,215" H 6900 4200 50  0001 C CNN "Part_number"
+F 4 "BC817-25,215" H 6900 4200 50  0001 C CNN "Part_number"
 	1    6900 4200
 	1    0    0    -1  
 $EndComp

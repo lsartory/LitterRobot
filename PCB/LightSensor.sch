@@ -64,8 +64,7 @@ F 0 "R39" H 6070 3296 50  0000 L CNN
 F 1 "3.3k" H 6070 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 3250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6000 3250 50  0001 C CNN
-F 4 "" H 6000 3250 50  0001 C CNN "Part_Number"
-F 5 "CR0603-FX-3301ELF" H 6000 3250 50  0001 C CNN "Part_number"
+F 4 "CR0603-FX-3301ELF" H 6000 3250 50  0001 C CNN "Part_number"
 	1    6000 3250
 	1    0    0    -1  
 $EndComp
@@ -80,8 +79,7 @@ F 0 "R40" H 6570 3296 50  0000 L CNN
 F 1 "3.3k" H 6570 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 3250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6500 3250 50  0001 C CNN
-F 4 "" H 6500 3250 50  0001 C CNN "Part_Number"
-F 5 "CR0603-FX-3301ELF" H 6500 3250 50  0001 C CNN "Part_number"
+F 4 "CR0603-FX-3301ELF" H 6500 3250 50  0001 C CNN "Part_number"
 	1    6500 3250
 	1    0    0    -1  
 $EndComp
@@ -96,8 +94,7 @@ F 0 "R41" H 7070 3296 50  0000 L CNN
 F 1 "3.3k" H 7070 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 3250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 7000 3250 50  0001 C CNN
-F 4 "" H 7000 3250 50  0001 C CNN "Part_Number"
-F 5 "CR0603-FX-3301ELF" H 7000 3250 50  0001 C CNN "Part_number"
+F 4 "CR0603-FX-3301ELF" H 7000 3250 50  0001 C CNN "Part_number"
 	1    7000 3250
 	1    0    0    -1  
 $EndComp
@@ -164,10 +161,9 @@ AR Path="/60624089/606362ED" Ref="C11"  Part="1"
 F 0 "C11" H 4115 3841 50  0000 L CNN
 F 1 "100nF" H 4115 3750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 3600 50  0001 C CNN
-F 3 "~" H 4000 3750 50  0001 C CNN
-F 4 "" H 4000 3750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 4115 3659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 4000 3750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4000 3750 50  0001 C CNN
+F 4 "50V" H 4115 3659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 4000 3750 50  0001 C CNN "Part_number"
 	1    4000 3750
 	1    0    0    -1  
 $EndComp

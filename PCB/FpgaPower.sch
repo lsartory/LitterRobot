@@ -61,10 +61,9 @@ AR Path="/603F1F4D/60659E39/6069FB4C" Ref="C14"  Part="1"
 F 0 "C14" H 1615 1841 50  0000 L CNN
 F 1 "100nF" H 1615 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1538 1600 50  0001 C CNN
-F 3 "~" H 1500 1750 50  0001 C CNN
-F 4 "" H 1500 1750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 1615 1659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 1500 1750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 1500 1750 50  0001 C CNN
+F 4 "50V" H 1615 1659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 1500 1750 50  0001 C CNN "Part_number"
 	1    1500 1750
 	1    0    0    -1  
 $EndComp
@@ -397,10 +396,9 @@ AR Path="/603F1F4D/60659E39/606E36F2" Ref="C16"  Part="1"
 F 0 "C16" H 2115 1841 50  0000 L CNN
 F 1 "100nF" H 2115 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2038 1600 50  0001 C CNN
-F 3 "~" H 2000 1750 50  0001 C CNN
-F 4 "" H 2000 1750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 2115 1659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 2000 1750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2000 1750 50  0001 C CNN
+F 4 "50V" H 2115 1659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 2000 1750 50  0001 C CNN "Part_number"
 	1    2000 1750
 	1    0    0    -1  
 $EndComp
@@ -416,10 +414,9 @@ AR Path="/603F1F4D/60659E39/606E49C1" Ref="C19"  Part="1"
 F 0 "C19" H 2615 1841 50  0000 L CNN
 F 1 "100nF" H 2615 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 1600 50  0001 C CNN
-F 3 "~" H 2500 1750 50  0001 C CNN
-F 4 "" H 2500 1750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 2615 1659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 2500 1750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2500 1750 50  0001 C CNN
+F 4 "50V" H 2615 1659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 2500 1750 50  0001 C CNN "Part_number"
 	1    2500 1750
 	1    0    0    -1  
 $EndComp
@@ -435,10 +432,9 @@ AR Path="/603F1F4D/60659E39/606E49C9" Ref="C22"  Part="1"
 F 0 "C22" H 3115 1841 50  0000 L CNN
 F 1 "100nF" H 3115 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3038 1600 50  0001 C CNN
-F 3 "~" H 3000 1750 50  0001 C CNN
-F 4 "" H 3000 1750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 3115 1659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 3000 1750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 3000 1750 50  0001 C CNN
+F 4 "50V" H 3115 1659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 3000 1750 50  0001 C CNN "Part_number"
 	1    3000 1750
 	1    0    0    -1  
 $EndComp
@@ -522,10 +518,9 @@ AR Path="/603F1F4D/60659E39/607068DF" Ref="C15"  Part="1"
 F 0 "C15" H 1615 2841 50  0000 L CNN
 F 1 "100nF" H 1615 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1538 2600 50  0001 C CNN
-F 3 "~" H 1500 2750 50  0001 C CNN
-F 4 "" H 1500 2750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 1615 2659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 1500 2750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 1500 2750 50  0001 C CNN
+F 4 "50V" H 1615 2659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 1500 2750 50  0001 C CNN "Part_number"
 	1    1500 2750
 	1    0    0    -1  
 $EndComp
@@ -541,10 +536,9 @@ AR Path="/603F1F4D/60659E39/607068E7" Ref="C17"  Part="1"
 F 0 "C17" H 2115 2841 50  0000 L CNN
 F 1 "100nF" H 2115 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2038 2600 50  0001 C CNN
-F 3 "~" H 2000 2750 50  0001 C CNN
-F 4 "" H 2000 2750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 2115 2659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 2000 2750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2000 2750 50  0001 C CNN
+F 4 "50V" H 2115 2659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 2000 2750 50  0001 C CNN "Part_number"
 	1    2000 2750
 	1    0    0    -1  
 $EndComp
@@ -560,10 +554,9 @@ AR Path="/603F1F4D/60659E39/607068EF" Ref="C20"  Part="1"
 F 0 "C20" H 2615 2841 50  0000 L CNN
 F 1 "100nF" H 2615 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 2600 50  0001 C CNN
-F 3 "~" H 2500 2750 50  0001 C CNN
-F 4 "" H 2500 2750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 2615 2659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 2500 2750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2500 2750 50  0001 C CNN
+F 4 "50V" H 2615 2659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 2500 2750 50  0001 C CNN "Part_number"
 	1    2500 2750
 	1    0    0    -1  
 $EndComp
@@ -579,10 +572,9 @@ AR Path="/603F1F4D/60659E39/607068F7" Ref="C23"  Part="1"
 F 0 "C23" H 3115 2841 50  0000 L CNN
 F 1 "100nF" H 3115 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3038 2600 50  0001 C CNN
-F 3 "~" H 3000 2750 50  0001 C CNN
-F 4 "" H 3000 2750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 3115 2659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 3000 2750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 3000 2750 50  0001 C CNN
+F 4 "50V" H 3115 2659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 3000 2750 50  0001 C CNN "Part_number"
 	1    3000 2750
 	1    0    0    -1  
 $EndComp
@@ -666,10 +658,9 @@ AR Path="/603F1F4D/60659E39/60715ACB" Ref="C18"  Part="1"
 F 0 "C18" H 2115 4341 50  0000 L CNN
 F 1 "100nF" H 2115 4250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2038 4100 50  0001 C CNN
-F 3 "~" H 2000 4250 50  0001 C CNN
-F 4 "" H 2000 4250 50  0001 C CNN "Part_Number"
-F 5 "50V" H 2115 4159 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 2000 4250 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2000 4250 50  0001 C CNN
+F 4 "50V" H 2115 4159 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 2000 4250 50  0001 C CNN "Part_number"
 	1    2000 4250
 	1    0    0    -1  
 $EndComp
@@ -685,10 +676,9 @@ AR Path="/603F1F4D/60659E39/60715AD3" Ref="C21"  Part="1"
 F 0 "C21" H 2615 4341 50  0000 L CNN
 F 1 "100nF" H 2615 4250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 4100 50  0001 C CNN
-F 3 "~" H 2500 4250 50  0001 C CNN
-F 4 "" H 2500 4250 50  0001 C CNN "Part_Number"
-F 5 "50V" H 2615 4159 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 2500 4250 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2500 4250 50  0001 C CNN
+F 4 "50V" H 2615 4159 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 2500 4250 50  0001 C CNN "Part_number"
 	1    2500 4250
 	1    0    0    -1  
 $EndComp
@@ -748,14 +738,13 @@ AR Path="/603F20AB/6067396E" Ref="C?"  Part="1"
 AR Path="/60624089/6067396E" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/6067396E" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/6067396E" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/6067396E" Ref="C?"  Part="1" 
-F 0 "C?" H 8615 1841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/6067396E" Ref="C24"  Part="1" 
+F 0 "C24" H 8615 1841 50  0000 L CNN
 F 1 "100nF" H 8615 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8538 1600 50  0001 C CNN
-F 3 "~" H 8500 1750 50  0001 C CNN
-F 4 "" H 8500 1750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 8615 1659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 8500 1750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 8500 1750 50  0001 C CNN
+F 4 "50V" H 8615 1659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 8500 1750 50  0001 C CNN "Part_number"
 	1    8500 1750
 	1    0    0    -1  
 $EndComp
@@ -767,14 +756,13 @@ AR Path="/603F20AB/60673977" Ref="C?"  Part="1"
 AR Path="/60624089/60673977" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60673977" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/60673977" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/60673977" Ref="C?"  Part="1" 
-F 0 "C?" H 9115 1841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/60673977" Ref="C26"  Part="1" 
+F 0 "C26" H 9115 1841 50  0000 L CNN
 F 1 "100nF" H 9115 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9038 1600 50  0001 C CNN
-F 3 "~" H 9000 1750 50  0001 C CNN
-F 4 "" H 9000 1750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 9115 1659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 9000 1750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 9000 1750 50  0001 C CNN
+F 4 "50V" H 9115 1659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 9000 1750 50  0001 C CNN "Part_number"
 	1    9000 1750
 	1    0    0    -1  
 $EndComp
@@ -786,14 +774,13 @@ AR Path="/603F20AB/60673980" Ref="C?"  Part="1"
 AR Path="/60624089/60673980" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60673980" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/60673980" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/60673980" Ref="C?"  Part="1" 
-F 0 "C?" H 9615 1841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/60673980" Ref="C28"  Part="1" 
+F 0 "C28" H 9615 1841 50  0000 L CNN
 F 1 "100nF" H 9615 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9538 1600 50  0001 C CNN
-F 3 "~" H 9500 1750 50  0001 C CNN
-F 4 "" H 9500 1750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 9615 1659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 9500 1750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 9500 1750 50  0001 C CNN
+F 4 "50V" H 9615 1659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 9500 1750 50  0001 C CNN "Part_number"
 	1    9500 1750
 	1    0    0    -1  
 $EndComp
@@ -805,14 +792,13 @@ AR Path="/603F20AB/60673989" Ref="C?"  Part="1"
 AR Path="/60624089/60673989" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60673989" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/60673989" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/60673989" Ref="C?"  Part="1" 
-F 0 "C?" H 10115 1841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/60673989" Ref="C30"  Part="1" 
+F 0 "C30" H 10115 1841 50  0000 L CNN
 F 1 "100nF" H 10115 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10038 1600 50  0001 C CNN
-F 3 "~" H 10000 1750 50  0001 C CNN
-F 4 "" H 10000 1750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 10115 1659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 10000 1750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 10000 1750 50  0001 C CNN
+F 4 "50V" H 10115 1659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 10000 1750 50  0001 C CNN "Part_number"
 	1    10000 1750
 	1    0    0    -1  
 $EndComp
@@ -835,8 +821,8 @@ AR Path="/6067399B" Ref="#PWR?"  Part="1"
 AR Path="/60624089/6067399B" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/6067399B" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/6067399B" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/6067399B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10000 1850 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/6067399B" Ref="#PWR0100"  Part="1" 
+F 0 "#PWR0100" H 10000 1850 50  0001 C CNN
 F 1 "GND" H 10005 1927 50  0000 C CNN
 F 2 "" H 10000 2100 50  0001 C CNN
 F 3 "" H 10000 2100 50  0001 C CNN
@@ -878,14 +864,13 @@ AR Path="/603F20AB/606739B4" Ref="C?"  Part="1"
 AR Path="/60624089/606739B4" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/606739B4" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/606739B4" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606739B4" Ref="C?"  Part="1" 
-F 0 "C?" H 8615 2841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/606739B4" Ref="C25"  Part="1" 
+F 0 "C25" H 8615 2841 50  0000 L CNN
 F 1 "100nF" H 8615 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8538 2600 50  0001 C CNN
-F 3 "~" H 8500 2750 50  0001 C CNN
-F 4 "" H 8500 2750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 8615 2659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 8500 2750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 8500 2750 50  0001 C CNN
+F 4 "50V" H 8615 2659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 8500 2750 50  0001 C CNN "Part_number"
 	1    8500 2750
 	1    0    0    -1  
 $EndComp
@@ -897,14 +882,13 @@ AR Path="/603F20AB/606739BD" Ref="C?"  Part="1"
 AR Path="/60624089/606739BD" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/606739BD" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/606739BD" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606739BD" Ref="C?"  Part="1" 
-F 0 "C?" H 9115 2841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/606739BD" Ref="C27"  Part="1" 
+F 0 "C27" H 9115 2841 50  0000 L CNN
 F 1 "100nF" H 9115 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9038 2600 50  0001 C CNN
-F 3 "~" H 9000 2750 50  0001 C CNN
-F 4 "" H 9000 2750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 9115 2659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 9000 2750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 9000 2750 50  0001 C CNN
+F 4 "50V" H 9115 2659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 9000 2750 50  0001 C CNN "Part_number"
 	1    9000 2750
 	1    0    0    -1  
 $EndComp
@@ -916,14 +900,13 @@ AR Path="/603F20AB/606739C6" Ref="C?"  Part="1"
 AR Path="/60624089/606739C6" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/606739C6" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/606739C6" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606739C6" Ref="C?"  Part="1" 
-F 0 "C?" H 9615 2841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/606739C6" Ref="C29"  Part="1" 
+F 0 "C29" H 9615 2841 50  0000 L CNN
 F 1 "100nF" H 9615 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9538 2600 50  0001 C CNN
-F 3 "~" H 9500 2750 50  0001 C CNN
-F 4 "" H 9500 2750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 9615 2659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 9500 2750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 9500 2750 50  0001 C CNN
+F 4 "50V" H 9615 2659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 9500 2750 50  0001 C CNN "Part_number"
 	1    9500 2750
 	1    0    0    -1  
 $EndComp
@@ -935,14 +918,13 @@ AR Path="/603F20AB/606739CF" Ref="C?"  Part="1"
 AR Path="/60624089/606739CF" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/606739CF" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/606739CF" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606739CF" Ref="C?"  Part="1" 
-F 0 "C?" H 10115 2841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/606739CF" Ref="C31"  Part="1" 
+F 0 "C31" H 10115 2841 50  0000 L CNN
 F 1 "100nF" H 10115 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10038 2600 50  0001 C CNN
-F 3 "~" H 10000 2750 50  0001 C CNN
-F 4 "" H 10000 2750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 10115 2659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 10000 2750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 10000 2750 50  0001 C CNN
+F 4 "50V" H 10115 2659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 10000 2750 50  0001 C CNN "Part_number"
 	1    10000 2750
 	1    0    0    -1  
 $EndComp
@@ -965,8 +947,8 @@ AR Path="/606739E1" Ref="#PWR?"  Part="1"
 AR Path="/60624089/606739E1" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/606739E1" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/606739E1" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606739E1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10000 2850 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/606739E1" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 10000 2850 50  0001 C CNN
 F 1 "GND" H 10005 2927 50  0000 C CNN
 F 2 "" H 10000 3100 50  0001 C CNN
 F 3 "" H 10000 3100 50  0001 C CNN
@@ -1008,7 +990,8 @@ AR Path="/6067D5C2" Ref="#PWR?"  Part="1"
 AR Path="/60624089/6067D5C2" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/6067D5C2" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/6067D5C2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8500 1250 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/6067D5C2" Ref="#PWR098"  Part="1" 
+F 0 "#PWR098" H 8500 1250 50  0001 C CNN
 F 1 "+3V3" H 8515 1573 50  0000 C CNN
 F 2 "" H 8500 1400 50  0001 C CNN
 F 3 "" H 8500 1400 50  0001 C CNN
@@ -1023,7 +1006,8 @@ AR Path="/6068BBFB" Ref="#PWR?"  Part="1"
 AR Path="/60624089/6068BBFB" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/6068BBFB" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/6068BBFB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8500 2250 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/6068BBFB" Ref="#PWR099"  Part="1" 
+F 0 "#PWR099" H 8500 2250 50  0001 C CNN
 F 1 "+3V3" H 8515 2573 50  0000 C CNN
 F 2 "" H 8500 2400 50  0001 C CNN
 F 3 "" H 8500 2400 50  0001 C CNN

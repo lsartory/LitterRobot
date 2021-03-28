@@ -96,10 +96,9 @@ AR Path="/603F1F4D/60647CC2/60654B82" Ref="C13"  Part="1"
 F 0 "C13" H 1615 3841 50  0000 L CNN
 F 1 "100nF" H 1615 3750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1538 3600 50  0001 C CNN
-F 3 "~" H 1500 3750 50  0001 C CNN
-F 4 "" H 1500 3750 50  0001 C CNN "Part_Number"
-F 5 "50V" H 1615 3659 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 1500 3750 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 1500 3750 50  0001 C CNN
+F 4 "50V" H 1615 3659 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 1500 3750 50  0001 C CNN "Part_number"
 	1    1500 3750
 	1    0    0    -1  
 $EndComp
@@ -206,10 +205,9 @@ AR Path="/603F1F4D/60647CC2/6065757F" Ref="C12"  Part="1"
 F 0 "C12" H 1615 1991 50  0000 L CNN
 F 1 "100nF" H 1615 1900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1538 1750 50  0001 C CNN
-F 3 "~" H 1500 1900 50  0001 C CNN
-F 4 "" H 1500 1900 50  0001 C CNN "Part_Number"
-F 5 "50V" H 1615 1809 50  0000 L CNN "Voltage"
-F 6 "C1608X5R1H104K080AA" H 1500 1900 50  0001 C CNN "Part_number"
+F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 1500 1900 50  0001 C CNN
+F 4 "50V" H 1615 1809 50  0000 L CNN "Voltage"
+F 5 "C1608X5R1H104K080AA" H 1500 1900 50  0001 C CNN "Part_number"
 	1    1500 1900
 	1    0    0    -1  
 $EndComp
@@ -294,8 +292,7 @@ F 0 "R45" H 4820 1796 50  0000 L CNN
 F 1 "10k" H 4820 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 1750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4750 1750 50  0001 C CNN
-F 4 "" H 4750 1750 50  0001 C CNN "Part_Number"
-F 5 "CR0603-FX-1002ELF" H 4750 1750 50  0001 C CNN "Part_number"
+F 4 "CR0603-FX-1002ELF" H 4750 1750 50  0001 C CNN "Part_number"
 	1    4750 1750
 	1    0    0    -1  
 $EndComp
@@ -353,8 +350,7 @@ F 0 "R48" H 8570 2796 50  0000 L CNN
 F 1 "1k" H 8570 2705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8430 2750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 8500 2750 50  0001 C CNN
-F 4 "" H 8500 2750 50  0001 C CNN "Part_Number"
-F 5 "CR0603-FX-1001ELF" H 8500 2750 50  0001 C CNN "Part_number"
+F 4 "CR0603-FX-1001ELF" H 8500 2750 50  0001 C CNN "Part_number"
 	1    8500 2750
 	1    0    0    -1  
 $EndComp
@@ -370,8 +366,7 @@ F 0 "R46" H 7570 1796 50  0000 L CNN
 F 1 "10k" H 7570 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7430 1750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 7500 1750 50  0001 C CNN
-F 4 "" H 7500 1750 50  0001 C CNN "Part_Number"
-F 5 "CR0603-FX-1002ELF" H 7500 1750 50  0001 C CNN "Part_number"
+F 4 "CR0603-FX-1002ELF" H 7500 1750 50  0001 C CNN "Part_number"
 	1    7500 1750
 	1    0    0    -1  
 $EndComp
@@ -387,8 +382,7 @@ F 0 "R47" H 8070 1796 50  0000 L CNN
 F 1 "10k" H 8070 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7930 1750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 8000 1750 50  0001 C CNN
-F 4 "" H 8000 1750 50  0001 C CNN "Part_Number"
-F 5 "CR0603-FX-1002ELF" H 8000 1750 50  0001 C CNN "Part_number"
+F 4 "CR0603-FX-1002ELF" H 8000 1750 50  0001 C CNN "Part_number"
 	1    8000 1750
 	1    0    0    -1  
 $EndComp
@@ -470,8 +464,7 @@ F 0 "R44" H 4570 3796 50  0000 L CNN
 F 1 "10k" H 4570 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 3750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4500 3750 50  0001 C CNN
-F 4 "" H 4500 3750 50  0001 C CNN "Part_Number"
-F 5 "CR0603-FX-1002ELF" H 4500 3750 50  0001 C CNN "Part_number"
+F 4 "CR0603-FX-1002ELF" H 4500 3750 50  0001 C CNN "Part_number"
 	1    4500 3750
 	1    0    0    -1  
 $EndComp
@@ -645,8 +638,7 @@ F 0 "R43" H 4320 1796 50  0000 L CNN
 F 1 "10k" H 4320 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4180 1750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4250 1750 50  0001 C CNN
-F 4 "" H 4250 1750 50  0001 C CNN "Part_Number"
-F 5 "CR0603-FX-1002ELF" H 4250 1750 50  0001 C CNN "Part_number"
+F 4 "CR0603-FX-1002ELF" H 4250 1750 50  0001 C CNN "Part_number"
 	1    4250 1750
 	1    0    0    -1  
 $EndComp
