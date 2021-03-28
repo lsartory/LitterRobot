@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 19
 Title "Litter Robot 3 - Control panel"
-Date "2021-02-28"
+Date "2021-03-28"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""

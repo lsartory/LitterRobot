@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 16 19
 Title "Litter Robot 3 - Ambient light sensor"
-Date "2021-03-20"
+Date "2021-03-28"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""

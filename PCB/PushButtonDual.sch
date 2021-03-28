@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 19
+Sheet 13 19
 Title "Litter Robot 3 - Push button (dual)"
-Date "2021-03-13"
+Date "2021-03-28"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
