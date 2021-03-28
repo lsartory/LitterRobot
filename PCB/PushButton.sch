@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 19
+Sheet 9 19
 Title "Litter Robot 3 - Push button (single)"
 Date "2021-02-28"
 Rev "A1"
@@ -28,8 +28,9 @@ AR Path="/603F1F4D/605BE120/604D6269" Ref="R?"  Part="1"
 F 0 "R20" H 5070 4046 50  0000 L CNN
 F 1 "10k" H 5070 3955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 4000 50  0001 C CNN
-F 3 "~" H 5000 4000 50  0001 C CNN
-F 4 "CR0603-FX-1002ELF" H 5000 4000 50  0001 C CNN "Part_Number"
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5000 4000 50  0001 C CNN
+F 4 "" H 5000 4000 50  0001 C CNN "Part_Number"
+F 5 "CR0603-FX-1002ELF" H 5000 4000 50  0001 C CNN "Part_number"
 	1    5000 4000
 	1    0    0    -1  
 $EndComp

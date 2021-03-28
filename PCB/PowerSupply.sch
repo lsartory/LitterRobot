@@ -23,7 +23,8 @@ F 0 "U2" H 5750 6381 50  0000 C CNN
 F 1 "MPM54304" H 5750 3850 100 0000 C CNN
 F 2 "LitterRobot:MPS_MPM54304_LGA33_7x7mm" H 6300 6200 50  0001 C CNN
 F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM54304/document_id/4982/" H 6300 6200 50  0001 C CNN
-F 4 "MPM54304GMN-0001" H 5750 3850 50  0001 C CNN "Part_Number"
+F 4 "" H 5750 3850 50  0001 C CNN "Part_Number"
+F 5 "MPM54304GMN-0001" H 5750 3850 50  0001 C CNN "Part_number"
 	1    5750 3850
 	1    0    0    -1  
 $EndComp
@@ -51,8 +52,9 @@ F 0 "C5" H 4515 1941 50  0000 L CNN
 F 1 "22µF" H 4515 1850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 1700 50  0001 C CNN
 F 3 "~" H 4400 1850 50  0001 C CNN
-F 4 "C3216X5R1V226M160AC" H 4400 1850 50  0001 C CNN "Part_Number"
+F 4 "" H 4400 1850 50  0001 C CNN "Part_Number"
 F 5 "35V" H 4515 1759 50  0000 L CNN "Voltage"
+F 6 "C3216X5R1V226M160AC" H 4400 1850 50  0001 C CNN "Part_number"
 	1    4400 1850
 	1    0    0    -1  
 $EndComp
@@ -67,8 +69,9 @@ F 0 "C4" H 4015 1941 50  0000 L CNN
 F 1 "22µF" H 4015 1850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 1700 50  0001 C CNN
 F 3 "~" H 3900 1850 50  0001 C CNN
-F 4 "C3216X5R1V226M160AC" H 3900 1850 50  0001 C CNN "Part_Number"
+F 4 "" H 3900 1850 50  0001 C CNN "Part_Number"
 F 5 "35V" H 4015 1759 50  0000 L CNN "Voltage"
+F 6 "C3216X5R1V226M160AC" H 3900 1850 50  0001 C CNN "Part_number"
 	1    3900 1850
 	1    0    0    -1  
 $EndComp
@@ -106,8 +109,9 @@ AR Path="/60624089/604A32A1" Ref="R?"  Part="1"
 F 0 "R28" H 4470 3196 50  0000 L CNN
 F 1 "10k" H 4470 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 3150 50  0001 C CNN
-F 3 "~" H 4400 3150 50  0001 C CNN
-F 4 "CR0603-FX-1002ELF" H 4400 3150 50  0001 C CNN "Part_Number"
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4400 3150 50  0001 C CNN
+F 4 "" H 4400 3150 50  0001 C CNN "Part_Number"
+F 5 "CR0603-FX-1002ELF" H 4400 3150 50  0001 C CNN "Part_number"
 	1    4400 3150
 	1    0    0    -1  
 $EndComp
@@ -121,8 +125,9 @@ AR Path="/60624089/604A3347" Ref="R?"  Part="1"
 F 0 "R27" H 3970 3196 50  0000 L CNN
 F 1 "10k" H 3970 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 3150 50  0001 C CNN
-F 3 "~" H 3900 3150 50  0001 C CNN
-F 4 "CR0603-FX-1002ELF" H 3900 3150 50  0001 C CNN "Part_Number"
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 3900 3150 50  0001 C CNN
+F 4 "" H 3900 3150 50  0001 C CNN "Part_Number"
+F 5 "CR0603-FX-1002ELF" H 3900 3150 50  0001 C CNN "Part_number"
 	1    3900 3150
 	1    0    0    -1  
 $EndComp
@@ -166,8 +171,9 @@ AR Path="/60624089/604A40DF" Ref="R?"  Part="1"
 F 0 "R29" H 4470 4696 50  0000 L CNN
 F 1 "10k" H 4470 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 4650 50  0001 C CNN
-F 3 "~" H 4400 4650 50  0001 C CNN
-F 4 "CR0603-FX-1002ELF" H 4400 4650 50  0001 C CNN "Part_Number"
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4400 4650 50  0001 C CNN
+F 4 "" H 4400 4650 50  0001 C CNN "Part_Number"
+F 5 "CR0603-FX-1002ELF" H 4400 4650 50  0001 C CNN "Part_number"
 	1    4400 4650
 	1    0    0    -1  
 $EndComp
@@ -181,8 +187,9 @@ AR Path="/60624089/604A4902" Ref="R?"  Part="1"
 F 0 "R30" H 4470 5196 50  0000 L CNN
 F 1 "3.3k" H 4470 5105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 5150 50  0001 C CNN
-F 3 "~" H 4400 5150 50  0001 C CNN
-F 4 "CR0603-FX-3301ELF" H 4400 5150 50  0001 C CNN "Part_Number"
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4400 5150 50  0001 C CNN
+F 4 "" H 4400 5150 50  0001 C CNN "Part_Number"
+F 5 "CR0603-FX-3301ELF" H 4400 5150 50  0001 C CNN "Part_number"
 	1    4400 5150
 	1    0    0    -1  
 $EndComp
@@ -232,8 +239,9 @@ F 0 "C6" H 5615 6641 50  0000 L CNN
 F 1 "1µF" H 5615 6550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5538 6400 50  0001 C CNN
 F 3 "~" H 5500 6550 50  0001 C CNN
-F 4 "C1608X5R1H105K080AB" H 5500 6550 50  0001 C CNN "Part_Number"
+F 4 "" H 5500 6550 50  0001 C CNN "Part_Number"
 F 5 "50V" H 5615 6459 50  0000 L CNN "Voltage"
+F 6 "C1608X5R1H105K080AB" H 5500 6550 50  0001 C CNN "Part_number"
 	1    5500 6550
 	1    0    0    -1  
 $EndComp
@@ -309,8 +317,9 @@ AR Path="/60624089/604B4786" Ref="R?"  Part="1"
 F 0 "R31" H 6970 1846 50  0000 L CNN
 F 1 "20k" H 6970 1755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 1800 50  0001 C CNN
-F 3 "~" H 6900 1800 50  0001 C CNN
-F 4 "CR0603-FX-2002ELF" H 6900 1800 50  0001 C CNN "Part_Number"
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 1800 50  0001 C CNN
+F 4 "" H 6900 1800 50  0001 C CNN "Part_Number"
+F 5 "CR0603-FX-2002ELF" H 6900 1800 50  0001 C CNN "Part_number"
 	1    6900 1800
 	1    0    0    -1  
 $EndComp
@@ -324,8 +333,9 @@ AR Path="/60624089/604B542F" Ref="R?"  Part="1"
 F 0 "R32" H 6970 2246 50  0000 L CNN
 F 1 "1.87k" H 6970 2155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 2200 50  0001 C CNN
-F 3 "~" H 6900 2200 50  0001 C CNN
-F 4 "CR0603-FX-1871ELF" H 6900 2200 50  0001 C CNN "Part_Number"
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 2200 50  0001 C CNN
+F 4 "" H 6900 2200 50  0001 C CNN "Part_Number"
+F 5 "CR0603-FX-1871ELF" H 6900 2200 50  0001 C CNN "Part_number"
 	1    6900 2200
 	1    0    0    -1  
 $EndComp
@@ -357,8 +367,9 @@ F 0 "C7" H 7515 2091 50  0000 L CNN
 F 1 "22µF" H 7515 2000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 1850 50  0001 C CNN
 F 3 "~" H 7400 2000 50  0001 C CNN
-F 4 "C3216X5R1V226M160AC" H 7400 2000 50  0001 C CNN "Part_Number"
+F 4 "" H 7400 2000 50  0001 C CNN "Part_Number"
 F 5 "35V" H 7515 1909 50  0000 L CNN "Voltage"
+F 6 "C3216X5R1V226M160AC" H 7400 2000 50  0001 C CNN "Part_number"
 	1    7400 2000
 	1    0    0    -1  
 $EndComp
@@ -402,8 +413,9 @@ AR Path="/60624089/604CD95C" Ref="R?"  Part="1"
 F 0 "R33" H 6970 2946 50  0000 L CNN
 F 1 "11.5k" H 6970 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 2900 50  0001 C CNN
-F 3 "~" H 6900 2900 50  0001 C CNN
-F 4 "CR0603-FX-1152ELF" H 6900 2900 50  0001 C CNN "Part_Number"
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 2900 50  0001 C CNN
+F 4 "" H 6900 2900 50  0001 C CNN "Part_Number"
+F 5 "CR0603-FX-1152ELF" H 6900 2900 50  0001 C CNN "Part_number"
 	1    6900 2900
 	1    0    0    -1  
 $EndComp
@@ -417,8 +429,9 @@ AR Path="/60624089/604CD963" Ref="R?"  Part="1"
 F 0 "R34" H 6970 3346 50  0000 L CNN
 F 1 "2.55k" H 6970 3255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 3300 50  0001 C CNN
-F 3 "~" H 6900 3300 50  0001 C CNN
-F 4 "CR0603-FX-2551ELF" H 6900 3300 50  0001 C CNN "Part_Number"
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 3300 50  0001 C CNN
+F 4 "" H 6900 3300 50  0001 C CNN "Part_Number"
+F 5 "CR0603-FX-2551ELF" H 6900 3300 50  0001 C CNN "Part_number"
 	1    6900 3300
 	1    0    0    -1  
 $EndComp
@@ -446,8 +459,9 @@ F 0 "C8" H 7515 3191 50  0000 L CNN
 F 1 "22µF" H 7515 3100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 2950 50  0001 C CNN
 F 3 "~" H 7400 3100 50  0001 C CNN
-F 4 "C3216X5R1V226M160AC" H 7400 3100 50  0001 C CNN "Part_Number"
+F 4 "" H 7400 3100 50  0001 C CNN "Part_Number"
 F 5 "35V" H 7515 3009 50  0000 L CNN "Voltage"
+F 6 "C3216X5R1V226M160AC" H 7400 3100 50  0001 C CNN "Part_number"
 	1    7400 3100
 	1    0    0    -1  
 $EndComp
@@ -489,8 +503,9 @@ AR Path="/60624089/604D12FF" Ref="R?"  Part="1"
 F 0 "R35" H 6970 4046 50  0000 L CNN
 F 1 "9.31k" H 6970 3955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 4000 50  0001 C CNN
-F 3 "~" H 6900 4000 50  0001 C CNN
-F 4 "CR0603-FX-9311ELF" H 6900 4000 50  0001 C CNN "Part_Number"
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 4000 50  0001 C CNN
+F 4 "" H 6900 4000 50  0001 C CNN "Part_Number"
+F 5 "CR0603-FX-9311ELF" H 6900 4000 50  0001 C CNN "Part_number"
 	1    6900 4000
 	1    0    0    -1  
 $EndComp
@@ -504,8 +519,9 @@ AR Path="/60624089/604D1306" Ref="R?"  Part="1"
 F 0 "R36" H 6970 4446 50  0000 L CNN
 F 1 "2.94k" H 6970 4355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 4400 50  0001 C CNN
-F 3 "~" H 6900 4400 50  0001 C CNN
-F 4 "CR0603-FX-2941ELF" H 6900 4400 50  0001 C CNN "Part_Number"
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 4400 50  0001 C CNN
+F 4 "" H 6900 4400 50  0001 C CNN "Part_Number"
+F 5 "CR0603-FX-2941ELF" H 6900 4400 50  0001 C CNN "Part_number"
 	1    6900 4400
 	1    0    0    -1  
 $EndComp
@@ -533,8 +549,9 @@ F 0 "C9" H 7515 4291 50  0000 L CNN
 F 1 "22µF" H 7515 4200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 4050 50  0001 C CNN
 F 3 "~" H 7400 4200 50  0001 C CNN
-F 4 "C3216X5R1V226M160AC" H 7400 4200 50  0001 C CNN "Part_Number"
+F 4 "" H 7400 4200 50  0001 C CNN "Part_Number"
 F 5 "35V" H 7515 4109 50  0000 L CNN "Voltage"
+F 6 "C3216X5R1V226M160AC" H 7400 4200 50  0001 C CNN "Part_number"
 	1    7400 4200
 	1    0    0    -1  
 $EndComp
@@ -592,8 +609,9 @@ F 0 "C10" H 7515 5391 50  0000 L CNN
 F 1 "22µF" H 7515 5300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 5150 50  0001 C CNN
 F 3 "~" H 7400 5300 50  0001 C CNN
-F 4 "C3216X5R1V226M160AC" H 7400 5300 50  0001 C CNN "Part_Number"
+F 4 "" H 7400 5300 50  0001 C CNN "Part_Number"
 F 5 "35V" H 7515 5209 50  0000 L CNN "Voltage"
+F 6 "C3216X5R1V226M160AC" H 7400 5300 50  0001 C CNN "Part_number"
 	1    7400 5300
 	1    0    0    -1  
 $EndComp
@@ -667,8 +685,9 @@ AR Path="/60624089/604FA5AF" Ref="R?"  Part="1"
 F 0 "R37" H 6970 5146 50  0000 L CNN
 F 1 "3.3k" H 6970 5055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 5100 50  0001 C CNN
-F 3 "~" H 6900 5100 50  0001 C CNN
-F 4 "CR0603-FX-3301ELF" H 6900 5100 50  0001 C CNN "Part_Number"
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 5100 50  0001 C CNN
+F 4 "" H 6900 5100 50  0001 C CNN "Part_Number"
+F 5 "CR0603-FX-3301ELF" H 6900 5100 50  0001 C CNN "Part_number"
 	1    6900 5100
 	1    0    0    -1  
 $EndComp
@@ -682,8 +701,9 @@ AR Path="/60624089/604FB145" Ref="R?"  Part="1"
 F 0 "R38" H 6970 5546 50  0000 L CNN
 F 1 "3.3k" H 6970 5455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 5500 50  0001 C CNN
-F 3 "~" H 6900 5500 50  0001 C CNN
-F 4 "CR0603-FX-3301ELF" H 6900 5500 50  0001 C CNN "Part_Number"
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 5500 50  0001 C CNN
+F 4 "" H 6900 5500 50  0001 C CNN "Part_Number"
+F 5 "CR0603-FX-3301ELF" H 6900 5500 50  0001 C CNN "Part_number"
 	1    6900 5500
 	1    0    0    -1  
 $EndComp
@@ -720,43 +740,25 @@ Wire Wire Line
 Wire Wire Line
 	3600 2100 3900 2100
 Connection ~ 3900 2100
-$Comp
-L Device:R R?
-U 1 1 6057B21E
-P 8500 5750
-AR Path="/603F20AB/6057B21E" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/6057B21E" Ref="R39"  Part="1" 
-AR Path="/60624089/6057B21E" Ref="R?"  Part="1" 
-F 0 "R39" H 8570 5796 50  0000 L CNN
-F 1 "10k" H 8570 5705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8430 5750 50  0001 C CNN
-F 3 "~" H 8500 5750 50  0001 C CNN
-F 4 "CR0603-FX-1002ELF" H 8500 5750 50  0001 C CNN "Part_Number"
-	1    8500 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR066
-U 1 1 6057D204
-P 8500 5400
-AR Path="/603F1DCE/6057D204" Ref="#PWR066"  Part="1" 
-AR Path="/60624089/6057D204" Ref="#PWR?"  Part="1" 
-F 0 "#PWR066" H 8500 5250 50  0001 C CNN
-F 1 "+3V3" H 8515 5573 50  0000 C CNN
-F 2 "" H 8500 5400 50  0001 C CNN
-F 3 "" H 8500 5400 50  0001 C CNN
-	1    8500 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 6100 8500 6100
-Wire Wire Line
-	8500 6100 8500 5900
-Wire Wire Line
-	8500 5600 8500 5400
-Wire Wire Line
-	9000 6100 8500 6100
-Connection ~ 8500 6100
-Text HLabel 9000 6100 2    50   Output ~ 0
+Text HLabel 8500 6100 2    50   Output ~ 0
 Power_good
+$Comp
+L Device:Jumper JP?
+U 1 1 6063FFD6
+P 7750 6100
+AR Path="/603F1F4D/60647CC2/6063FFD6" Ref="JP?"  Part="1" 
+AR Path="/603F1DCE/6063FFD6" Ref="JP1"  Part="1" 
+F 0 "JP1" H 7750 6364 50  0000 C CNN
+F 1 "Jumper" H 7750 6273 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 7750 6100 50  0001 C CNN
+F 3 "~" H 7750 6100 50  0001 C CNN
+	1    7750 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 6100 7450 6100
+Wire Wire Line
+	8500 6100 8050 6100
+Text Notes 6700 6250 0    50   ~ 0
+The pull-up resistor for the power-good signal is on the FPGA config page.
 $EndSCHEMATC
