@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 17
+Sheet 1 19
 Title "Litter Robot 3 - Main board"
 Date "2021-02-27"
 Rev "A1"
@@ -350,44 +350,6 @@ Wire Wire Line
 	2500 4850 3500 4850
 Wire Wire Line
 	2600 4750 3500 4750
-$Sheet
-S 6000 1000 1500 4000
-U 603F1F4D
-F0 "FPGA" 50
-F1 "FPGA.sch" 50
-F2 "Motor_PWM_1" O R 7500 4600 50 
-F3 "Motor_PWM_2" O R 7500 4700 50 
-F4 "Cycle_button" I L 6000 1350 50 
-F5 "Empty_button" I L 6000 1450 50 
-F6 "Reset_button" I L 6000 1550 50 
-F7 "Cycle_LED_R" O R 7500 1900 50 
-F8 "Cycle_LED_G" O R 7500 2000 50 
-F9 "Power_good" I L 6000 1100 50 
-F10 "Cycle_LED_B" O R 7500 2100 50 
-F11 "Empty_LED_R" O R 7500 2250 50 
-F12 "Empty_LED_G" O R 7500 2350 50 
-F13 "Empty_LED_B" O R 7500 2450 50 
-F14 "Reset_LED_R" O R 7500 2600 50 
-F15 "Reset_LED_G" O R 7500 2700 50 
-F16 "Reset_LED_B" O R 7500 2800 50 
-F17 "Left_LED_R" O R 7500 2950 50 
-F18 "Left_LED_G" O R 7500 3050 50 
-F19 "Left_LED_B" O R 7500 3150 50 
-F20 "Center_LED_R" O R 7500 3300 50 
-F21 "Center_LED_G" O R 7500 3400 50 
-F22 "Center_LED_B" O R 7500 3500 50 
-F23 "Right_LED_R" O R 7500 3650 50 
-F24 "Right_LED_G" O R 7500 3750 50 
-F25 "Right_LED_B" O R 7500 3850 50 
-F26 "Power_button" I L 6000 1250 50 
-F27 "Power_LED_B" O R 7500 1550 50 
-F28 "Power_LED_G" O R 7500 1650 50 
-F29 "Power_LED_R" O R 7500 1750 50 
-F30 "Dome_LED" O R 7500 1100 50 
-F31 "Light_sensor_SDA" B L 6000 2100 50 
-F32 "Light_sensor_SCL" O L 6000 2200 50 
-F33 "Light_sensor_INT" I L 6000 2300 50 
-$EndSheet
 Wire Wire Line
 	7500 1550 9000 1550
 Wire Wire Line
@@ -554,4 +516,42 @@ Wire Wire Line
 	6000 2200 5000 2200
 Wire Wire Line
 	5000 2300 6000 2300
+$Sheet
+S 6000 1000 1500 4000
+U 603F1F4D
+F0 "FPGA" 50
+F1 "Fpga.sch" 50
+F2 "Motor_PWM_1" O R 7500 4600 50 
+F3 "Motor_PWM_2" O R 7500 4700 50 
+F4 "Cycle_button" I L 6000 1350 50 
+F5 "Empty_button" I L 6000 1450 50 
+F6 "Reset_button" I L 6000 1550 50 
+F7 "Cycle_LED_R" O R 7500 1900 50 
+F8 "Cycle_LED_G" O R 7500 2000 50 
+F9 "Power_good" I L 6000 1100 50 
+F10 "Cycle_LED_B" O R 7500 2100 50 
+F11 "Empty_LED_R" O R 7500 2250 50 
+F12 "Empty_LED_G" O R 7500 2350 50 
+F13 "Empty_LED_B" O R 7500 2450 50 
+F14 "Reset_LED_R" O R 7500 2600 50 
+F15 "Reset_LED_G" O R 7500 2700 50 
+F16 "Reset_LED_B" O R 7500 2800 50 
+F17 "Left_LED_R" O R 7500 2950 50 
+F18 "Left_LED_G" O R 7500 3050 50 
+F19 "Left_LED_B" O R 7500 3150 50 
+F20 "Center_LED_R" O R 7500 3300 50 
+F21 "Center_LED_G" O R 7500 3400 50 
+F22 "Center_LED_B" O R 7500 3500 50 
+F23 "Right_LED_R" O R 7500 3650 50 
+F24 "Right_LED_G" O R 7500 3750 50 
+F25 "Right_LED_B" O R 7500 3850 50 
+F26 "Power_button" I L 6000 1250 50 
+F27 "Power_LED_B" O R 7500 1550 50 
+F28 "Power_LED_G" O R 7500 1650 50 
+F29 "Power_LED_R" O R 7500 1750 50 
+F30 "Dome_LED" O R 7500 1100 50 
+F31 "Light_sensor_SDA" B L 6000 2100 50 
+F32 "Light_sensor_SCL" O L 6000 2200 50 
+F33 "Light_sensor_INT" I L 6000 2300 50 
+$EndSheet
 $EndSCHEMATC

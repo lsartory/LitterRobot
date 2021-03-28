@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 17
+Sheet 14 19
 Title "Litter Robot 3 - Motor driver"
 Date "2021-03-02"
 Rev "A1"

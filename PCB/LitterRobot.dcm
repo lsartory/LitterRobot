@@ -5,6 +5,11 @@ D Power symbol creates a global label with name "+7V"
 K power-flag
 $ENDCMP
 #
+$CMP 10CLxxxYE144
+D Cyclone 10 LP, EQFP 144, with migration
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/cyclone-10/c10lp-51003.pdf
+$ENDCMP
+#
 $CMP MPM54304
 D 4V to 16V Input, Quad-Output Power Module with I2C and MTP in Ultra-Thin Package
 F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM54304/document_id/4982/
