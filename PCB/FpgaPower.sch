@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 19 19
-Title "FPGA power supply"
+Title "Litter Robot 3 - FPGA power supply"
 Date "2021-03-28"
 Rev "A1"
 Comp "L. Sartory"
@@ -1016,4 +1016,22 @@ F 3 "" H 8500 2400 50  0001 C CNN
 $EndComp
 Text Notes 8500 3500 0    50   ~ 0
 +3V3 decoupling capacitors:\n1 per I/O bank
+$Comp
+L power:GND #PWR?
+U 1 1 607A4FF3
+P 5750 5750
+AR Path="/607A4FF3" Ref="#PWR?"  Part="1" 
+AR Path="/60624089/607A4FF3" Ref="#PWR?"  Part="1" 
+AR Path="/603F1F4D/607A4FF3" Ref="#PWR?"  Part="1" 
+AR Path="/603F1F4D/60647CC2/607A4FF3" Ref="#PWR?"  Part="1" 
+AR Path="/603F1F4D/60659E39/607A4FF3" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 5750 5500 50  0001 C CNN
+F 1 "GND" H 5755 5577 50  0000 C CNN
+F 2 "" H 5750 5750 50  0001 C CNN
+F 3 "" H 5750 5750 50  0001 C CNN
+	1    5750 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 5750 5750 5650
 $EndSCHEMATC

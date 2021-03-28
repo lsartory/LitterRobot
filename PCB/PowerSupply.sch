@@ -20,7 +20,7 @@ P 5750 3850
 AR Path="/603F1DCE/60487643" Ref="U2"  Part="1" 
 AR Path="/60624089/60487643" Ref="U?"  Part="1" 
 F 0 "U2" H 5750 6381 50  0000 C CNN
-F 1 "MPM54304" H 5750 3850 100 0000 C CNN
+F 1 "MPM54304GMN-0001" H 5750 3850 100 0000 C CNN
 F 2 "LitterRobot:MPS_MPM54304_LGA33_7x7mm" H 6300 6200 50  0001 C CNN
 F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM54304/document_id/4982/" H 6300 6200 50  0001 C CNN
 F 4 "MPM54304GMN-0001" H 5750 3850 50  0001 C CNN "Part_number"

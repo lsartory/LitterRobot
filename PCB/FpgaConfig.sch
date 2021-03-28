@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 18 19
-Title "FPGA configuration"
+Title "Litter Robot 3 - FPGA configuration"
 Date "2021-03-28"
 Rev "A1"
 Comp "L. Sartory"
@@ -187,7 +187,7 @@ P 2250 1900
 AR Path="/603F1F4D/60657577" Ref="X?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/60657577" Ref="X1"  Part="1" 
 F 0 "X1" H 2594 1946 50  0000 L CNN
-F 1 "SG-5032CAN" H 2594 1855 50  0000 L CNN
+F 1 "X1G0044510011" H 2594 1855 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CA-4Pin_7.0x5.0mm" H 2950 1550 50  0001 C CNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en" H 2150 1900 50  0001 C CNN
 F 4 "X1G0044510011" H 2250 1900 50  0001 C CNN "Part_number"

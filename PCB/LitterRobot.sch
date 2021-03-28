@@ -454,18 +454,6 @@ TODO_2
 Text Label 3500 1550 2    50   ~ 0
 TODO_1
 $Comp
-L Device:Polyfuse F1
-U 1 1 6061774B
-P 1250 2750
-F 0 "F1" H 1338 2796 50  0000 L CNN
-F 1 "Polyfuse" H 1338 2705 50  0000 L CNN
-F 2 "LitterRobot:Bel_Fuse_0ZCG" H 1300 2550 50  0001 L CNN
-F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf" H 1250 2750 50  0001 C CNN
-F 4 "0ZCG0110BF2B" H 1250 2750 50  0001 C CNN "Part_number"
-	1    1250 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+15V #PWR01
 U 1 1 6046C18F
 P 1250 2500
@@ -553,5 +541,38 @@ F30 "Dome_LED" O R 7500 1100 50
 F31 "Light_sensor_SDA" B L 6000 2100 50 
 F32 "Light_sensor_SCL" O L 6000 2200 50 
 F33 "Light_sensor_INT" I L 6000 2300 50 
+F34 "Extension1" B L 6000 3100 50 
+F35 "Extension2" B L 6000 3200 50 
+F36 "Extension3" B L 6000 3300 50 
+F37 "Extension4" B L 6000 3400 50 
 $EndSheet
+$Comp
+L Device:Polyfuse F1
+U 1 1 6061774B
+P 1250 2750
+F 0 "F1" H 1338 2841 50  0000 L CNN
+F 1 "1.1A" H 1338 2750 50  0000 L CNN
+F 2 "LitterRobot:Bel_Fuse_0ZCG" H 1300 2550 50  0001 L CNN
+F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf" H 1250 2750 50  0001 C CNN
+F 4 "0ZCG0110BF2B" H 1250 2750 50  0001 C CNN "Part_number"
+F 5 "24V" H 1338 2659 50  0000 L CNN "Voltage"
+	1    1250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3200 5250 3200
+Wire Wire Line
+	6000 3100 5250 3100
+Wire Wire Line
+	6000 3400 5250 3400
+Wire Wire Line
+	6000 3300 5250 3300
+Text Label 5250 3100 0    50   ~ 0
+Extension1
+Text Label 5250 3200 0    50   ~ 0
+Extension2
+Text Label 5250 3300 0    50   ~ 0
+Extension3
+Text Label 5250 3400 0    50   ~ 0
+Extension4
 $EndSCHEMATC
