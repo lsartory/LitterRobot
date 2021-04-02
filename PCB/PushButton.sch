@@ -16,7 +16,7 @@ $EndDescr
 $Comp
 L Device:R R?
 U 1 1 604D6269
-P 5000 4000
+P 5000 3000
 AR Path="/603F20AB/604D6269" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/604D6269" Ref="R?"  Part="1" 
 AR Path="/603E03AA/603C05C6/604D6269" Ref="R?"  Part="1" 
@@ -25,12 +25,12 @@ AR Path="/603E03AA/603C06CF/604D6269" Ref="R?"  Part="1"
 AR Path="/603E03AA/603C09F0/604D6269" Ref="R20"  Part="1" 
 AR Path="/603F1F4D/605BE11D/604D6269" Ref="R?"  Part="1" 
 AR Path="/603F1F4D/605BE120/604D6269" Ref="R?"  Part="1" 
-F 0 "R20" H 5070 4046 50  0000 L CNN
-F 1 "10k" H 5070 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 4000 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5000 4000 50  0001 C CNN
-F 4 "CR0603-FX-1002ELF" H 5000 4000 50  0001 C CNN "Part_number"
-	1    5000 4000
+F 0 "R20" H 5070 3046 50  0000 L CNN
+F 1 "10k" H 5070 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 3000 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5000 3000 50  0001 C CNN
+F 4 "CR0603-FX-1002ELF" H 5000 3000 50  0001 C CNN "Part_number"
+	1    5000 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -68,33 +68,33 @@ F 3 "" H 5000 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 2500 5000 2800
-Wire Wire Line
-	5000 3200 5000 3500
-Wire Wire Line
-	5000 4150 5000 4500
-Wire Wire Line
 	6000 3500 5000 3500
 Connection ~ 5000 3500
 Wire Wire Line
-	5000 3500 5000 3850
+	5000 3500 5000 3800
 Text HLabel 6000 3500 2    50   Output ~ 0
 Button
 $Comp
 L Switch:SW_Push SW2
 U 1 1 604CFE33
-P 5000 3000
+P 5000 4000
 AR Path="/603E03AA/603C09F0/604CFE33" Ref="SW2"  Part="1" 
 AR Path="/603E03AA/603C05C6/604CFE33" Ref="SW?"  Part="1" 
 AR Path="/603E03AA/603C0699/604CFE33" Ref="SW1"  Part="1" 
 AR Path="/603E03AA/603C06CF/604CFE33" Ref="SW?"  Part="1" 
 AR Path="/603F1F4D/605BE11D/604CFE33" Ref="SW?"  Part="1" 
 AR Path="/603F1F4D/605BE120/604CFE33" Ref="SW?"  Part="1" 
-F 0 "SW2" V 4950 3200 50  0000 L CNN
-F 1 "PCB_Push_Button" V 5050 3200 50  0000 L CNN
-F 2 "LitterRobot:PCB_Push_Button_5mm_0.4mm" H 5000 3200 50  0001 C CNN
-F 3 "~" H 5000 3200 50  0001 C CNN
-	1    5000 3000
+F 0 "SW2" V 4950 4200 50  0000 L CNN
+F 1 "PCB_Push_Button" V 5050 4200 50  0000 L CNN
+F 2 "LitterRobot:PCB_Push_Button_5mm_0.4mm" H 5000 4200 50  0001 C CNN
+F 3 "~" H 5000 4200 50  0001 C CNN
+	1    5000 4000
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	5000 4200 5000 4500
+Wire Wire Line
+	5000 2500 5000 2850
+Wire Wire Line
+	5000 3150 5000 3500
 $EndSCHEMATC
