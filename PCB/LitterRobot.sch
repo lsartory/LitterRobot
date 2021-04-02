@@ -196,21 +196,6 @@ F3 "Motor_PWM_2" I L 9000 4700 50
 F4 "Motor_P" O R 10000 4800 50 
 F5 "Motor_N" O R 10000 4900 50 
 $EndSheet
-Wire Wire Line
-	2500 3050 2600 3050
-Wire Wire Line
-	2600 3050 2600 3150
-$Comp
-L power:GND #PWR09
-U 1 1 6046CCE3
-P 2600 3350
-F 0 "#PWR09" H 2600 3100 50  0001 C CNN
-F 1 "GND" H 2605 3177 50  0000 C CNN
-F 2 "" H 2600 3350 50  0001 C CNN
-F 3 "" H 2600 3350 50  0001 C CNN
-	1    2600 3350
-	1    0    0    -1  
-$EndComp
 Text Label 1000 3150 0    50   ~ 0
 Motor_P
 Text Label 1000 3250 0    50   ~ 0
@@ -227,11 +212,6 @@ F 4 "DF11C-6DP-2V(57)" H 2200 6150 50  0001 C CNN "Part_number"
 	1    2200 6150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 3150 2600 3150
-Connection ~ 2600 3150
-Wire Wire Line
-	2600 3150 2600 3350
 Wire Wire Line
 	2600 4750 2600 4950
 $Comp
@@ -273,8 +253,6 @@ F 4 "DF11C-8DP-2V(57)" H 2200 4650 50  0001 C CNN "Part_number"
 	1    2200 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2600 3150 3500 3150
 Text Label 3500 3150 2    50   ~ 0
 Battery_N
 Wire Wire Line
@@ -402,6 +380,8 @@ U 603F1DCE
 F0 "Power supply" 50
 F1 "PowerSupply.sch" 50
 F2 "Power_good" O R 5000 1100 50 
+F3 "Power_P" I L 4000 1200 50 
+F4 "Battery_P" I L 4000 1300 50 
 $EndSheet
 Wire Wire Line
 	10000 1200 10750 1200
@@ -453,25 +433,8 @@ Text Label 1000 1650 0    50   ~ 0
 TODO_2
 Text Label 3500 1550 2    50   ~ 0
 TODO_1
-$Comp
-L power:+15V #PWR01
-U 1 1 6046C18F
-P 1250 2500
-F 0 "#PWR01" H 1250 2350 50  0001 C CNN
-F 1 "+15V" H 1265 2673 50  0000 C CNN
-F 2 "" H 1250 2500 50  0001 C CNN
-F 3 "" H 1250 2500 50  0001 C CNN
-	1    1250 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 2500 1250 2600
-Wire Wire Line
-	1250 2900 1250 3050
-Wire Wire Line
-	1250 3050 2000 3050
 Text Notes 4000 7300 0    98   ~ 0
-TODO:\n- Reverse polarity protection diode\n- Hall sensors (2 V diode for the supply + 2 × MOS level shifter)\n- Cat sensor\n- Tray full sensor\n- Pinch sensor\n- Dome LED\n\nTODO later:\n- Bluetooth (MDBT40?)
+TODO:\n- Hall sensors (2 V diode for the supply + 2 × MOS level shifter)\n- Cat sensor\n- Tray full sensor\n- Pinch sensor\n- Dome LED\n\nTODO later:\n- Bluetooth (MDBT40?)
 Text Label 1000 4850 0    50   ~ 0
 Dome_LED_P
 Text Label 3500 4750 2    50   ~ 0
@@ -546,19 +509,6 @@ F35 "Extension2" B L 6000 3200 50
 F36 "Extension3" B L 6000 3300 50 
 F37 "Extension4" B L 6000 3400 50 
 $EndSheet
-$Comp
-L Device:Polyfuse F1
-U 1 1 6061774B
-P 1250 2750
-F 0 "F1" H 1338 2841 50  0000 L CNN
-F 1 "1.1A" H 1338 2750 50  0000 L CNN
-F 2 "LitterRobot:Bel_Fuse_0ZCG" H 1300 2550 50  0001 L CNN
-F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf" H 1250 2750 50  0001 C CNN
-F 4 "0ZCG0110BF2B" H 1250 2750 50  0001 C CNN "Part_number"
-F 5 "24V" H 1338 2659 50  0000 L CNN "Voltage"
-	1    1250 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 3200 5250 3200
 Wire Wire Line
@@ -575,4 +525,43 @@ Text Label 5250 3300 0    50   ~ 0
 Extension3
 Text Label 5250 3400 0    50   ~ 0
 Extension4
+Wire Wire Line
+	4000 1300 3250 1300
+Wire Wire Line
+	4000 1200 3250 1200
+Text Label 3250 1200 0    50   ~ 0
+Power_P
+Text Label 3250 1300 0    50   ~ 0
+Battery_P
+Wire Wire Line
+	1000 3050 2000 3050
+Text Label 1000 3050 0    50   ~ 0
+Power_P
+Text Label 3500 3050 2    50   ~ 0
+Power_N
+$Comp
+L power:GND #PWR09
+U 1 1 6046CCE3
+P 2600 3350
+F 0 "#PWR09" H 2600 3100 50  0001 C CNN
+F 1 "GND" H 2605 3177 50  0000 C CNN
+F 2 "" H 2600 3350 50  0001 C CNN
+F 3 "" H 2600 3350 50  0001 C CNN
+	1    2600 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3150 3500 3150
+Wire Wire Line
+	2500 3150 2600 3150
+Connection ~ 2600 3150
+Wire Wire Line
+	2600 3150 2600 3350
+Wire Wire Line
+	3500 3050 2600 3050
+Wire Wire Line
+	2500 3050 2600 3050
+Connection ~ 2600 3050
+Wire Wire Line
+	2600 3050 2600 3150
 $EndSCHEMATC

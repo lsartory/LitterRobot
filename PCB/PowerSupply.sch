@@ -741,4 +741,75 @@ Wire Wire Line
 	8500 6100 8050 6100
 Text Notes 6700 6250 0    50   ~ 0
 The pull-up resistor for the power-good signal is on the FPGA config page.
+Text HLabel 1500 4000 0    50   Input ~ 0
+Power_P
+Text HLabel 1500 4500 0    50   Input ~ 0
+Battery_P
+$Comp
+L Device:Polyfuse F?
+U 1 1 60688818
+P 2500 3750
+AR Path="/60688818" Ref="F?"  Part="1" 
+AR Path="/603F1DCE/60688818" Ref="F1"  Part="1" 
+F 0 "F1" H 2588 3841 50  0000 L CNN
+F 1 "1.1A" H 2588 3750 50  0000 L CNN
+F 2 "LitterRobot:Bel_Fuse_0ZCG" H 2550 3550 50  0001 L CNN
+F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf" H 2500 3750 50  0001 C CNN
+F 4 "0ZCG0110BF2B" H 2500 3750 50  0001 C CNN "Part_number"
+F 5 "24V" H 2588 3659 50  0000 L CNN "Voltage"
+	1    2500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR?
+U 1 1 6068D8DA
+P 2500 3500
+AR Path="/6068D8DA" Ref="#PWR?"  Part="1" 
+AR Path="/603F1DCE/6068D8DA" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 2500 3350 50  0001 C CNN
+F 1 "+15V" H 2515 3673 50  0000 C CNN
+F 2 "" H 2500 3500 50  0001 C CNN
+F 3 "" H 2500 3500 50  0001 C CNN
+	1    2500 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3500 2500 3600
+Wire Wire Line
+	2500 4000 2500 3900
+Connection ~ 2500 4000
+Wire Wire Line
+	1500 4000 1850 4000
+Wire Wire Line
+	2500 4500 2150 4500
+Wire Wire Line
+	2500 4000 2500 4500
+$Comp
+L Device:D D8
+U 1 1 606ADEF8
+P 2000 4000
+F 0 "D8" H 2000 3783 50  0000 C CNN
+F 1 "VS-2EYH02HM3/H" H 2000 3874 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-128" H 2000 4000 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/96383/vs-2eyh02hm3.pdf" H 2000 4000 50  0001 C CNN
+F 4 "VS-2EYH02HM3/H" H 2000 4000 50  0001 C CNN "Part_number"
+	1    2000 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 4000 2500 4000
+$Comp
+L Device:D D9
+U 1 1 606AEF8E
+P 2000 4500
+F 0 "D9" H 2000 4283 50  0000 C CNN
+F 1 "VS-2EYH02HM3/H" H 2000 4374 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-128" H 2000 4500 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/96383/vs-2eyh02hm3.pdf" H 2000 4500 50  0001 C CNN
+F 4 "VS-2EYH02HM3/H" H 2000 4500 50  0001 C CNN "Part_number"
+	1    2000 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1850 4500 1500 4500
 $EndSCHEMATC
