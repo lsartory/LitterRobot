@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 19
+Sheet 1 20
 Title "Litter Robot 3 - Main board"
-Date "2021-03-28"
+Date "2021-04-02"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -125,11 +125,6 @@ F 3 "" H 2600 4950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 4650 2600 4650
-Wire Wire Line
-	2600 4650 2600 4750
-Wire Wire Line
-	2500 4750 2600 4750
-Connection ~ 2600 4750
 Text Notes 2600 3250 0    50   ~ 0
 Red
 Text Notes 2600 3050 0    50   ~ 0
@@ -185,7 +180,7 @@ F 3 "" H 2250 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1850 5800 0    50   ~ 0
-Extension connector
+Extension_ connector
 $Sheet
 S 9000 4500 1000 500 
 U 603F20AB
@@ -212,8 +207,6 @@ F 4 "DF11C-6DP-2V(57)" H 2200 6150 50  0001 C CNN "Part_number"
 	1    2200 6150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2600 4750 2600 4950
 $Comp
 L power:GND #PWR08
 U 1 1 6055F6F5
@@ -306,13 +299,13 @@ Wire Wire Line
 Wire Wire Line
 	1000 6250 2000 6250
 Text Label 3500 6050 2    50   ~ 0
-Extension1
+Extension_1
 Text Label 1000 6150 0    50   ~ 0
-Extension2
+Extension_2
 Text Label 3500 6150 2    50   ~ 0
-Extension3
+Extension_3
 Text Label 1000 6250 0    50   ~ 0
-Extension4
+Extension_4
 Wire Wire Line
 	2600 4650 3500 4650
 Connection ~ 2600 4650
@@ -326,8 +319,6 @@ Wire Wire Line
 	2000 4850 1000 4850
 Wire Wire Line
 	2500 4850 3500 4850
-Wire Wire Line
-	2600 4750 3500 4750
 Wire Wire Line
 	7500 1550 9000 1550
 Wire Wire Line
@@ -422,23 +413,23 @@ Wire Wire Line
 Wire Wire Line
 	1000 4750 2000 4750
 Text Label 1000 4750 0    50   ~ 0
-Cat_sensor_P
+Weight_sensor_P
 Wire Wire Line
 	5000 1100 6000 1100
 Wire Wire Line
-	2500 1550 3500 1550
+	2500 1550 3000 1550
 Wire Wire Line
-	1000 1650 2000 1650
+	1000 1650 1500 1650
 Text Label 1000 1650 0    50   ~ 0
-TODO_2
+DFI_2
 Text Label 3500 1550 2    50   ~ 0
-TODO_1
-Text Notes 4000 7300 0    98   ~ 0
-TODO:\n- Hall sensors (2 V diode for the supply + 2 × MOS level shifter)\n- Cat sensor\n- Tray full sensor\n- Pinch sensor\n- Dome LED\n\nTODO later:\n- Bluetooth (MDBT40?)
+DFI_1
+Text Notes 4000 7150 0    98   ~ 0
+TODO:\n- Hall sensors (2 V diode for the supply + 2 × MOS level shifter)\n- Tray full sensor\n- Pinch sensor\n- Dome LED\n\nTODO later:\n- Bluetooth (MDBT40?)
 Text Label 1000 4850 0    50   ~ 0
 Dome_LED_P
 Text Label 3500 4750 2    50   ~ 0
-Cat_sensor_N
+Weight_sensor_N
 Text Label 3500 4850 2    50   ~ 0
 Dome_LED_N
 $Comp
@@ -504,27 +495,32 @@ F30 "Dome_LED" O R 7500 1100 50
 F31 "Light_sensor_SDA" B L 6000 2100 50 
 F32 "Light_sensor_SCL" O L 6000 2200 50 
 F33 "Light_sensor_INT" I L 6000 2300 50 
-F34 "Extension1" B L 6000 3100 50 
-F35 "Extension2" B L 6000 3200 50 
-F36 "Extension3" B L 6000 3300 50 
-F37 "Extension4" B L 6000 3400 50 
+F34 "Extension_1" B L 6000 4600 50 
+F35 "Extension_2" B L 6000 4700 50 
+F36 "Extension_3" B L 6000 4800 50 
+F37 "Extension_4" B L 6000 4900 50 
+F38 "DFI_1" B L 6000 2600 50 
+F39 "DFI_2" B L 6000 2700 50 
+F40 "Weight" T L 6000 3300 50 
+F41 "Weight_ref" O L 6000 3100 50 
+F42 "Weight_FSR" O L 6000 3200 50 
 $EndSheet
 Wire Wire Line
-	6000 3200 5250 3200
+	6000 4700 5250 4700
 Wire Wire Line
-	6000 3100 5250 3100
+	6000 4600 5250 4600
 Wire Wire Line
-	6000 3400 5250 3400
+	6000 4900 5250 4900
 Wire Wire Line
-	6000 3300 5250 3300
-Text Label 5250 3100 0    50   ~ 0
-Extension1
-Text Label 5250 3200 0    50   ~ 0
-Extension2
-Text Label 5250 3300 0    50   ~ 0
-Extension3
-Text Label 5250 3400 0    50   ~ 0
-Extension4
+	6000 4800 5250 4800
+Text Label 5250 4600 0    50   ~ 0
+Extension_1
+Text Label 5250 4700 0    50   ~ 0
+Extension_2
+Text Label 5250 4800 0    50   ~ 0
+Extension_3
+Text Label 5250 4900 0    50   ~ 0
+Extension_4
 Wire Wire Line
 	4000 1300 3250 1300
 Wire Wire Line
@@ -564,4 +560,111 @@ Wire Wire Line
 Connection ~ 2600 3050
 Wire Wire Line
 	2600 3050 2600 3150
+$Comp
+L Device:R R?
+U 1 1 6068BE20
+P 1500 1850
+AR Path="/603F20AB/6068BE20" Ref="R?"  Part="1" 
+AR Path="/603F1DCE/6068BE20" Ref="R?"  Part="1" 
+AR Path="/60624089/6068BE20" Ref="R?"  Part="1" 
+AR Path="/603F1F4D/60647CC2/6068BE20" Ref="R?"  Part="1" 
+AR Path="/6068BE20" Ref="R1"  Part="1" 
+F 0 "R1" H 1570 1896 50  0000 L CNN
+F 1 "10k" H 1570 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1430 1850 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 1500 1850 50  0001 C CNN
+F 4 "CR0603-FX-1002ELF" H 1500 1850 50  0001 C CNN "Part_number"
+	1    1500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6068EA07
+P 3000 1850
+AR Path="/603F20AB/6068EA07" Ref="R?"  Part="1" 
+AR Path="/603F1DCE/6068EA07" Ref="R?"  Part="1" 
+AR Path="/60624089/6068EA07" Ref="R?"  Part="1" 
+AR Path="/603F1F4D/60647CC2/6068EA07" Ref="R?"  Part="1" 
+AR Path="/6068EA07" Ref="R2"  Part="1" 
+F 0 "R2" H 3070 1896 50  0000 L CNN
+F 1 "10k" H 3070 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 1850 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 3000 1850 50  0001 C CNN
+F 4 "CR0603-FX-1002ELF" H 3000 1850 50  0001 C CNN "Part_number"
+	1    3000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 6068F29F
+P 1500 2100
+F 0 "#PWR01" H 1500 1850 50  0001 C CNN
+F 1 "GND" H 1505 1927 50  0000 C CNN
+F 2 "" H 1500 2100 50  0001 C CNN
+F 3 "" H 1500 2100 50  0001 C CNN
+	1    1500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 6068F7E3
+P 3000 2100
+F 0 "#PWR012" H 3000 1850 50  0001 C CNN
+F 1 "GND" H 3005 1927 50  0000 C CNN
+F 2 "" H 3000 2100 50  0001 C CNN
+F 3 "" H 3000 2100 50  0001 C CNN
+	1    3000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2100 3000 2000
+Wire Wire Line
+	3000 1700 3000 1550
+Connection ~ 3000 1550
+Wire Wire Line
+	3000 1550 3500 1550
+Wire Wire Line
+	1500 2100 1500 2000
+Wire Wire Line
+	1500 1700 1500 1650
+Connection ~ 1500 1650
+Wire Wire Line
+	1500 1650 2000 1650
+Wire Wire Line
+	6000 2700 5250 2700
+Wire Wire Line
+	6000 2600 5250 2600
+Text Label 5250 2600 0    50   ~ 0
+DFI_1
+Text Label 5250 2700 0    50   ~ 0
+DFI_2
+$Sheet
+S 4000 3000 1000 1000
+U 606A580A
+F0 "Weigth sensor" 50
+F1 "WeightSensor.sch" 50
+F2 "Weight_sensor_P" O L 4000 3800 50 
+F3 "Weight_sensor_N" I L 4000 3900 50 
+F4 "Weight_ref" I R 5000 3100 50 
+F5 "Weight_FSR" I R 5000 3200 50 
+F6 "Weight" T R 5000 3300 50 
+$EndSheet
+Wire Wire Line
+	2600 4650 2600 4950
+Wire Wire Line
+	2500 4750 3500 4750
+Wire Wire Line
+	4000 3900 3250 3900
+Wire Wire Line
+	4000 3800 3250 3800
+Text Label 3250 3800 0    50   ~ 0
+Weight_sensor_P
+Text Label 3250 3900 0    50   ~ 0
+Weight_sensor_N
+Wire Wire Line
+	5000 3100 6000 3100
+Wire Wire Line
+	6000 3200 5000 3200
+Wire Wire Line
+	5000 3300 6000 3300
 $EndSCHEMATC

@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 19
+Sheet 16 20
 Title "Litter Robot 3 - Ambient light sensor"
-Date "2021-03-28"
+Date "2021-04-02"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -30,8 +30,8 @@ L power:GND #PWR?
 U 1 1 6062F82F
 P 5250 4250
 AR Path="/6062F82F" Ref="#PWR?"  Part="1" 
-AR Path="/60624089/6062F82F" Ref="#PWR067"  Part="1" 
-F 0 "#PWR067" H 5250 4000 50  0001 C CNN
+AR Path="/60624089/6062F82F" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 5250 4000 50  0001 C CNN
 F 1 "GND" H 5255 4077 50  0000 C CNN
 F 2 "" H 5250 4250 50  0001 C CNN
 F 3 "" H 5250 4250 50  0001 C CNN
@@ -43,8 +43,8 @@ L power:+3V3 #PWR?
 U 1 1 6062F849
 P 5250 3250
 AR Path="/6062F849" Ref="#PWR?"  Part="1" 
-AR Path="/60624089/6062F849" Ref="#PWR066"  Part="1" 
-F 0 "#PWR066" H 5250 3100 50  0001 C CNN
+AR Path="/60624089/6062F849" Ref="#PWR068"  Part="1" 
+F 0 "#PWR068" H 5250 3100 50  0001 C CNN
 F 1 "+3V3" H 5265 3423 50  0000 C CNN
 F 2 "" H 5250 3250 50  0001 C CNN
 F 3 "" H 5250 3250 50  0001 C CNN
@@ -59,8 +59,8 @@ U 1 1 60632EF7
 P 6000 3250
 AR Path="/603F20AB/60632EF7" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/60632EF7" Ref="R?"  Part="1" 
-AR Path="/60624089/60632EF7" Ref="R39"  Part="1" 
-F 0 "R39" H 6070 3296 50  0000 L CNN
+AR Path="/60624089/60632EF7" Ref="R41"  Part="1" 
+F 0 "R41" H 6070 3296 50  0000 L CNN
 F 1 "3.3k" H 6070 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 3250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6000 3250 50  0001 C CNN
@@ -74,8 +74,8 @@ U 1 1 60632F30
 P 6500 3250
 AR Path="/603F20AB/60632F30" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/60632F30" Ref="R?"  Part="1" 
-AR Path="/60624089/60632F30" Ref="R40"  Part="1" 
-F 0 "R40" H 6570 3296 50  0000 L CNN
+AR Path="/60624089/60632F30" Ref="R42"  Part="1" 
+F 0 "R42" H 6570 3296 50  0000 L CNN
 F 1 "3.3k" H 6570 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 3250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6500 3250 50  0001 C CNN
@@ -89,8 +89,8 @@ U 1 1 60633461
 P 7000 3250
 AR Path="/603F20AB/60633461" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/60633461" Ref="R?"  Part="1" 
-AR Path="/60624089/60633461" Ref="R41"  Part="1" 
-F 0 "R41" H 7070 3296 50  0000 L CNN
+AR Path="/60624089/60633461" Ref="R43"  Part="1" 
+F 0 "R43" H 7070 3296 50  0000 L CNN
 F 1 "3.3k" H 7070 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 3250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 7000 3250 50  0001 C CNN
@@ -103,8 +103,8 @@ L power:+3V3 #PWR?
 U 1 1 60633A13
 P 6000 2900
 AR Path="/60633A13" Ref="#PWR?"  Part="1" 
-AR Path="/60624089/60633A13" Ref="#PWR068"  Part="1" 
-F 0 "#PWR068" H 6000 2750 50  0001 C CNN
+AR Path="/60624089/60633A13" Ref="#PWR070"  Part="1" 
+F 0 "#PWR070" H 6000 2750 50  0001 C CNN
 F 1 "+3V3" H 6015 3073 50  0000 C CNN
 F 2 "" H 6000 2900 50  0001 C CNN
 F 3 "" H 6000 2900 50  0001 C CNN
