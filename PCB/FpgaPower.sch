@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 20
+Sheet 19 22
 Title "Litter Robot 3 - FPGA power supply"
-Date "2021-04-02"
+Date "2021-04-03"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LitterRobot:10CLxxxYE144 U4
+L LitterRobot:10CLxxxYE144 U5
 U 9 1 6065A3D9
 P 5750 1900
-F 0 "U4" H 5750 2467 50  0000 C CNN
+F 0 "U5" H 5750 2467 50  0000 C CNN
 F 1 "10CL016YE144C8G" H 5750 2376 50  0000 C CNN
 F 2 "LitterRobot:Intel_EQFP-144-1EP_20x20mm_P0.5mm_EP6.7x6.7mm" H 5750 2650 50  0001 C CNN
 F 3 "https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/cyclone-10/c10lp-51003.pdf" H 5750 2000 50  0001 C CNN
@@ -26,10 +26,10 @@ F 4 "10CL016YE144C8G" H 5750 1900 50  0001 C CNN "Part_number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LitterRobot:10CLxxxYE144 U4
+L LitterRobot:10CLxxxYE144 U5
 U 10 1 6065C945
 P 5750 3500
-F 0 "U4" H 5750 4167 50  0000 C CNN
+F 0 "U5" H 5750 4167 50  0000 C CNN
 F 1 "10CL016YE144C8G" H 5750 4076 50  0000 C CNN
 F 2 "LitterRobot:Intel_EQFP-144-1EP_20x20mm_P0.5mm_EP6.7x6.7mm" H 5750 4250 50  0001 C CNN
 F 3 "https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/cyclone-10/c10lp-51003.pdf" H 5750 3600 50  0001 C CNN
@@ -38,10 +38,10 @@ F 4 "10CL016YE144C8G" H 5750 3500 50  0001 C CNN "Part_number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LitterRobot:10CLxxxYE144 U4
+L LitterRobot:10CLxxxYE144 U5
 U 11 1 6065F000
 P 5750 5000
-F 0 "U4" H 5750 5667 50  0000 C CNN
+F 0 "U5" H 5750 5667 50  0000 C CNN
 F 1 "10CL016YE144C8G" H 5750 5576 50  0000 C CNN
 F 2 "LitterRobot:Intel_EQFP-144-1EP_20x20mm_P0.5mm_EP6.7x6.7mm" H 5750 5750 50  0001 C CNN
 F 3 "https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/cyclone-10/c10lp-51003.pdf" H 5750 5100 50  0001 C CNN
@@ -57,8 +57,8 @@ AR Path="/603F20AB/6069FB4C" Ref="C?"  Part="1"
 AR Path="/60624089/6069FB4C" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/6069FB4C" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/6069FB4C" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/6069FB4C" Ref="C20"  Part="1" 
-F 0 "C20" H 1615 1841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/6069FB4C" Ref="C23"  Part="1" 
+F 0 "C23" H 1615 1841 50  0000 L CNN
 F 1 "100nF" H 1615 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1538 1600 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 1500 1750 50  0001 C CNN
@@ -75,8 +75,8 @@ AR Path="/6069FB53" Ref="#PWR?"  Part="1"
 AR Path="/60624089/6069FB53" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/6069FB53" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/6069FB53" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/6069FB53" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR0112" H 7000 5350 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/6069FB53" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 7000 5350 50  0001 C CNN
 F 1 "GND" H 7005 5427 50  0000 C CNN
 F 2 "" H 7000 5600 50  0001 C CNN
 F 3 "" H 7000 5600 50  0001 C CNN
@@ -169,8 +169,8 @@ U 1 1 606ABDB2
 P 4500 1400
 AR Path="/603F1DCE/606ABDB2" Ref="#PWR?"  Part="1" 
 AR Path="/60624089/606ABDB2" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606ABDB2" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 4500 1250 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/606ABDB2" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 4500 1250 50  0001 C CNN
 F 1 "+1V2" H 4515 1573 50  0000 C CNN
 F 2 "" H 4500 1400 50  0001 C CNN
 F 3 "" H 4500 1400 50  0001 C CNN
@@ -251,8 +251,8 @@ U 1 1 606B60E5
 P 7000 1400
 AR Path="/603F1DCE/606B60E5" Ref="#PWR?"  Part="1" 
 AR Path="/60624089/606B60E5" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606B60E5" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 7000 1250 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/606B60E5" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 7000 1250 50  0001 C CNN
 F 1 "+1V2" H 7015 1573 50  0000 C CNN
 F 2 "" H 7000 1400 50  0001 C CNN
 F 3 "" H 7000 1400 50  0001 C CNN
@@ -270,8 +270,8 @@ AR Path="/606B9872" Ref="#PWR?"  Part="1"
 AR Path="/60624089/606B9872" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/606B9872" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/606B9872" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606B9872" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 4500 5350 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/606B9872" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 4500 5350 50  0001 C CNN
 F 1 "GND" H 4505 5427 50  0000 C CNN
 F 2 "" H 4500 5600 50  0001 C CNN
 F 3 "" H 4500 5600 50  0001 C CNN
@@ -291,8 +291,8 @@ AR Path="/606BC2E2" Ref="#PWR?"  Part="1"
 AR Path="/60624089/606BC2E2" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/606BC2E2" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/606BC2E2" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606BC2E2" Ref="#PWR0111"  Part="1" 
-F 0 "#PWR0111" H 7000 3850 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/606BC2E2" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 7000 3850 50  0001 C CNN
 F 1 "GND" H 7005 3927 50  0000 C CNN
 F 2 "" H 7000 4100 50  0001 C CNN
 F 3 "" H 7000 4100 50  0001 C CNN
@@ -324,8 +324,8 @@ U 1 1 606C490A
 P 4500 2900
 AR Path="/603F1DCE/606C490A" Ref="#PWR?"  Part="1" 
 AR Path="/60624089/606C490A" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606C490A" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 4500 2750 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/606C490A" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 4500 2750 50  0001 C CNN
 F 1 "+1V2" H 4515 3073 50  0000 C CNN
 F 2 "" H 4500 2900 50  0001 C CNN
 F 3 "" H 4500 2900 50  0001 C CNN
@@ -376,8 +376,8 @@ U 1 1 606D5BEE
 P 4000 3400
 AR Path="/603F1DCE/606D5BEE" Ref="#PWR?"  Part="1" 
 AR Path="/60624089/606D5BEE" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606D5BEE" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 4000 3250 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/606D5BEE" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 4000 3250 50  0001 C CNN
 F 1 "+2V5" H 4015 3573 50  0000 C CNN
 F 2 "" H 4000 3400 50  0001 C CNN
 F 3 "" H 4000 3400 50  0001 C CNN
@@ -392,8 +392,8 @@ AR Path="/603F20AB/606E36F2" Ref="C?"  Part="1"
 AR Path="/60624089/606E36F2" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/606E36F2" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/606E36F2" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606E36F2" Ref="C22"  Part="1" 
-F 0 "C22" H 2115 1841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/606E36F2" Ref="C25"  Part="1" 
+F 0 "C25" H 2115 1841 50  0000 L CNN
 F 1 "100nF" H 2115 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2038 1600 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2000 1750 50  0001 C CNN
@@ -410,8 +410,8 @@ AR Path="/603F20AB/606E49C1" Ref="C?"  Part="1"
 AR Path="/60624089/606E49C1" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/606E49C1" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/606E49C1" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606E49C1" Ref="C25"  Part="1" 
-F 0 "C25" H 2615 1841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/606E49C1" Ref="C28"  Part="1" 
+F 0 "C28" H 2615 1841 50  0000 L CNN
 F 1 "100nF" H 2615 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 1600 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2500 1750 50  0001 C CNN
@@ -428,8 +428,8 @@ AR Path="/603F20AB/606E49C9" Ref="C?"  Part="1"
 AR Path="/60624089/606E49C9" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/606E49C9" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/606E49C9" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606E49C9" Ref="C28"  Part="1" 
-F 0 "C28" H 3115 1841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/606E49C9" Ref="C31"  Part="1" 
+F 0 "C31" H 3115 1841 50  0000 L CNN
 F 1 "100nF" H 3115 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3038 1600 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 3000 1750 50  0001 C CNN
@@ -444,8 +444,8 @@ U 1 1 606EF08E
 P 1500 1400
 AR Path="/603F1DCE/606EF08E" Ref="#PWR?"  Part="1" 
 AR Path="/60624089/606EF08E" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606EF08E" Ref="#PWR099"  Part="1" 
-F 0 "#PWR099" H 1500 1250 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/606EF08E" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 1500 1250 50  0001 C CNN
 F 1 "+1V2" H 1515 1573 50  0000 C CNN
 F 2 "" H 1500 1400 50  0001 C CNN
 F 3 "" H 1500 1400 50  0001 C CNN
@@ -471,8 +471,8 @@ AR Path="/606F4EA9" Ref="#PWR?"  Part="1"
 AR Path="/60624089/606F4EA9" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/606F4EA9" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/606F4EA9" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/606F4EA9" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 3000 1850 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/606F4EA9" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 3000 1850 50  0001 C CNN
 F 1 "GND" H 3005 1927 50  0000 C CNN
 F 2 "" H 3000 2100 50  0001 C CNN
 F 3 "" H 3000 2100 50  0001 C CNN
@@ -514,8 +514,8 @@ AR Path="/603F20AB/607068DF" Ref="C?"  Part="1"
 AR Path="/60624089/607068DF" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/607068DF" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/607068DF" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/607068DF" Ref="C21"  Part="1" 
-F 0 "C21" H 1615 2841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/607068DF" Ref="C24"  Part="1" 
+F 0 "C24" H 1615 2841 50  0000 L CNN
 F 1 "100nF" H 1615 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1538 2600 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 1500 2750 50  0001 C CNN
@@ -532,8 +532,8 @@ AR Path="/603F20AB/607068E7" Ref="C?"  Part="1"
 AR Path="/60624089/607068E7" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/607068E7" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/607068E7" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/607068E7" Ref="C23"  Part="1" 
-F 0 "C23" H 2115 2841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/607068E7" Ref="C26"  Part="1" 
+F 0 "C26" H 2115 2841 50  0000 L CNN
 F 1 "100nF" H 2115 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2038 2600 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2000 2750 50  0001 C CNN
@@ -550,8 +550,8 @@ AR Path="/603F20AB/607068EF" Ref="C?"  Part="1"
 AR Path="/60624089/607068EF" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/607068EF" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/607068EF" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/607068EF" Ref="C26"  Part="1" 
-F 0 "C26" H 2615 2841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/607068EF" Ref="C29"  Part="1" 
+F 0 "C29" H 2615 2841 50  0000 L CNN
 F 1 "100nF" H 2615 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 2600 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2500 2750 50  0001 C CNN
@@ -568,8 +568,8 @@ AR Path="/603F20AB/607068F7" Ref="C?"  Part="1"
 AR Path="/60624089/607068F7" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/607068F7" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/607068F7" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/607068F7" Ref="C29"  Part="1" 
-F 0 "C29" H 3115 2841 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/607068F7" Ref="C32"  Part="1" 
+F 0 "C32" H 3115 2841 50  0000 L CNN
 F 1 "100nF" H 3115 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3038 2600 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 3000 2750 50  0001 C CNN
@@ -584,8 +584,8 @@ U 1 1 607068FD
 P 1500 2400
 AR Path="/603F1DCE/607068FD" Ref="#PWR?"  Part="1" 
 AR Path="/60624089/607068FD" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/607068FD" Ref="#PWR0100"  Part="1" 
-F 0 "#PWR0100" H 1500 2250 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/607068FD" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 1500 2250 50  0001 C CNN
 F 1 "+1V2" H 1515 2573 50  0000 C CNN
 F 2 "" H 1500 2400 50  0001 C CNN
 F 3 "" H 1500 2400 50  0001 C CNN
@@ -611,8 +611,8 @@ AR Path="/60706909" Ref="#PWR?"  Part="1"
 AR Path="/60624089/60706909" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/60706909" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/60706909" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/60706909" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 3000 2850 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/60706909" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 3000 2850 50  0001 C CNN
 F 1 "GND" H 3005 2927 50  0000 C CNN
 F 2 "" H 3000 3100 50  0001 C CNN
 F 3 "" H 3000 3100 50  0001 C CNN
@@ -654,8 +654,8 @@ AR Path="/603F20AB/60715ACB" Ref="C?"  Part="1"
 AR Path="/60624089/60715ACB" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60715ACB" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/60715ACB" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/60715ACB" Ref="C24"  Part="1" 
-F 0 "C24" H 2115 4341 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/60715ACB" Ref="C27"  Part="1" 
+F 0 "C27" H 2115 4341 50  0000 L CNN
 F 1 "100nF" H 2115 4250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2038 4100 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2000 4250 50  0001 C CNN
@@ -672,8 +672,8 @@ AR Path="/603F20AB/60715AD3" Ref="C?"  Part="1"
 AR Path="/60624089/60715AD3" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60715AD3" Ref="C?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/60715AD3" Ref="C?"  Part="1" 
-AR Path="/603F1F4D/60659E39/60715AD3" Ref="C27"  Part="1" 
-F 0 "C27" H 2615 4341 50  0000 L CNN
+AR Path="/603F1F4D/60659E39/60715AD3" Ref="C30"  Part="1" 
+F 0 "C30" H 2615 4341 50  0000 L CNN
 F 1 "100nF" H 2615 4250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 4100 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 2500 4250 50  0001 C CNN
@@ -697,8 +697,8 @@ AR Path="/60715AF5" Ref="#PWR?"  Part="1"
 AR Path="/60624089/60715AF5" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/60715AF5" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/60715AF5" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/60715AF5" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 2500 4350 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/60715AF5" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 2500 4350 50  0001 C CNN
 F 1 "GND" H 2505 4427 50  0000 C CNN
 F 2 "" H 2500 4600 50  0001 C CNN
 F 3 "" H 2500 4600 50  0001 C CNN
@@ -722,8 +722,8 @@ U 1 1 6072C841
 P 2000 3900
 AR Path="/603F1DCE/6072C841" Ref="#PWR?"  Part="1" 
 AR Path="/60624089/6072C841" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/6072C841" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 2000 3750 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/6072C841" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 2000 3750 50  0001 C CNN
 F 1 "+2V5" H 2015 4073 50  0000 C CNN
 F 2 "" H 2000 3900 50  0001 C CNN
 F 3 "" H 2000 3900 50  0001 C CNN
@@ -738,8 +738,8 @@ AR Path="/607A4FF3" Ref="#PWR?"  Part="1"
 AR Path="/60624089/607A4FF3" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/607A4FF3" Ref="#PWR?"  Part="1" 
 AR Path="/603F1F4D/60647CC2/607A4FF3" Ref="#PWR?"  Part="1" 
-AR Path="/603F1F4D/60659E39/607A4FF3" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 5750 5500 50  0001 C CNN
+AR Path="/603F1F4D/60659E39/607A4FF3" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 5750 5500 50  0001 C CNN
 F 1 "GND" H 5755 5577 50  0000 C CNN
 F 2 "" H 5750 5750 50  0001 C CNN
 F 3 "" H 5750 5750 50  0001 C CNN

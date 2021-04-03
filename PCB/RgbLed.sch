@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 20
+Sheet 4 22
 Title "Litter Robot 3 - RGB LED"
-Date "2021-04-02"
+Date "2021-04-03"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""

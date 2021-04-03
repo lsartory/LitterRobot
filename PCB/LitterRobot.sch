@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 20
+Sheet 1 22
 Title "Litter Robot 3 - Main board"
-Date "2021-04-02"
+Date "2021-04-03"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -180,7 +180,7 @@ F 3 "" H 2250 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1850 5800 0    50   ~ 0
-Extension_ connector
+Extension connector
 $Sheet
 S 9000 4500 1000 500 
 U 603F20AB
@@ -319,52 +319,6 @@ Wire Wire Line
 	2000 4850 1000 4850
 Wire Wire Line
 	2500 4850 3500 4850
-Wire Wire Line
-	7500 1550 9000 1550
-Wire Wire Line
-	9000 1650 7500 1650
-Wire Wire Line
-	7500 1750 9000 1750
-Wire Wire Line
-	7500 1900 9000 1900
-Wire Wire Line
-	7500 2000 9000 2000
-Wire Wire Line
-	9000 2100 7500 2100
-Wire Wire Line
-	7500 2250 9000 2250
-Wire Wire Line
-	9000 2350 7500 2350
-Wire Wire Line
-	7500 2450 9000 2450
-Wire Wire Line
-	7500 2600 9000 2600
-Wire Wire Line
-	7500 2700 9000 2700
-Wire Wire Line
-	9000 2800 7500 2800
-Wire Wire Line
-	7500 2950 9000 2950
-Wire Wire Line
-	9000 3050 7500 3050
-Wire Wire Line
-	7500 3150 9000 3150
-Wire Wire Line
-	7500 3300 9000 3300
-Wire Wire Line
-	7500 3400 9000 3400
-Wire Wire Line
-	9000 3500 7500 3500
-Wire Wire Line
-	7500 3650 9000 3650
-Wire Wire Line
-	9000 3750 7500 3750
-Wire Wire Line
-	7500 3850 9000 3850
-Wire Wire Line
-	7500 4600 9000 4600
-Wire Wire Line
-	9000 4700 7500 4700
 $Sheet
 S 4000 1000 1000 500 
 U 603F1DCE
@@ -391,31 +345,25 @@ Reset_button
 Wire Wire Line
 	10000 1300 10750 1300
 Wire Wire Line
-	6000 1350 5250 1350
-Text Label 5250 1250 0    50   ~ 0
+	6500 1350 5750 1350
+Text Label 5750 1250 0    50   ~ 0
 Power_button
-Text Label 5250 1350 0    50   ~ 0
+Text Label 5750 1350 0    50   ~ 0
 Cycle_button
 Wire Wire Line
-	6000 1250 5250 1250
+	6500 1250 5750 1250
 Wire Wire Line
-	6000 1550 5250 1550
-Text Label 5250 1450 0    50   ~ 0
+	6500 1550 5750 1550
+Text Label 5750 1450 0    50   ~ 0
 Empty_button
-Text Label 5250 1550 0    50   ~ 0
+Text Label 5750 1550 0    50   ~ 0
 Reset_button
 Wire Wire Line
-	6000 1450 5250 1450
-Text Label 8250 1100 2    50   ~ 0
-Dome_LED
-Wire Wire Line
-	7500 1100 8250 1100
+	6500 1450 5750 1450
 Wire Wire Line
 	1000 4750 2000 4750
 Text Label 1000 4750 0    50   ~ 0
 Weight_sensor_P
-Wire Wire Line
-	5000 1100 6000 1100
 Wire Wire Line
 	2500 1550 3000 1550
 Wire Wire Line
@@ -424,8 +372,8 @@ Text Label 1000 1650 0    50   ~ 0
 DFI_2
 Text Label 3500 1550 2    50   ~ 0
 DFI_1
-Text Notes 4000 7150 0    98   ~ 0
-TODO:\n- Hall sensors (2 V diode for the supply + 2 × MOS level shifter)\n- Tray full sensor\n- Pinch sensor\n- Dome LED\n\nTODO later:\n- Bluetooth (MDBT40?)
+Text Notes 1000 7500 0    98   ~ 0
+TODO later:\n- Tray full sensor\n- Pinch sensor (using DFI_1 and DFI_2 for now)\n- Bluetooth (MDBT40?)
 Text Label 1000 4850 0    50   ~ 0
 Dome_LED_P
 Text Label 3500 4750 2    50   ~ 0
@@ -448,78 +396,25 @@ S 4000 2000 1000 500
 U 60624089
 F0 "Light sensor" 50
 F1 "LightSensor.sch" 50
-F2 "Light_sensor_SDA" B R 5000 2100 50 
-F3 "Light_sensor_SCL" I R 5000 2200 50 
+F2 "Light_sensor_SDA" B R 5000 2200 50 
+F3 "Light_sensor_SCL" I R 5000 2100 50 
 F4 "Light_sensor_INT" O R 5000 2300 50 
 $EndSheet
 Wire Wire Line
-	5000 2100 6000 2100
+	6500 4200 5750 4200
 Wire Wire Line
-	6000 2200 5000 2200
+	6500 4100 5750 4100
 Wire Wire Line
-	5000 2300 6000 2300
-$Sheet
-S 6000 1000 1500 4000
-U 603F1F4D
-F0 "FPGA" 50
-F1 "Fpga.sch" 50
-F2 "Motor_PWM_1" O R 7500 4600 50 
-F3 "Motor_PWM_2" O R 7500 4700 50 
-F4 "Cycle_button" I L 6000 1350 50 
-F5 "Empty_button" I L 6000 1450 50 
-F6 "Reset_button" I L 6000 1550 50 
-F7 "Cycle_LED_R" O R 7500 1900 50 
-F8 "Cycle_LED_G" O R 7500 2000 50 
-F9 "Power_good" I L 6000 1100 50 
-F10 "Cycle_LED_B" O R 7500 2100 50 
-F11 "Empty_LED_R" O R 7500 2250 50 
-F12 "Empty_LED_G" O R 7500 2350 50 
-F13 "Empty_LED_B" O R 7500 2450 50 
-F14 "Reset_LED_R" O R 7500 2600 50 
-F15 "Reset_LED_G" O R 7500 2700 50 
-F16 "Reset_LED_B" O R 7500 2800 50 
-F17 "Left_LED_R" O R 7500 2950 50 
-F18 "Left_LED_G" O R 7500 3050 50 
-F19 "Left_LED_B" O R 7500 3150 50 
-F20 "Center_LED_R" O R 7500 3300 50 
-F21 "Center_LED_G" O R 7500 3400 50 
-F22 "Center_LED_B" O R 7500 3500 50 
-F23 "Right_LED_R" O R 7500 3650 50 
-F24 "Right_LED_G" O R 7500 3750 50 
-F25 "Right_LED_B" O R 7500 3850 50 
-F26 "Power_button" I L 6000 1250 50 
-F27 "Power_LED_B" O R 7500 1550 50 
-F28 "Power_LED_G" O R 7500 1650 50 
-F29 "Power_LED_R" O R 7500 1750 50 
-F30 "Dome_LED" O R 7500 1100 50 
-F31 "Light_sensor_SDA" B L 6000 2100 50 
-F32 "Light_sensor_SCL" O L 6000 2200 50 
-F33 "Light_sensor_INT" I L 6000 2300 50 
-F34 "Extension_1" B L 6000 4600 50 
-F35 "Extension_2" B L 6000 4700 50 
-F36 "Extension_3" B L 6000 4800 50 
-F37 "Extension_4" B L 6000 4900 50 
-F38 "DFI_1" B L 6000 2600 50 
-F39 "DFI_2" B L 6000 2700 50 
-F40 "Weight" T L 6000 3300 50 
-F41 "Weight_ref" O L 6000 3100 50 
-F42 "Weight_FSR" O L 6000 3200 50 
-$EndSheet
+	6500 4400 5750 4400
 Wire Wire Line
-	6000 4700 5250 4700
-Wire Wire Line
-	6000 4600 5250 4600
-Wire Wire Line
-	6000 4900 5250 4900
-Wire Wire Line
-	6000 4800 5250 4800
-Text Label 5250 4600 0    50   ~ 0
+	6500 4300 5750 4300
+Text Label 5750 4100 0    50   ~ 0
 Extension_1
-Text Label 5250 4700 0    50   ~ 0
+Text Label 5750 4200 0    50   ~ 0
 Extension_2
-Text Label 5250 4800 0    50   ~ 0
+Text Label 5750 4300 0    50   ~ 0
 Extension_3
-Text Label 5250 4900 0    50   ~ 0
+Text Label 5750 4400 0    50   ~ 0
 Extension_4
 Wire Wire Line
 	4000 1300 3250 1300
@@ -631,23 +526,23 @@ Connection ~ 1500 1650
 Wire Wire Line
 	1500 1650 2000 1650
 Wire Wire Line
-	6000 2700 5250 2700
+	6500 2700 5750 2700
 Wire Wire Line
-	6000 2600 5250 2600
-Text Label 5250 2600 0    50   ~ 0
+	6500 2600 5750 2600
+Text Label 5750 2600 0    50   ~ 0
 DFI_1
-Text Label 5250 2700 0    50   ~ 0
+Text Label 5750 2700 0    50   ~ 0
 DFI_2
 $Sheet
-S 4000 3000 1000 1000
+S 4000 3200 1000 800 
 U 606A580A
 F0 "Weigth sensor" 50
 F1 "WeightSensor.sch" 50
-F2 "Weight_sensor_P" O L 4000 3800 50 
-F3 "Weight_sensor_N" I L 4000 3900 50 
-F4 "Weight_ref" I R 5000 3100 50 
-F5 "Weight_FSR" I R 5000 3200 50 
-F6 "Weight" T R 5000 3300 50 
+F2 "Weight_sensor_P" U L 4000 3800 50 
+F3 "Weight_sensor_N" U L 4000 3900 50 
+F4 "Weight_ref" I R 5000 3300 50 
+F5 "Weight_FSR" I R 5000 3400 50 
+F6 "Weight" T R 5000 3500 50 
 $EndSheet
 Wire Wire Line
 	2600 4650 2600 4950
@@ -661,10 +556,159 @@ Text Label 3250 3800 0    50   ~ 0
 Weight_sensor_P
 Text Label 3250 3900 0    50   ~ 0
 Weight_sensor_N
+$Sheet
+S 4000 4700 1000 800 
+U 60690B6B
+F0 "Hall sensors" 50
+F1 "HallSensors.sch" 50
+F2 "Hall_sensor_VCC" O R 5000 4800 50 
+F3 "Hall_sensor_L_5V" I L 4000 5300 50 
+F4 "Hall_sensor_R_5V" I L 4000 5400 50 
+F5 "Hall_sensor_L_3V3" O R 5000 5000 50 
+F6 "Hall_sensor_R_3V3" O R 5000 5100 50 
+$EndSheet
 Wire Wire Line
-	5000 3100 6000 3100
+	4000 5400 3250 5400
 Wire Wire Line
-	6000 3200 5000 3200
+	4000 5300 3250 5300
+Text Label 3250 5300 0    50   ~ 0
+Hall_sensor_L
+Text Label 3250 5400 0    50   ~ 0
+Hall_sensor_R
 Wire Wire Line
-	5000 3300 6000 3300
+	5750 4800 5000 4800
+Text Label 5750 4800 2    50   ~ 0
+Hall_sensor_VCC
+$Sheet
+S 6500 1000 1500 5000
+U 603F1F4D
+F0 "FPGA" 50
+F1 "Fpga.sch" 50
+F2 "Motor_PWM_1" O R 8000 4600 50 
+F3 "Motor_PWM_2" O R 8000 4700 50 
+F4 "Cycle_button" I L 6500 1350 50 
+F5 "Empty_button" I L 6500 1450 50 
+F6 "Reset_button" I L 6500 1550 50 
+F7 "Cycle_LED_R" O R 8000 1900 50 
+F8 "Cycle_LED_G" O R 8000 2000 50 
+F9 "Power_good" I L 6500 1100 50 
+F10 "Cycle_LED_B" O R 8000 2100 50 
+F11 "Empty_LED_R" O R 8000 2250 50 
+F12 "Empty_LED_G" O R 8000 2350 50 
+F13 "Empty_LED_B" O R 8000 2450 50 
+F14 "Reset_LED_R" O R 8000 2600 50 
+F15 "Reset_LED_G" O R 8000 2700 50 
+F16 "Reset_LED_B" O R 8000 2800 50 
+F17 "Left_LED_R" O R 8000 2950 50 
+F18 "Left_LED_G" O R 8000 3050 50 
+F19 "Left_LED_B" O R 8000 3150 50 
+F20 "Center_LED_R" O R 8000 3300 50 
+F21 "Center_LED_G" O R 8000 3400 50 
+F22 "Center_LED_B" O R 8000 3500 50 
+F23 "Right_LED_R" O R 8000 3650 50 
+F24 "Right_LED_G" O R 8000 3750 50 
+F25 "Right_LED_B" O R 8000 3850 50 
+F26 "Power_button" I L 6500 1250 50 
+F27 "Power_LED_B" O R 8000 1550 50 
+F28 "Power_LED_G" O R 8000 1650 50 
+F29 "Power_LED_R" O R 8000 1750 50 
+F30 "Dome_LED" O R 8000 5600 50 
+F31 "Light_sensor_SDA" B L 6500 2200 50 
+F32 "Light_sensor_SCL" O L 6500 2100 50 
+F33 "Light_sensor_INT" I L 6500 2300 50 
+F34 "Extension_1" B L 6500 4100 50 
+F35 "Extension_2" B L 6500 4200 50 
+F36 "Extension_3" B L 6500 4300 50 
+F37 "Extension_4" B L 6500 4400 50 
+F38 "DFI_1" B L 6500 2600 50 
+F39 "DFI_2" B L 6500 2700 50 
+F40 "Weight" T L 6500 3500 50 
+F41 "Weight_ref" O L 6500 3300 50 
+F42 "Weight_FSR" O L 6500 3400 50 
+F43 "Hall_sensor_L" I L 6500 5000 50 
+F44 "Hall_sensor_R" I L 6500 5100 50 
+$EndSheet
+Wire Wire Line
+	5000 1100 6500 1100
+Wire Wire Line
+	5000 2100 6500 2100
+Wire Wire Line
+	5000 2200 6500 2200
+Wire Wire Line
+	5000 2300 6500 2300
+Wire Wire Line
+	5000 3300 6500 3300
+Wire Wire Line
+	5000 3400 6500 3400
+Wire Wire Line
+	5000 3500 6500 3500
+Wire Wire Line
+	5000 5000 6500 5000
+Wire Wire Line
+	5000 5100 6500 5100
+Wire Wire Line
+	9000 1550 8000 1550
+Wire Wire Line
+	9000 1650 8000 1650
+Wire Wire Line
+	9000 1750 8000 1750
+Wire Wire Line
+	9000 1900 8000 1900
+Wire Wire Line
+	9000 2000 8000 2000
+Wire Wire Line
+	9000 2100 8000 2100
+Wire Wire Line
+	9000 2250 8000 2250
+Wire Wire Line
+	9000 2350 8000 2350
+Wire Wire Line
+	9000 2450 8000 2450
+Wire Wire Line
+	9000 2600 8000 2600
+Wire Wire Line
+	9000 2700 8000 2700
+Wire Wire Line
+	9000 2800 8000 2800
+Wire Wire Line
+	9000 2950 8000 2950
+Wire Wire Line
+	9000 3050 8000 3050
+Wire Wire Line
+	9000 3150 8000 3150
+Wire Wire Line
+	9000 3300 8000 3300
+Wire Wire Line
+	9000 3400 8000 3400
+Wire Wire Line
+	9000 3500 8000 3500
+Wire Wire Line
+	9000 3650 8000 3650
+Wire Wire Line
+	9000 3750 8000 3750
+Wire Wire Line
+	9000 3850 8000 3850
+Wire Wire Line
+	9000 4600 8000 4600
+Wire Wire Line
+	9000 4700 8000 4700
+$Sheet
+S 9000 5500 1000 500 
+U 60779D3B
+F0 "Dome LED" 50
+F1 "DomeLed.sch" 50
+F2 "Dome_LED" I L 9000 5600 50 
+F3 "Dome_LED_P" U R 10000 5800 50 
+F4 "Dome_LED_N" U R 10000 5900 50 
+$EndSheet
+Wire Wire Line
+	8000 5600 9000 5600
+Wire Wire Line
+	10000 5900 10750 5900
+Text Label 10750 5800 2    50   ~ 0
+Dome_LED_P
+Text Label 10750 5900 2    50   ~ 0
+Dome_LED_N
+Wire Wire Line
+	10000 5800 10750 5800
 $EndSCHEMATC
