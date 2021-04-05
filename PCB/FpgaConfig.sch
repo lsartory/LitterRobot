@@ -188,7 +188,7 @@ AR Path="/603F1F4D/60657577" Ref="X?"  Part="1"
 AR Path="/603F1F4D/60647CC2/60657577" Ref="X1"  Part="1" 
 F 0 "X1" H 2594 1946 50  0000 L CNN
 F 1 "X1G0044510011" H 2594 1855 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm" H 2950 1550 50  0001 C CNN
+F 2 "LitterRobot:Seiko_SG5032CAN" H 2950 1550 50  0001 C CNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en" H 2150 1900 50  0001 C CNN
 F 4 "X1G0044510011" H 2250 1900 50  0001 C CNN "Part_number"
 	1    2250 1900
