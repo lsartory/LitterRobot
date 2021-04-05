@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 22
 Title "Litter Robot 3 - Main board"
-Date "2021-04-03"
+Date "2021-04-05"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -28,10 +28,10 @@ $EndComp
 Wire Wire Line
 	2250 1850 2250 1900
 $Comp
-L power:GND #PWR04
+L power:GND #PWR03
 U 1 1 603BD2EA
 P 2250 1900
-F 0 "#PWR04" H 2250 1650 50  0001 C CNN
+F 0 "#PWR03" H 2250 1650 50  0001 C CNN
 F 1 "GND" H 2255 1727 50  0000 C CNN
 F 2 "" H 2250 1900 50  0001 C CNN
 F 3 "" H 2250 1900 50  0001 C CNN
@@ -53,10 +53,10 @@ $EndComp
 Wire Wire Line
 	2250 3450 2250 3500
 $Comp
-L power:GND #PWR05
+L power:GND #PWR07
 U 1 1 603C0906
 P 2250 3500
-F 0 "#PWR05" H 2250 3250 50  0001 C CNN
+F 0 "#PWR07" H 2250 3250 50  0001 C CNN
 F 1 "GND" H 2255 3327 50  0000 C CNN
 F 2 "" H 2250 3500 50  0001 C CNN
 F 3 "" H 2250 3500 50  0001 C CNN
@@ -66,10 +66,10 @@ $EndComp
 Wire Wire Line
 	2250 5050 2250 5100
 $Comp
-L power:GND #PWR06
+L power:GND #PWR09
 U 1 1 603C0C1B
 P 2250 5100
-F 0 "#PWR06" H 2250 4850 50  0001 C CNN
+F 0 "#PWR09" H 2250 4850 50  0001 C CNN
 F 1 "GND" H 2255 4927 50  0000 C CNN
 F 2 "" H 2250 5100 50  0001 C CNN
 F 3 "" H 2250 5100 50  0001 C CNN
@@ -113,10 +113,10 @@ Black
 Text Notes 2600 4850 0    50   ~ 0
 Black
 $Comp
-L power:GND #PWR010
+L power:GND #PWR08
 U 1 1 603D1C90
 P 2600 4950
-F 0 "#PWR010" H 2600 4700 50  0001 C CNN
+F 0 "#PWR08" H 2600 4700 50  0001 C CNN
 F 1 "GND" H 2605 4777 50  0000 C CNN
 F 2 "" H 2600 4950 50  0001 C CNN
 F 3 "" H 2600 4950 50  0001 C CNN
@@ -135,6 +135,114 @@ Text Label 1000 4650 0    50   ~ 0
 Hall_sensor_R
 Text Label 3500 4550 2    50   ~ 0
 Hall_sensor_L
+$Sheet
+S 4000 1000 1000 500 
+U 603F1DCE
+F0 "Power supply" 50
+F1 "PowerSupply.sch" 50
+F2 "Power_good" O R 5000 1100 50 
+F3 "Power_P" I L 4000 1200 50 
+F4 "Battery_P" I L 4000 1300 50 
+$EndSheet
+$Sheet
+S 6500 1000 1500 5000
+U 603F1F4D
+F0 "FPGA" 50
+F1 "Fpga.sch" 50
+F2 "Motor_PWM_1" O R 8000 4600 50 
+F3 "Motor_PWM_2" O R 8000 4700 50 
+F4 "Cycle_button" I L 6500 1350 50 
+F5 "Empty_button" I L 6500 1450 50 
+F6 "Reset_button" I L 6500 1550 50 
+F7 "Cycle_LED_R" O R 8000 1900 50 
+F8 "Cycle_LED_G" O R 8000 2000 50 
+F9 "Power_good" I L 6500 1100 50 
+F10 "Cycle_LED_B" O R 8000 2100 50 
+F11 "Empty_LED_R" O R 8000 2250 50 
+F12 "Empty_LED_G" O R 8000 2350 50 
+F13 "Empty_LED_B" O R 8000 2450 50 
+F14 "Reset_LED_R" O R 8000 2600 50 
+F15 "Reset_LED_G" O R 8000 2700 50 
+F16 "Reset_LED_B" O R 8000 2800 50 
+F17 "Left_LED_R" O R 8000 2950 50 
+F18 "Left_LED_G" O R 8000 3050 50 
+F19 "Left_LED_B" O R 8000 3150 50 
+F20 "Center_LED_R" O R 8000 3300 50 
+F21 "Center_LED_G" O R 8000 3400 50 
+F22 "Center_LED_B" O R 8000 3500 50 
+F23 "Right_LED_R" O R 8000 3650 50 
+F24 "Right_LED_G" O R 8000 3750 50 
+F25 "Right_LED_B" O R 8000 3850 50 
+F26 "Power_button" I L 6500 1250 50 
+F27 "Power_LED_B" O R 8000 1550 50 
+F28 "Power_LED_G" O R 8000 1650 50 
+F29 "Power_LED_R" O R 8000 1750 50 
+F30 "Dome_LED" O R 8000 5600 50 
+F31 "Light_sensor_SDA" B L 6500 2200 50 
+F32 "Light_sensor_SCL" O L 6500 2100 50 
+F33 "Light_sensor_INT" I L 6500 2300 50 
+F34 "Extension_1" B L 6500 4100 50 
+F35 "Extension_2" B L 6500 4200 50 
+F36 "Extension_3" B L 6500 4300 50 
+F37 "Extension_4" B L 6500 4400 50 
+F38 "DFI_1" B L 6500 2600 50 
+F39 "DFI_2" B L 6500 2700 50 
+F40 "Weight" T L 6500 3500 50 
+F41 "Weight_ref" O L 6500 3300 50 
+F42 "Weight_FSR" O L 6500 3400 50 
+F43 "Hall_sensor_L" I L 6500 5000 50 
+F44 "Hall_sensor_R" I L 6500 5100 50 
+$EndSheet
+$Sheet
+S 4000 3200 1000 800 
+U 606A580A
+F0 "Weigth sensor" 50
+F1 "WeightSensor.sch" 50
+F2 "Weight_sensor_P" U L 4000 3800 50 
+F3 "Weight_sensor_N" U L 4000 3900 50 
+F4 "Weight_ref" I R 5000 3300 50 
+F5 "Weight_FSR" I R 5000 3400 50 
+F6 "Weight" T R 5000 3500 50 
+$EndSheet
+$Sheet
+S 9000 4500 1000 500 
+U 603F20AB
+F0 "Motor driver" 50
+F1 "MotorDriver.sch" 50
+F2 "Motor_PWM_1" I L 9000 4600 50 
+F3 "Motor_PWM_2" I L 9000 4700 50 
+F4 "Motor_P" O R 10000 4800 50 
+F5 "Motor_N" O R 10000 4900 50 
+$EndSheet
+$Sheet
+S 4000 4700 1000 800 
+U 60690B6B
+F0 "Hall sensors" 50
+F1 "HallSensors.sch" 50
+F2 "Hall_sensor_VCC" O R 5000 4800 50 
+F3 "Hall_sensor_L_5V" I L 4000 5300 50 
+F4 "Hall_sensor_R_5V" I L 4000 5400 50 
+F5 "Hall_sensor_L_3V3" O R 5000 5000 50 
+F6 "Hall_sensor_R_3V3" O R 5000 5100 50 
+$EndSheet
+$Sheet
+S 4000 2000 1000 500 
+U 60624089
+F0 "Light sensor" 50
+F1 "LightSensor.sch" 50
+F2 "Light_sensor_SDA" B R 5000 2200 50 
+F3 "Light_sensor_SCL" I R 5000 2100 50 
+F4 "Light_sensor_INT" O R 5000 2300 50 
+$EndSheet
+$Sheet
+S 9000 5500 1000 500 
+U 60779D3B
+F0 "Dome LED" 50
+F1 "DomeLed.sch" 50
+F2 "Dome_LED" I L 9000 5600 50 
+F3 "Dome_LED_P" U R 10000 5800 50 
+F4 "Dome_LED_N" U R 10000 5900 50 
+$EndSheet
 $Sheet
 S 9000 1000 1000 3000
 U 603E03AA
@@ -169,10 +277,10 @@ $EndSheet
 Wire Wire Line
 	2250 6450 2250 6500
 $Comp
-L power:GND #PWR07
+L power:GND #PWR012
 U 1 1 603F0326
 P 2250 6500
-F 0 "#PWR07" H 2250 6250 50  0001 C CNN
+F 0 "#PWR012" H 2250 6250 50  0001 C CNN
 F 1 "GND" H 2255 6327 50  0000 C CNN
 F 2 "" H 2250 6500 50  0001 C CNN
 F 3 "" H 2250 6500 50  0001 C CNN
@@ -181,16 +289,6 @@ F 3 "" H 2250 6500 50  0001 C CNN
 $EndComp
 Text Notes 1850 5800 0    50   ~ 0
 Extension connector
-$Sheet
-S 9000 4500 1000 500 
-U 603F20AB
-F0 "Motor driver" 50
-F1 "MotorDriver.sch" 50
-F2 "Motor_PWM_1" I L 9000 4600 50 
-F3 "Motor_PWM_2" I L 9000 4700 50 
-F4 "Motor_P" O R 10000 4800 50 
-F5 "Motor_N" O R 10000 4900 50 
-$EndSheet
 Text Label 1000 3150 0    50   ~ 0
 Motor_P
 Text Label 1000 3250 0    50   ~ 0
@@ -208,10 +306,10 @@ F 4 "DF11C-6DP-2V(57)" H 2200 6150 50  0001 C CNN "Part_number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L power:GND #PWR02
 U 1 1 6055F6F5
 P 2600 1750
-F 0 "#PWR08" H 2600 1500 50  0001 C CNN
+F 0 "#PWR02" H 2600 1500 50  0001 C CNN
 F 1 "GND" H 2605 1577 50  0000 C CNN
 F 2 "" H 2600 1750 50  0001 C CNN
 F 3 "" H 2600 1750 50  0001 C CNN
@@ -257,10 +355,10 @@ Motor_N
 Wire Wire Line
 	10000 4800 10750 4800
 $Comp
-L power:+3V3 #PWR02
+L power:+3V3 #PWR01
 U 1 1 6058DAA4
 P 1650 1450
-F 0 "#PWR02" H 1650 1300 50  0001 C CNN
+F 0 "#PWR01" H 1650 1300 50  0001 C CNN
 F 1 "+3V3" H 1665 1623 50  0000 C CNN
 F 2 "" H 1650 1450 50  0001 C CNN
 F 3 "" H 1650 1450 50  0001 C CNN
@@ -319,15 +417,6 @@ Wire Wire Line
 	2000 4850 1000 4850
 Wire Wire Line
 	2500 4850 3500 4850
-$Sheet
-S 4000 1000 1000 500 
-U 603F1DCE
-F0 "Power supply" 50
-F1 "PowerSupply.sch" 50
-F2 "Power_good" O R 5000 1100 50 
-F3 "Power_P" I L 4000 1200 50 
-F4 "Battery_P" I L 4000 1300 50 
-$EndSheet
 Wire Wire Line
 	10000 1200 10750 1200
 Text Label 10750 1100 2    50   ~ 0
@@ -381,25 +470,16 @@ Weight_sensor_N
 Text Label 3500 4850 2    50   ~ 0
 Dome_LED_N
 $Comp
-L power:+15V #PWR03
+L power:+15V #PWR010
 U 1 1 60622B0D
 P 1650 5950
-F 0 "#PWR03" H 1650 5800 50  0001 C CNN
+F 0 "#PWR010" H 1650 5800 50  0001 C CNN
 F 1 "+15V" H 1665 6123 50  0000 C CNN
 F 2 "" H 1650 5950 50  0001 C CNN
 F 3 "" H 1650 5950 50  0001 C CNN
 	1    1650 5950
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 4000 2000 1000 500 
-U 60624089
-F0 "Light sensor" 50
-F1 "LightSensor.sch" 50
-F2 "Light_sensor_SDA" B R 5000 2200 50 
-F3 "Light_sensor_SCL" I R 5000 2100 50 
-F4 "Light_sensor_INT" O R 5000 2300 50 
-$EndSheet
 Wire Wire Line
 	6500 4200 5750 4200
 Wire Wire Line
@@ -431,10 +511,10 @@ Power_P
 Text Label 3500 3050 2    50   ~ 0
 Power_N
 $Comp
-L power:GND #PWR09
+L power:GND #PWR06
 U 1 1 6046CCE3
 P 2600 3350
-F 0 "#PWR09" H 2600 3100 50  0001 C CNN
+F 0 "#PWR06" H 2600 3100 50  0001 C CNN
 F 1 "GND" H 2605 3177 50  0000 C CNN
 F 2 "" H 2600 3350 50  0001 C CNN
 F 3 "" H 2600 3350 50  0001 C CNN
@@ -490,10 +570,10 @@ F 4 "CR0603-FX-1002ELF" H 3000 1850 50  0001 C CNN "Part_number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L power:GND #PWR04
 U 1 1 6068F29F
 P 1500 2100
-F 0 "#PWR01" H 1500 1850 50  0001 C CNN
+F 0 "#PWR04" H 1500 1850 50  0001 C CNN
 F 1 "GND" H 1505 1927 50  0000 C CNN
 F 2 "" H 1500 2100 50  0001 C CNN
 F 3 "" H 1500 2100 50  0001 C CNN
@@ -501,10 +581,10 @@ F 3 "" H 1500 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L power:GND #PWR05
 U 1 1 6068F7E3
 P 3000 2100
-F 0 "#PWR012" H 3000 1850 50  0001 C CNN
+F 0 "#PWR05" H 3000 1850 50  0001 C CNN
 F 1 "GND" H 3005 1927 50  0000 C CNN
 F 2 "" H 3000 2100 50  0001 C CNN
 F 3 "" H 3000 2100 50  0001 C CNN
@@ -533,17 +613,6 @@ Text Label 5750 2600 0    50   ~ 0
 DFI_1
 Text Label 5750 2700 0    50   ~ 0
 DFI_2
-$Sheet
-S 4000 3200 1000 800 
-U 606A580A
-F0 "Weigth sensor" 50
-F1 "WeightSensor.sch" 50
-F2 "Weight_sensor_P" U L 4000 3800 50 
-F3 "Weight_sensor_N" U L 4000 3900 50 
-F4 "Weight_ref" I R 5000 3300 50 
-F5 "Weight_FSR" I R 5000 3400 50 
-F6 "Weight" T R 5000 3500 50 
-$EndSheet
 Wire Wire Line
 	2600 4650 2600 4950
 Wire Wire Line
@@ -556,17 +625,6 @@ Text Label 3250 3800 0    50   ~ 0
 Weight_sensor_P
 Text Label 3250 3900 0    50   ~ 0
 Weight_sensor_N
-$Sheet
-S 4000 4700 1000 800 
-U 60690B6B
-F0 "Hall sensors" 50
-F1 "HallSensors.sch" 50
-F2 "Hall_sensor_VCC" O R 5000 4800 50 
-F3 "Hall_sensor_L_5V" I L 4000 5300 50 
-F4 "Hall_sensor_R_5V" I L 4000 5400 50 
-F5 "Hall_sensor_L_3V3" O R 5000 5000 50 
-F6 "Hall_sensor_R_3V3" O R 5000 5100 50 
-$EndSheet
 Wire Wire Line
 	4000 5400 3250 5400
 Wire Wire Line
@@ -579,55 +637,6 @@ Wire Wire Line
 	5750 4800 5000 4800
 Text Label 5750 4800 2    50   ~ 0
 Hall_sensor_VCC
-$Sheet
-S 6500 1000 1500 5000
-U 603F1F4D
-F0 "FPGA" 50
-F1 "Fpga.sch" 50
-F2 "Motor_PWM_1" O R 8000 4600 50 
-F3 "Motor_PWM_2" O R 8000 4700 50 
-F4 "Cycle_button" I L 6500 1350 50 
-F5 "Empty_button" I L 6500 1450 50 
-F6 "Reset_button" I L 6500 1550 50 
-F7 "Cycle_LED_R" O R 8000 1900 50 
-F8 "Cycle_LED_G" O R 8000 2000 50 
-F9 "Power_good" I L 6500 1100 50 
-F10 "Cycle_LED_B" O R 8000 2100 50 
-F11 "Empty_LED_R" O R 8000 2250 50 
-F12 "Empty_LED_G" O R 8000 2350 50 
-F13 "Empty_LED_B" O R 8000 2450 50 
-F14 "Reset_LED_R" O R 8000 2600 50 
-F15 "Reset_LED_G" O R 8000 2700 50 
-F16 "Reset_LED_B" O R 8000 2800 50 
-F17 "Left_LED_R" O R 8000 2950 50 
-F18 "Left_LED_G" O R 8000 3050 50 
-F19 "Left_LED_B" O R 8000 3150 50 
-F20 "Center_LED_R" O R 8000 3300 50 
-F21 "Center_LED_G" O R 8000 3400 50 
-F22 "Center_LED_B" O R 8000 3500 50 
-F23 "Right_LED_R" O R 8000 3650 50 
-F24 "Right_LED_G" O R 8000 3750 50 
-F25 "Right_LED_B" O R 8000 3850 50 
-F26 "Power_button" I L 6500 1250 50 
-F27 "Power_LED_B" O R 8000 1550 50 
-F28 "Power_LED_G" O R 8000 1650 50 
-F29 "Power_LED_R" O R 8000 1750 50 
-F30 "Dome_LED" O R 8000 5600 50 
-F31 "Light_sensor_SDA" B L 6500 2200 50 
-F32 "Light_sensor_SCL" O L 6500 2100 50 
-F33 "Light_sensor_INT" I L 6500 2300 50 
-F34 "Extension_1" B L 6500 4100 50 
-F35 "Extension_2" B L 6500 4200 50 
-F36 "Extension_3" B L 6500 4300 50 
-F37 "Extension_4" B L 6500 4400 50 
-F38 "DFI_1" B L 6500 2600 50 
-F39 "DFI_2" B L 6500 2700 50 
-F40 "Weight" T L 6500 3500 50 
-F41 "Weight_ref" O L 6500 3300 50 
-F42 "Weight_FSR" O L 6500 3400 50 
-F43 "Hall_sensor_L" I L 6500 5000 50 
-F44 "Hall_sensor_R" I L 6500 5100 50 
-$EndSheet
 Wire Wire Line
 	5000 1100 6500 1100
 Wire Wire Line
@@ -692,15 +701,6 @@ Wire Wire Line
 	9000 4600 8000 4600
 Wire Wire Line
 	9000 4700 8000 4700
-$Sheet
-S 9000 5500 1000 500 
-U 60779D3B
-F0 "Dome LED" 50
-F1 "DomeLed.sch" 50
-F2 "Dome_LED" I L 9000 5600 50 
-F3 "Dome_LED_P" U R 10000 5800 50 
-F4 "Dome_LED_N" U R 10000 5900 50 
-$EndSheet
 Wire Wire Line
 	8000 5600 9000 5600
 Wire Wire Line

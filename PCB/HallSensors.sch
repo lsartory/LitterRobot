@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 22
+Sheet 8 22
 Title "Litter Robot 3 - Hall sensors level shifters"
-Date "2021-04-03"
+Date "2021-04-05"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -23,8 +23,8 @@ U 1 1 606A6D92
 P 6250 3400
 AR Path="/603F1DCE/606A6D92" Ref="#PWR?"  Part="1" 
 AR Path="/60624089/606A6D92" Ref="#PWR?"  Part="1" 
-AR Path="/60690B6B/606A6D92" Ref="#PWR074"  Part="1" 
-F 0 "#PWR074" H 6250 3250 50  0001 C CNN
+AR Path="/60690B6B/606A6D92" Ref="#PWR077"  Part="1" 
+F 0 "#PWR077" H 6250 3250 50  0001 C CNN
 F 1 "+3V3" H 6265 3573 50  0000 C CNN
 F 2 "" H 6250 3400 50  0001 C CNN
 F 3 "" H 6250 3400 50  0001 C CNN
@@ -39,8 +39,8 @@ U 1 1 606AB6F0
 P 6250 4900
 AR Path="/603F1DCE/606AB6F0" Ref="#PWR?"  Part="1" 
 AR Path="/60624089/606AB6F0" Ref="#PWR?"  Part="1" 
-AR Path="/60690B6B/606AB6F0" Ref="#PWR075"  Part="1" 
-F 0 "#PWR075" H 6250 4750 50  0001 C CNN
+AR Path="/60690B6B/606AB6F0" Ref="#PWR078"  Part="1" 
+F 0 "#PWR078" H 6250 4750 50  0001 C CNN
 F 1 "+3V3" H 6265 5073 50  0000 C CNN
 F 2 "" H 6250 4900 50  0001 C CNN
 F 3 "" H 6250 4900 50  0001 C CNN
@@ -59,8 +59,8 @@ U 1 1 606C5787
 P 4500 1900
 AR Path="/603F1DCE/606C5787" Ref="#PWR?"  Part="1" 
 AR Path="/60624089/606C5787" Ref="#PWR?"  Part="1" 
-AR Path="/60690B6B/606C5787" Ref="#PWR072"  Part="1" 
-F 0 "#PWR072" H 4500 1750 50  0001 C CNN
+AR Path="/60690B6B/606C5787" Ref="#PWR075"  Part="1" 
+F 0 "#PWR075" H 4500 1750 50  0001 C CNN
 F 1 "+7V" H 4515 2073 50  0000 C CNN
 F 2 "" H 4500 1900 50  0001 C CNN
 F 3 "" H 4500 1900 50  0001 C CNN
@@ -78,8 +78,8 @@ P 6250 3750
 AR Path="/603F20AB/606A5BB1" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/606A5BB1" Ref="R?"  Part="1" 
 AR Path="/60624089/606A5BB1" Ref="R?"  Part="1" 
-AR Path="/60690B6B/606A5BB1" Ref="R47"  Part="1" 
-F 0 "R47" H 6320 3796 50  0000 L CNN
+AR Path="/60690B6B/606A5BB1" Ref="R25"  Part="1" 
+F 0 "R25" H 6320 3796 50  0000 L CNN
 F 1 "10k" H 6320 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 3750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6250 3750 50  0001 C CNN
@@ -94,8 +94,8 @@ P 5250 3750
 AR Path="/603F20AB/606A5B75" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/606A5B75" Ref="R?"  Part="1" 
 AR Path="/60624089/606A5B75" Ref="R?"  Part="1" 
-AR Path="/60690B6B/606A5B75" Ref="R45"  Part="1" 
-F 0 "R45" H 5320 3796 50  0000 L CNN
+AR Path="/60690B6B/606A5B75" Ref="R24"  Part="1" 
+F 0 "R24" H 5320 3796 50  0000 L CNN
 F 1 "10k" H 5320 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5180 3750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5250 3750 50  0001 C CNN
@@ -112,8 +112,8 @@ P 6250 5250
 AR Path="/603F20AB/606AB6EA" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/606AB6EA" Ref="R?"  Part="1" 
 AR Path="/60624089/606AB6EA" Ref="R?"  Part="1" 
-AR Path="/60690B6B/606AB6EA" Ref="R48"  Part="1" 
-F 0 "R48" H 6320 5296 50  0000 L CNN
+AR Path="/60690B6B/606AB6EA" Ref="R27"  Part="1" 
+F 0 "R27" H 6320 5296 50  0000 L CNN
 F 1 "10k" H 6320 5205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 5250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6250 5250 50  0001 C CNN
@@ -130,8 +130,8 @@ P 5250 5250
 AR Path="/603F20AB/606AB6E3" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/606AB6E3" Ref="R?"  Part="1" 
 AR Path="/60624089/606AB6E3" Ref="R?"  Part="1" 
-AR Path="/60690B6B/606AB6E3" Ref="R46"  Part="1" 
-F 0 "R46" H 5320 5296 50  0000 L CNN
+AR Path="/60690B6B/606AB6E3" Ref="R26"  Part="1" 
+F 0 "R26" H 5320 5296 50  0000 L CNN
 F 1 "10k" H 5320 5205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5180 5250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5250 5250 50  0001 C CNN
@@ -140,10 +140,10 @@ F 4 "CR0603-FX-1002ELF" H 5250 5250 50  0001 C CNN "Part_number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q22
+L Transistor_FET:BSS138 Q1
 U 1 1 606D0473
 P 5750 3900
-F 0 "Q22" V 5999 3900 50  0000 C CNN
+F 0 "Q1" V 5999 3900 50  0000 C CNN
 F 1 "BSS138" V 6090 3900 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5950 3825 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BSS138P.pdf" H 5750 3900 50  0001 L CNN
@@ -152,10 +152,10 @@ F 4 "BSS138P,215" V 5750 3900 50  0001 C CNN "Part_number"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q23
+L Transistor_FET:BSS138 Q2
 U 1 1 606D7597
 P 5750 5400
-F 0 "Q23" V 5999 5400 50  0000 C CNN
+F 0 "Q2" V 5999 5400 50  0000 C CNN
 F 1 "BSS138" V 6090 5400 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5950 5325 50  0001 L CIN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BSS138P.pdf" H 5750 5400 50  0001 L CNN
@@ -164,10 +164,10 @@ F 4 "BSS138P,215" V 5750 5400 50  0001 C CNN "Part_number"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Regulator_Linear:MCP1700-5002E_SOT23 U4
+L Regulator_Linear:MCP1700-5002E_SOT23 U5
 U 1 1 606E41AA
 P 5250 2000
-F 0 "U4" H 5250 2242 50  0000 C CNN
+F 0 "U5" H 5250 2242 50  0000 C CNN
 F 1 "MCP1700T-5002E/TT" H 5250 2151 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5250 2225 50  0001 C CNN
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP1700-Data-Sheet-20001826F.pdf" H 5250 2000 50  0001 C CNN
@@ -182,8 +182,8 @@ L power:GND #PWR?
 U 1 1 606E736A
 P 5250 2600
 AR Path="/606E736A" Ref="#PWR?"  Part="1" 
-AR Path="/60690B6B/606E736A" Ref="#PWR073"  Part="1" 
-F 0 "#PWR073" H 5250 2350 50  0001 C CNN
+AR Path="/60690B6B/606E736A" Ref="#PWR076"  Part="1" 
+F 0 "#PWR076" H 5250 2350 50  0001 C CNN
 F 1 "GND" H 5255 2427 50  0000 C CNN
 F 2 "" H 5250 2600 50  0001 C CNN
 F 3 "" H 5250 2600 50  0001 C CNN
@@ -247,8 +247,8 @@ P 6000 2250
 AR Path="/603F20AB/606F23E8" Ref="C?"  Part="1" 
 AR Path="/603F1DCE/606F23E8" Ref="C?"  Part="1" 
 AR Path="/60624089/606F23E8" Ref="C?"  Part="1" 
-AR Path="/60690B6B/606F23E8" Ref="C14"  Part="1" 
-F 0 "C14" H 6115 2341 50  0000 L CNN
+AR Path="/60690B6B/606F23E8" Ref="C31"  Part="1" 
+F 0 "C31" H 6115 2341 50  0000 L CNN
 F 1 "1µF" H 6115 2250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6038 2100 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 6000 2250 50  0001 C CNN
@@ -282,8 +282,8 @@ P 4500 2250
 AR Path="/603F20AB/606F762A" Ref="C?"  Part="1" 
 AR Path="/603F1DCE/606F762A" Ref="C?"  Part="1" 
 AR Path="/60624089/606F762A" Ref="C?"  Part="1" 
-AR Path="/60690B6B/606F762A" Ref="C13"  Part="1" 
-F 0 "C13" H 4615 2341 50  0000 L CNN
+AR Path="/60690B6B/606F762A" Ref="C30"  Part="1" 
+F 0 "C30" H 4615 2341 50  0000 L CNN
 F 1 "1µF" H 4615 2250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 2100 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4500 2250 50  0001 C CNN

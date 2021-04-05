@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 22
+Sheet 2 22
 Title "Litter Robot 3 - Power supply"
-Date "2021-04-03"
+Date "2021-04-05"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LitterRobot:MPM54304 U2
+L LitterRobot:MPM54304 U1
 U 1 1 60487643
 P 5750 3850
-AR Path="/603F1DCE/60487643" Ref="U2"  Part="1" 
+AR Path="/603F1DCE/60487643" Ref="U1"  Part="1" 
 AR Path="/60624089/60487643" Ref="U?"  Part="1" 
-F 0 "U2" H 5750 6381 50  0000 C CNN
+F 0 "U1" H 5750 6381 50  0000 C CNN
 F 1 "MPM54304GMN-0001" H 5750 3850 50  0000 C CNN
 F 2 "LitterRobot:MPS_MPM54304_LGA33_7x7mm" H 6300 6200 50  0001 C CNN
 F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM54304/document_id/4982/" H 6300 6200 50  0001 C CNN
@@ -28,12 +28,12 @@ F 4 "MPM54304GMN-0001" H 5750 3850 50  0001 C CNN "Part_number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+15V #PWR054
+L power:+15V #PWR013
 U 1 1 6049C802
 P 3900 1500
-AR Path="/603F1DCE/6049C802" Ref="#PWR054"  Part="1" 
+AR Path="/603F1DCE/6049C802" Ref="#PWR013"  Part="1" 
 AR Path="/60624089/6049C802" Ref="#PWR?"  Part="1" 
-F 0 "#PWR054" H 3900 1350 50  0001 C CNN
+F 0 "#PWR013" H 3900 1350 50  0001 C CNN
 F 1 "+15V" H 3915 1673 50  0000 C CNN
 F 2 "" H 3900 1500 50  0001 C CNN
 F 3 "" H 3900 1500 50  0001 C CNN
@@ -45,9 +45,9 @@ L Device:C C?
 U 1 1 6049E372
 P 4400 1850
 AR Path="/603F20AB/6049E372" Ref="C?"  Part="1" 
-AR Path="/603F1DCE/6049E372" Ref="C5"  Part="1" 
+AR Path="/603F1DCE/6049E372" Ref="C2"  Part="1" 
 AR Path="/60624089/6049E372" Ref="C?"  Part="1" 
-F 0 "C5" H 4515 1941 50  0000 L CNN
+F 0 "C2" H 4515 1941 50  0000 L CNN
 F 1 "22µF" H 4515 1850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 1700 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4400 1850 50  0001 C CNN
@@ -61,9 +61,9 @@ L Device:C C?
 U 1 1 6049F19A
 P 3900 1850
 AR Path="/603F20AB/6049F19A" Ref="C?"  Part="1" 
-AR Path="/603F1DCE/6049F19A" Ref="C4"  Part="1" 
+AR Path="/603F1DCE/6049F19A" Ref="C1"  Part="1" 
 AR Path="/60624089/6049F19A" Ref="C?"  Part="1" 
-F 0 "C4" H 4015 1941 50  0000 L CNN
+F 0 "C1" H 4015 1941 50  0000 L CNN
 F 1 "22µF" H 4015 1850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 1700 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 3900 1850 50  0001 C CNN
@@ -73,12 +73,12 @@ F 5 "C3216X5R1V226M160AC" H 3900 1850 50  0001 C CNN "Part_number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR055
+L power:GND #PWR015
 U 1 1 604A0BB2
 P 4400 2200
-AR Path="/603F1DCE/604A0BB2" Ref="#PWR055"  Part="1" 
+AR Path="/603F1DCE/604A0BB2" Ref="#PWR015"  Part="1" 
 AR Path="/60624089/604A0BB2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR055" H 4400 1950 50  0001 C CNN
+F 0 "#PWR015" H 4400 1950 50  0001 C CNN
 F 1 "GND" H 4405 2027 50  0000 C CNN
 F 2 "" H 4400 2200 50  0001 C CNN
 F 3 "" H 4400 2200 50  0001 C CNN
@@ -101,9 +101,9 @@ L Device:R R?
 U 1 1 604A32A1
 P 4400 3150
 AR Path="/603F20AB/604A32A1" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604A32A1" Ref="R30"  Part="1" 
+AR Path="/603F1DCE/604A32A1" Ref="R7"  Part="1" 
 AR Path="/60624089/604A32A1" Ref="R?"  Part="1" 
-F 0 "R30" H 4470 3196 50  0000 L CNN
+F 0 "R7" H 4470 3196 50  0000 L CNN
 F 1 "10k" H 4470 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 3150 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4400 3150 50  0001 C CNN
@@ -116,9 +116,9 @@ L Device:R R?
 U 1 1 604A3347
 P 3900 3150
 AR Path="/603F20AB/604A3347" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604A3347" Ref="R29"  Part="1" 
+AR Path="/603F1DCE/604A3347" Ref="R6"  Part="1" 
 AR Path="/60624089/604A3347" Ref="R?"  Part="1" 
-F 0 "R29" H 3970 3196 50  0000 L CNN
+F 0 "R6" H 3970 3196 50  0000 L CNN
 F 1 "10k" H 3970 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 3150 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 3900 3150 50  0001 C CNN
@@ -127,12 +127,12 @@ F 4 "CR0603-FX-1002ELF" H 3900 3150 50  0001 C CNN "Part_number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR056
+L power:GND #PWR019
 U 1 1 604A378F
 P 4400 3500
-AR Path="/603F1DCE/604A378F" Ref="#PWR056"  Part="1" 
+AR Path="/603F1DCE/604A378F" Ref="#PWR019"  Part="1" 
 AR Path="/60624089/604A378F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR056" H 4400 3250 50  0001 C CNN
+F 0 "#PWR019" H 4400 3250 50  0001 C CNN
 F 1 "GND" H 4405 3327 50  0000 C CNN
 F 2 "" H 4400 3500 50  0001 C CNN
 F 3 "" H 4400 3500 50  0001 C CNN
@@ -161,9 +161,9 @@ L Device:R R?
 U 1 1 604A40DF
 P 4400 4650
 AR Path="/603F20AB/604A40DF" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604A40DF" Ref="R31"  Part="1" 
+AR Path="/603F1DCE/604A40DF" Ref="R11"  Part="1" 
 AR Path="/60624089/604A40DF" Ref="R?"  Part="1" 
-F 0 "R31" H 4470 4696 50  0000 L CNN
+F 0 "R11" H 4470 4696 50  0000 L CNN
 F 1 "10k" H 4470 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 4650 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4400 4650 50  0001 C CNN
@@ -176,9 +176,9 @@ L Device:R R?
 U 1 1 604A4902
 P 4400 5150
 AR Path="/603F20AB/604A4902" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604A4902" Ref="R32"  Part="1" 
+AR Path="/603F1DCE/604A4902" Ref="R13"  Part="1" 
 AR Path="/60624089/604A4902" Ref="R?"  Part="1" 
-F 0 "R32" H 4470 5196 50  0000 L CNN
+F 0 "R13" H 4470 5196 50  0000 L CNN
 F 1 "3.3k" H 4470 5105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 5150 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4400 5150 50  0001 C CNN
@@ -187,12 +187,12 @@ F 4 "CR0603-FX-3301ELF" H 4400 5150 50  0001 C CNN "Part_number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR058
+L power:GND #PWR025
 U 1 1 604A4E38
 P 4400 5400
-AR Path="/603F1DCE/604A4E38" Ref="#PWR058"  Part="1" 
+AR Path="/603F1DCE/604A4E38" Ref="#PWR025"  Part="1" 
 AR Path="/60624089/604A4E38" Ref="#PWR?"  Part="1" 
-F 0 "#PWR058" H 4400 5150 50  0001 C CNN
+F 0 "#PWR025" H 4400 5150 50  0001 C CNN
 F 1 "GND" H 4405 5227 50  0000 C CNN
 F 2 "" H 4400 5400 50  0001 C CNN
 F 3 "" H 4400 5400 50  0001 C CNN
@@ -200,12 +200,12 @@ F 3 "" H 4400 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+15V #PWR057
+L power:+15V #PWR022
 U 1 1 604A52BA
 P 4400 4400
-AR Path="/603F1DCE/604A52BA" Ref="#PWR057"  Part="1" 
+AR Path="/603F1DCE/604A52BA" Ref="#PWR022"  Part="1" 
 AR Path="/60624089/604A52BA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR057" H 4400 4250 50  0001 C CNN
+F 0 "#PWR022" H 4400 4250 50  0001 C CNN
 F 1 "+15V" H 4415 4573 50  0000 C CNN
 F 2 "" H 4400 4400 50  0001 C CNN
 F 3 "" H 4400 4400 50  0001 C CNN
@@ -226,9 +226,9 @@ L Device:C C?
 U 1 1 604AB97B
 P 5500 6550
 AR Path="/603F20AB/604AB97B" Ref="C?"  Part="1" 
-AR Path="/603F1DCE/604AB97B" Ref="C6"  Part="1" 
+AR Path="/603F1DCE/604AB97B" Ref="C7"  Part="1" 
 AR Path="/60624089/604AB97B" Ref="C?"  Part="1" 
-F 0 "C6" H 5615 6641 50  0000 L CNN
+F 0 "C7" H 5615 6641 50  0000 L CNN
 F 1 "1µF" H 5615 6550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5538 6400 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 5500 6550 50  0001 C CNN
@@ -238,12 +238,12 @@ F 5 "C1608X5R1H105K080AB" H 5500 6550 50  0001 C CNN "Part_number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR059
+L power:GND #PWR027
 U 1 1 604AC677
 P 6000 6900
-AR Path="/603F1DCE/604AC677" Ref="#PWR059"  Part="1" 
+AR Path="/603F1DCE/604AC677" Ref="#PWR027"  Part="1" 
 AR Path="/60624089/604AC677" Ref="#PWR?"  Part="1" 
-F 0 "#PWR059" H 6000 6650 50  0001 C CNN
+F 0 "#PWR027" H 6000 6650 50  0001 C CNN
 F 1 "GND" H 6005 6727 50  0000 C CNN
 F 2 "" H 6000 6900 50  0001 C CNN
 F 3 "" H 6000 6900 50  0001 C CNN
@@ -251,12 +251,12 @@ F 3 "" H 6000 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LitterRobot:+7V #PWR064
+L LitterRobot:+7V #PWR014
 U 1 1 604AE53B
 P 7900 1500
-AR Path="/603F1DCE/604AE53B" Ref="#PWR064"  Part="1" 
+AR Path="/603F1DCE/604AE53B" Ref="#PWR014"  Part="1" 
 AR Path="/60624089/604AE53B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR064" H 7900 1350 50  0001 C CNN
+F 0 "#PWR014" H 7900 1350 50  0001 C CNN
 F 1 "+7V" H 7915 1673 50  0000 C CNN
 F 2 "" H 7900 1500 50  0001 C CNN
 F 3 "" H 7900 1500 50  0001 C CNN
@@ -264,12 +264,12 @@ F 3 "" H 7900 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+2V5 #PWR066
+L power:+2V5 #PWR021
 U 1 1 604B00EC
 P 7900 3700
-AR Path="/603F1DCE/604B00EC" Ref="#PWR066"  Part="1" 
+AR Path="/603F1DCE/604B00EC" Ref="#PWR021"  Part="1" 
 AR Path="/60624089/604B00EC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR066" H 7900 3550 50  0001 C CNN
+F 0 "#PWR021" H 7900 3550 50  0001 C CNN
 F 1 "+2V5" H 7915 3873 50  0000 C CNN
 F 2 "" H 7900 3700 50  0001 C CNN
 F 3 "" H 7900 3700 50  0001 C CNN
@@ -277,12 +277,12 @@ F 3 "" H 7900 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V2 #PWR067
+L power:+1V2 #PWR024
 U 1 1 604B0B68
 P 7900 4800
-AR Path="/603F1DCE/604B0B68" Ref="#PWR067"  Part="1" 
+AR Path="/603F1DCE/604B0B68" Ref="#PWR024"  Part="1" 
 AR Path="/60624089/604B0B68" Ref="#PWR?"  Part="1" 
-F 0 "#PWR067" H 7900 4650 50  0001 C CNN
+F 0 "#PWR024" H 7900 4650 50  0001 C CNN
 F 1 "+1V2" H 7915 4973 50  0000 C CNN
 F 2 "" H 7900 4800 50  0001 C CNN
 F 3 "" H 7900 4800 50  0001 C CNN
@@ -304,9 +304,9 @@ L Device:R R?
 U 1 1 604B4786
 P 6900 1800
 AR Path="/603F20AB/604B4786" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604B4786" Ref="R33"  Part="1" 
+AR Path="/603F1DCE/604B4786" Ref="R3"  Part="1" 
 AR Path="/60624089/604B4786" Ref="R?"  Part="1" 
-F 0 "R33" H 6970 1846 50  0000 L CNN
+F 0 "R3" H 6970 1846 50  0000 L CNN
 F 1 "20k" H 6970 1755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 1800 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 1800 50  0001 C CNN
@@ -319,9 +319,9 @@ L Device:R R?
 U 1 1 604B542F
 P 6900 2200
 AR Path="/603F20AB/604B542F" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604B542F" Ref="R34"  Part="1" 
+AR Path="/603F1DCE/604B542F" Ref="R4"  Part="1" 
 AR Path="/60624089/604B542F" Ref="R?"  Part="1" 
-F 0 "R34" H 6970 2246 50  0000 L CNN
+F 0 "R4" H 6970 2246 50  0000 L CNN
 F 1 "1.87k" H 6970 2155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 2200 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 2200 50  0001 C CNN
@@ -330,12 +330,12 @@ F 4 "CR0603-FX-1871ELF" H 6900 2200 50  0001 C CNN "Part_number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR060
+L power:GND #PWR016
 U 1 1 604B58A1
 P 6900 2450
-AR Path="/603F1DCE/604B58A1" Ref="#PWR060"  Part="1" 
+AR Path="/603F1DCE/604B58A1" Ref="#PWR016"  Part="1" 
 AR Path="/60624089/604B58A1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR060" H 6900 2200 50  0001 C CNN
+F 0 "#PWR016" H 6900 2200 50  0001 C CNN
 F 1 "GND" H 6905 2277 50  0000 C CNN
 F 2 "" H 6900 2450 50  0001 C CNN
 F 3 "" H 6900 2450 50  0001 C CNN
@@ -351,9 +351,9 @@ L Device:C C?
 U 1 1 604C9334
 P 7400 2000
 AR Path="/603F20AB/604C9334" Ref="C?"  Part="1" 
-AR Path="/603F1DCE/604C9334" Ref="C7"  Part="1" 
+AR Path="/603F1DCE/604C9334" Ref="C3"  Part="1" 
 AR Path="/60624089/604C9334" Ref="C?"  Part="1" 
-F 0 "C7" H 7515 2091 50  0000 L CNN
+F 0 "C3" H 7515 2091 50  0000 L CNN
 F 1 "22µF" H 7515 2000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 1850 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 7400 2000 50  0001 C CNN
@@ -397,9 +397,9 @@ L Device:R R?
 U 1 1 604CD95C
 P 6900 2900
 AR Path="/603F20AB/604CD95C" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604CD95C" Ref="R35"  Part="1" 
+AR Path="/603F1DCE/604CD95C" Ref="R5"  Part="1" 
 AR Path="/60624089/604CD95C" Ref="R?"  Part="1" 
-F 0 "R35" H 6970 2946 50  0000 L CNN
+F 0 "R5" H 6970 2946 50  0000 L CNN
 F 1 "11.5k" H 6970 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 2900 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 2900 50  0001 C CNN
@@ -412,9 +412,9 @@ L Device:R R?
 U 1 1 604CD963
 P 6900 3300
 AR Path="/603F20AB/604CD963" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604CD963" Ref="R36"  Part="1" 
+AR Path="/603F1DCE/604CD963" Ref="R8"  Part="1" 
 AR Path="/60624089/604CD963" Ref="R?"  Part="1" 
-F 0 "R36" H 6970 3346 50  0000 L CNN
+F 0 "R8" H 6970 3346 50  0000 L CNN
 F 1 "2.55k" H 6970 3255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 3300 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 3300 50  0001 C CNN
@@ -423,12 +423,12 @@ F 4 "CR0603-FX-2551ELF" H 6900 3300 50  0001 C CNN "Part_number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR061
+L power:GND #PWR020
 U 1 1 604CD969
 P 6900 3550
-AR Path="/603F1DCE/604CD969" Ref="#PWR061"  Part="1" 
+AR Path="/603F1DCE/604CD969" Ref="#PWR020"  Part="1" 
 AR Path="/60624089/604CD969" Ref="#PWR?"  Part="1" 
-F 0 "#PWR061" H 6900 3300 50  0001 C CNN
+F 0 "#PWR020" H 6900 3300 50  0001 C CNN
 F 1 "GND" H 6905 3377 50  0000 C CNN
 F 2 "" H 6900 3550 50  0001 C CNN
 F 3 "" H 6900 3550 50  0001 C CNN
@@ -440,9 +440,9 @@ L Device:C C?
 U 1 1 604CD971
 P 7400 3100
 AR Path="/603F20AB/604CD971" Ref="C?"  Part="1" 
-AR Path="/603F1DCE/604CD971" Ref="C8"  Part="1" 
+AR Path="/603F1DCE/604CD971" Ref="C4"  Part="1" 
 AR Path="/60624089/604CD971" Ref="C?"  Part="1" 
-F 0 "C8" H 7515 3191 50  0000 L CNN
+F 0 "C4" H 7515 3191 50  0000 L CNN
 F 1 "22µF" H 7515 3100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 2950 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 7400 3100 50  0001 C CNN
@@ -484,9 +484,9 @@ L Device:R R?
 U 1 1 604D12FF
 P 6900 4000
 AR Path="/603F20AB/604D12FF" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604D12FF" Ref="R37"  Part="1" 
+AR Path="/603F1DCE/604D12FF" Ref="R9"  Part="1" 
 AR Path="/60624089/604D12FF" Ref="R?"  Part="1" 
-F 0 "R37" H 6970 4046 50  0000 L CNN
+F 0 "R9" H 6970 4046 50  0000 L CNN
 F 1 "9.31k" H 6970 3955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 4000 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 4000 50  0001 C CNN
@@ -499,9 +499,9 @@ L Device:R R?
 U 1 1 604D1306
 P 6900 4400
 AR Path="/603F20AB/604D1306" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604D1306" Ref="R38"  Part="1" 
+AR Path="/603F1DCE/604D1306" Ref="R10"  Part="1" 
 AR Path="/60624089/604D1306" Ref="R?"  Part="1" 
-F 0 "R38" H 6970 4446 50  0000 L CNN
+F 0 "R10" H 6970 4446 50  0000 L CNN
 F 1 "2.94k" H 6970 4355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 4400 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 4400 50  0001 C CNN
@@ -510,12 +510,12 @@ F 4 "CR0603-FX-2941ELF" H 6900 4400 50  0001 C CNN "Part_number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR062
+L power:GND #PWR023
 U 1 1 604D130C
 P 6900 4650
-AR Path="/603F1DCE/604D130C" Ref="#PWR062"  Part="1" 
+AR Path="/603F1DCE/604D130C" Ref="#PWR023"  Part="1" 
 AR Path="/60624089/604D130C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR062" H 6900 4400 50  0001 C CNN
+F 0 "#PWR023" H 6900 4400 50  0001 C CNN
 F 1 "GND" H 6905 4477 50  0000 C CNN
 F 2 "" H 6900 4650 50  0001 C CNN
 F 3 "" H 6900 4650 50  0001 C CNN
@@ -527,9 +527,9 @@ L Device:C C?
 U 1 1 604D1314
 P 7400 4200
 AR Path="/603F20AB/604D1314" Ref="C?"  Part="1" 
-AR Path="/603F1DCE/604D1314" Ref="C9"  Part="1" 
+AR Path="/603F1DCE/604D1314" Ref="C5"  Part="1" 
 AR Path="/60624089/604D1314" Ref="C?"  Part="1" 
-F 0 "C9" H 7515 4291 50  0000 L CNN
+F 0 "C5" H 7515 4291 50  0000 L CNN
 F 1 "22µF" H 7515 4200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 4050 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 7400 4200 50  0001 C CNN
@@ -569,12 +569,12 @@ Wire Wire Line
 Wire Wire Line
 	7900 4900 7400 4900
 $Comp
-L power:GND #PWR063
+L power:GND #PWR026
 U 1 1 604D31B7
 P 6900 5750
-AR Path="/603F1DCE/604D31B7" Ref="#PWR063"  Part="1" 
+AR Path="/603F1DCE/604D31B7" Ref="#PWR026"  Part="1" 
 AR Path="/60624089/604D31B7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR063" H 6900 5500 50  0001 C CNN
+F 0 "#PWR026" H 6900 5500 50  0001 C CNN
 F 1 "GND" H 6905 5577 50  0000 C CNN
 F 2 "" H 6900 5750 50  0001 C CNN
 F 3 "" H 6900 5750 50  0001 C CNN
@@ -586,9 +586,9 @@ L Device:C C?
 U 1 1 604D31BF
 P 7400 5300
 AR Path="/603F20AB/604D31BF" Ref="C?"  Part="1" 
-AR Path="/603F1DCE/604D31BF" Ref="C10"  Part="1" 
+AR Path="/603F1DCE/604D31BF" Ref="C6"  Part="1" 
 AR Path="/60624089/604D31BF" Ref="C?"  Part="1" 
-F 0 "C10" H 7515 5391 50  0000 L CNN
+F 0 "C6" H 7515 5391 50  0000 L CNN
 F 1 "22µF" H 7515 5300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 5150 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 7400 5300 50  0001 C CNN
@@ -645,12 +645,12 @@ Connection ~ 4400 1600
 Wire Wire Line
 	4400 1600 4900 1600
 $Comp
-L power:+3V3 #PWR065
+L power:+3V3 #PWR017
 U 1 1 604F7C44
 P 7900 2600
-AR Path="/603F1DCE/604F7C44" Ref="#PWR065"  Part="1" 
+AR Path="/603F1DCE/604F7C44" Ref="#PWR017"  Part="1" 
 AR Path="/60624089/604F7C44" Ref="#PWR?"  Part="1" 
-F 0 "#PWR065" H 7900 2450 50  0001 C CNN
+F 0 "#PWR017" H 7900 2450 50  0001 C CNN
 F 1 "+3V3" H 7915 2773 50  0000 C CNN
 F 2 "" H 7900 2600 50  0001 C CNN
 F 3 "" H 7900 2600 50  0001 C CNN
@@ -662,9 +662,9 @@ L Device:R R?
 U 1 1 604FA5AF
 P 6900 5100
 AR Path="/603F20AB/604FA5AF" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604FA5AF" Ref="R39"  Part="1" 
+AR Path="/603F1DCE/604FA5AF" Ref="R12"  Part="1" 
 AR Path="/60624089/604FA5AF" Ref="R?"  Part="1" 
-F 0 "R39" H 6970 5146 50  0000 L CNN
+F 0 "R12" H 6970 5146 50  0000 L CNN
 F 1 "3.3k" H 6970 5055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 5100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 5100 50  0001 C CNN
@@ -677,9 +677,9 @@ L Device:R R?
 U 1 1 604FB145
 P 6900 5500
 AR Path="/603F20AB/604FB145" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604FB145" Ref="R40"  Part="1" 
+AR Path="/603F1DCE/604FB145" Ref="R14"  Part="1" 
 AR Path="/60624089/604FB145" Ref="R?"  Part="1" 
-F 0 "R40" H 6970 5546 50  0000 L CNN
+F 0 "R14" H 6970 5546 50  0000 L CNN
 F 1 "3.3k" H 6970 5455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 5500 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 5500 50  0001 C CNN
@@ -765,8 +765,8 @@ L power:+15V #PWR?
 U 1 1 6068D8DA
 P 2500 3500
 AR Path="/6068D8DA" Ref="#PWR?"  Part="1" 
-AR Path="/603F1DCE/6068D8DA" Ref="#PWR053"  Part="1" 
-F 0 "#PWR053" H 2500 3350 50  0001 C CNN
+AR Path="/603F1DCE/6068D8DA" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 2500 3350 50  0001 C CNN
 F 1 "+15V" H 2515 3673 50  0000 C CNN
 F 2 "" H 2500 3500 50  0001 C CNN
 F 3 "" H 2500 3500 50  0001 C CNN
@@ -785,10 +785,10 @@ Wire Wire Line
 Wire Wire Line
 	2500 4000 2500 4500
 $Comp
-L Device:D D8
+L Device:D D1
 U 1 1 606ADEF8
 P 2000 4000
-F 0 "D8" H 2000 3783 50  0000 C CNN
+F 0 "D1" H 2000 3783 50  0000 C CNN
 F 1 "VS-2EYH02HM3/H" H 2000 3874 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-128" H 2000 4000 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/96383/vs-2eyh02hm3.pdf" H 2000 4000 50  0001 C CNN
@@ -799,10 +799,10 @@ $EndComp
 Wire Wire Line
 	2150 4000 2500 4000
 $Comp
-L Device:D D9
+L Device:D D2
 U 1 1 606AEF8E
 P 2000 4500
-F 0 "D9" H 2000 4283 50  0000 C CNN
+F 0 "D2" H 2000 4283 50  0000 C CNN
 F 1 "VS-2EYH02HM3/H" H 2000 4374 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-128" H 2000 4500 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/96383/vs-2eyh02hm3.pdf" H 2000 4500 50  0001 C CNN
