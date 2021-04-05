@@ -1,5 +1,6 @@
-(module Vishay_VEML6035 (layer F.Cu) (tedit 60562203)
+(module Vishay_VEML6035 (layer F.Cu) (tedit 606B408B)
   (descr "Low Power, High Sensitivity, I2C Ambient Light Sensor")
+  (clearance 0.14)
   (attr smd)
   (fp_text reference REF** (at 0 -2.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
