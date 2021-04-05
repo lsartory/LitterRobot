@@ -49,7 +49,7 @@ AR Path="/603F1DCE/6049E372" Ref="C2"  Part="1"
 AR Path="/60624089/6049E372" Ref="C?"  Part="1" 
 F 0 "C2" H 4515 1941 50  0000 L CNN
 F 1 "22µF" H 4515 1850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 1700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4438 1700 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 4400 1850 50  0001 C CNN
 F 4 "35V" H 4515 1759 50  0000 L CNN "Voltage"
 F 5 "C3216X5R1V226M160AC" H 4400 1850 50  0001 C CNN "Part_number"
@@ -65,7 +65,7 @@ AR Path="/603F1DCE/6049F19A" Ref="C1"  Part="1"
 AR Path="/60624089/6049F19A" Ref="C?"  Part="1" 
 F 0 "C1" H 4015 1941 50  0000 L CNN
 F 1 "22µF" H 4015 1850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 1700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3938 1700 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 3900 1850 50  0001 C CNN
 F 4 "35V" H 4015 1759 50  0000 L CNN "Voltage"
 F 5 "C3216X5R1V226M160AC" H 3900 1850 50  0001 C CNN "Part_number"
@@ -355,7 +355,7 @@ AR Path="/603F1DCE/604C9334" Ref="C3"  Part="1"
 AR Path="/60624089/604C9334" Ref="C?"  Part="1" 
 F 0 "C3" H 7515 2091 50  0000 L CNN
 F 1 "22µF" H 7515 2000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7438 1850 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 7400 2000 50  0001 C CNN
 F 4 "35V" H 7515 1909 50  0000 L CNN "Voltage"
 F 5 "C3216X5R1V226M160AC" H 7400 2000 50  0001 C CNN "Part_number"
@@ -444,7 +444,7 @@ AR Path="/603F1DCE/604CD971" Ref="C4"  Part="1"
 AR Path="/60624089/604CD971" Ref="C?"  Part="1" 
 F 0 "C4" H 7515 3191 50  0000 L CNN
 F 1 "22µF" H 7515 3100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7438 2950 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 7400 3100 50  0001 C CNN
 F 4 "35V" H 7515 3009 50  0000 L CNN "Voltage"
 F 5 "C3216X5R1V226M160AC" H 7400 3100 50  0001 C CNN "Part_number"
@@ -531,7 +531,7 @@ AR Path="/603F1DCE/604D1314" Ref="C5"  Part="1"
 AR Path="/60624089/604D1314" Ref="C?"  Part="1" 
 F 0 "C5" H 7515 4291 50  0000 L CNN
 F 1 "22µF" H 7515 4200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 4050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7438 4050 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 7400 4200 50  0001 C CNN
 F 4 "35V" H 7515 4109 50  0000 L CNN "Voltage"
 F 5 "C3216X5R1V226M160AC" H 7400 4200 50  0001 C CNN "Part_number"
@@ -590,7 +590,7 @@ AR Path="/603F1DCE/604D31BF" Ref="C6"  Part="1"
 AR Path="/60624089/604D31BF" Ref="C?"  Part="1" 
 F 0 "C6" H 7515 5391 50  0000 L CNN
 F 1 "22µF" H 7515 5300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 5150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7438 5150 50  0001 C CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" H 7400 5300 50  0001 C CNN
 F 4 "35V" H 7515 5209 50  0000 L CNN "Voltage"
 F 5 "C3216X5R1V226M160AC" H 7400 5300 50  0001 C CNN "Part_number"
