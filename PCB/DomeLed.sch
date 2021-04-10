@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 23
+Sheet 11 23
 Title "Litter Robot 3 - Dome LED control"
 Date "2021-04-10"
 Rev "A1"

@@ -111,9 +111,9 @@ Bluetooth_TX
 Text HLabel 6000 4600 2    50   Output ~ 0
 Bluetooth_RX
 Text HLabel 4000 3700 0    50   Output ~ 0
-Bluetooth_CTS
+Bluetooth_~CTS
 Text HLabel 4000 3600 0    50   Input ~ 0
-Bluetooth_RTS
+Bluetooth_~RTS
 Text HLabel 4000 3300 0    50   Input ~ 0
 Bluetooth_~RESET
 $EndSCHEMATC

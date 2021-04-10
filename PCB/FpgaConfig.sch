@@ -619,11 +619,6 @@ Wire Wire Line
 NoConn ~ 1750 4600
 NoConn ~ 1750 4700
 NoConn ~ 2750 4600
-NoConn ~ 7150 4250
-NoConn ~ 7150 4350
-NoConn ~ 7150 4450
-NoConn ~ 7150 4550
-NoConn ~ 7150 4650
 NoConn ~ 7150 4750
 NoConn ~ 7150 4850
 $Comp
@@ -736,4 +731,24 @@ Text Notes 750  7500 0    50   ~ 0
 For other configuration device options:\nhttps://www.intel.com/content/www/us/en/programmable/support/support-resources/support-centers/configuration-support.html#intel-config-devices\n\nMT25QL128ABA8ESF-0SIT / MT25QL128ABA8ESF-0AAT\nMX25L12833FMI-10G\nS25FL128SAGMFI000
 Text Notes 750  800  0    50   ~ 0
 Intel® Cyclone® 10 LP Device Family Pin Connection Guidelines:\nhttps://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/dp/cyclone-10/pcg-01021.pdf
+Text HLabel 7600 4350 2    50   Output ~ 0
+Bluetooth_TX
+Text HLabel 7600 4450 2    50   Input ~ 0
+Bluetooth_RX
+Text HLabel 7600 4650 2    50   Input ~ 0
+Bluetooth_~CTS
+Text HLabel 7600 4550 2    50   Output ~ 0
+Bluetooth_~RTS
+Text HLabel 7600 4250 2    50   Output ~ 0
+Bluetooth_~RESET
+Wire Wire Line
+	7150 4250 7600 4250
+Wire Wire Line
+	7150 4350 7600 4350
+Wire Wire Line
+	7150 4450 7600 4450
+Wire Wire Line
+	7150 4550 7600 4550
+Wire Wire Line
+	7150 4650 7600 4650
 $EndSCHEMATC

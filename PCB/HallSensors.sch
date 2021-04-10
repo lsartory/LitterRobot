@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 23
+Sheet 9 23
 Title "Litter Robot 3 - Hall sensors level shifters"
 Date "2021-04-10"
 Rev "A1"

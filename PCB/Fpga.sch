@@ -57,10 +57,8 @@ Text HLabel 4500 2800 2    50   Output ~ 0
 Right_LED_B
 Text HLabel 4500 1100 2    50   Input ~ 0
 Power_button
-Text HLabel 2000 6600 0    50   Input ~ 0
+Text HLabel 2000 6100 0    50   Input ~ 0
 Power_good
-Wire Wire Line
-	2000 6600 2500 6600
 Text HLabel 9000 4800 2    50   Output ~ 0
 Power_LED_B
 Text HLabel 9000 4700 2    50   Output ~ 0
@@ -80,11 +78,16 @@ Light_sensor_SCL
 Text HLabel 9000 2800 2    50   Input ~ 0
 Light_sensor_INT
 $Sheet
-S 2500 6500 1000 500 
+S 2500 6000 1000 1000
 U 60647CC2
 F0 "FPGA config" 50
 F1 "FpgaConfig.sch" 50
-F2 "Power_good" I L 2500 6600 50 
+F2 "Power_good" I L 2500 6100 50 
+F3 "Bluetooth_TX" O L 2500 6600 50 
+F4 "Bluetooth_RX" I L 2500 6700 50 
+F5 "Bluetooth_~CTS" I L 2500 6900 50 
+F6 "Bluetooth_~RTS" O L 2500 6800 50 
+F7 "Bluetooth_~RESET" O L 2500 6500 50 
 $EndSheet
 $Sheet
 S 4500 6500 1000 500 
@@ -719,14 +722,26 @@ NoConn ~ 8650 3000
 NoConn ~ 8650 2900
 NoConn ~ 8650 1400
 NoConn ~ 4150 4900
-Text HLabel -1050 5100 2    50   Output ~ 0
+Text HLabel 2000 6600 0    50   Output ~ 0
 Bluetooth_TX
-Text HLabel -1050 5200 2    50   Input ~ 0
+Text HLabel 2000 6700 0    50   Input ~ 0
 Bluetooth_RX
-Text HLabel -3050 4300 0    50   Input ~ 0
-Bluetooth_CTS
-Text HLabel -3050 4200 0    50   Output ~ 0
-Bluetooth_RTS
-Text HLabel -3050 3900 0    50   Output ~ 0
+Text HLabel 2000 6900 0    50   Input ~ 0
+Bluetooth_~CTS
+Text HLabel 2000 6800 0    50   Output ~ 0
+Bluetooth_~RTS
+Text HLabel 2000 6500 0    50   Output ~ 0
 Bluetooth_~RESET
+Wire Wire Line
+	2000 6600 2500 6600
+Wire Wire Line
+	2000 6800 2500 6800
+Wire Wire Line
+	2000 6700 2500 6700
+Wire Wire Line
+	2000 6500 2500 6500
+Wire Wire Line
+	2000 6100 2500 6100
+Wire Wire Line
+	2000 6900 2500 6900
 $EndSCHEMATC

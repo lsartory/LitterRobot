@@ -194,8 +194,8 @@ F43 "Hall_sensor_L" I L 6500 5000 50
 F44 "Hall_sensor_R" I L 6500 5100 50 
 F45 "Bluetooth_TX" O L 6500 5600 50 
 F46 "Bluetooth_RX" I L 6500 5700 50 
-F47 "Bluetooth_CTS" I L 6500 5900 50 
-F48 "Bluetooth_RTS" O L 6500 5800 50 
+F47 "Bluetooth_~CTS" I L 6500 5900 50 
+F48 "Bluetooth_~RTS" O L 6500 5800 50 
 F49 "Bluetooth_~RESET" O L 6500 5500 50 
 $EndSheet
 $Sheet
@@ -205,9 +205,9 @@ F0 "Bluetooth" 50
 F1 "Bluetooth.sch" 50
 F2 "Bluetooth_TX" I R 5000 6300 50 
 F3 "Bluetooth_RX" O R 5000 6400 50 
-F4 "Bluetooth_CTS" O R 5000 6650 50 
-F5 "Bluetooth_RTS" I R 5000 6550 50 
-F6 "Bluetooth_~RESET" I R 5000 6100 50 
+F4 "Bluetooth_~RESET" I R 5000 6100 50 
+F5 "Bluetooth_~CTS" O R 5000 6650 50 
+F6 "Bluetooth_~RTS" I R 5000 6550 50 
 $EndSheet
 $Sheet
 S 4000 3200 1000 800 
