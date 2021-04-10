@@ -10,6 +10,11 @@ D Cyclone 10 LP, EQFP 144, with migration
 F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/cyclone-10/c10lp-51003.pdf
 $ENDCMP
 #
+$CMP EMB1061
+D Bluetooth module
+F https://newwezhanhkoss.oss-cn-hongkong.aliyuncs.com/contents/sitefiles3603/18015345/files/22510..pdf?response-content-type=application%2Fpdf
+$ENDCMP
+#
 $CMP MPM54304
 D 4V to 16V Input, Quad-Output Power Module with I2C and MTP in Ultra-Thin Package
 F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPM54304/document_id/4982/

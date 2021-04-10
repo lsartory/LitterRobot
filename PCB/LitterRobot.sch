@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 22
+Sheet 1 23
 Title "Litter Robot 3 - Main board"
-Date "2021-04-05"
+Date "2021-04-10"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -192,6 +192,22 @@ F41 "Weight_ref" O L 6500 3300 50
 F42 "Weight_FSR" O L 6500 3400 50 
 F43 "Hall_sensor_L" I L 6500 5000 50 
 F44 "Hall_sensor_R" I L 6500 5100 50 
+F45 "Bluetooth_TX" O L 6500 5600 50 
+F46 "Bluetooth_RX" I L 6500 5700 50 
+F47 "Bluetooth_CTS" I L 6500 5900 50 
+F48 "Bluetooth_RTS" O L 6500 5800 50 
+F49 "Bluetooth_~RESET" O L 6500 5500 50 
+$EndSheet
+$Sheet
+S 4000 6000 1000 750 
+U 606DAA99
+F0 "Bluetooth" 50
+F1 "Bluetooth.sch" 50
+F2 "Bluetooth_TX" I R 5000 6300 50 
+F3 "Bluetooth_RX" O R 5000 6400 50 
+F4 "Bluetooth_CTS" O R 5000 6650 50 
+F5 "Bluetooth_RTS" I R 5000 6550 50 
+F6 "Bluetooth_~RESET" I R 5000 6100 50 
 $EndSheet
 $Sheet
 S 4000 3200 1000 800 
@@ -462,7 +478,7 @@ DFI_2
 Text Label 3500 1550 2    50   ~ 0
 DFI_1
 Text Notes 1000 7500 0    98   ~ 0
-TODO later:\n- Tray full sensor\n- Pinch sensor (using DFI_1 and DFI_2 for now)\n- Bluetooth (MDBT40?)
+TODO later:\n- Tray full sensor\n- Pinch sensor (using DFI_1 and DFI_2 for now)
 Text Label 1000 4850 0    50   ~ 0
 Dome_LED_P
 Text Label 3500 4750 2    50   ~ 0
@@ -711,4 +727,34 @@ Text Label 10750 5900 2    50   ~ 0
 Dome_LED_N
 Wire Wire Line
 	10000 5800 10750 5800
+Wire Wire Line
+	5000 6100 5550 6100
+Wire Wire Line
+	5550 6100 5550 5500
+Wire Wire Line
+	5550 5500 6500 5500
+Wire Wire Line
+	5000 6300 5650 6300
+Wire Wire Line
+	5650 6300 5650 5600
+Wire Wire Line
+	5650 5600 6500 5600
+Wire Wire Line
+	6500 5700 5750 5700
+Wire Wire Line
+	5750 5700 5750 6400
+Wire Wire Line
+	5750 6400 5000 6400
+Wire Wire Line
+	5000 6550 5850 6550
+Wire Wire Line
+	5850 6550 5850 5800
+Wire Wire Line
+	5850 5800 6500 5800
+Wire Wire Line
+	6500 5900 5950 5900
+Wire Wire Line
+	5950 5900 5950 6650
+Wire Wire Line
+	5950 6650 5000 6650
 $EndSCHEMATC

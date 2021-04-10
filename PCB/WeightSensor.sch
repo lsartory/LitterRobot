@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 22
+Sheet 6 23
 Title "Litter Robot 3 - Weight sensor"
-Date "2021-04-05"
+Date "2021-04-10"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -21,8 +21,8 @@ U 1 1 606BBD2A
 P 5750 4850
 AR Path="/603F1DCE/606BBD2A" Ref="#PWR?"  Part="1" 
 AR Path="/60624089/606BBD2A" Ref="#PWR?"  Part="1" 
-AR Path="/606A580A/606BBD2A" Ref="#PWR070"  Part="1" 
-F 0 "#PWR070" H 5750 4600 50  0001 C CNN
+AR Path="/606A580A/606BBD2A" Ref="#PWR073"  Part="1" 
+F 0 "#PWR073" H 5750 4600 50  0001 C CNN
 F 1 "GND" H 5755 4677 50  0000 C CNN
 F 2 "" H 5750 4850 50  0001 C CNN
 F 3 "" H 5750 4850 50  0001 C CNN

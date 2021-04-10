@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 22
+Sheet 3 23
 Title "Litter Robot 3 - FPGA"
-Date "2021-04-05"
+Date "2021-04-10"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -719,4 +719,14 @@ NoConn ~ 8650 3000
 NoConn ~ 8650 2900
 NoConn ~ 8650 1400
 NoConn ~ 4150 4900
+Text HLabel -1050 5100 2    50   Output ~ 0
+Bluetooth_TX
+Text HLabel -1050 5200 2    50   Input ~ 0
+Bluetooth_RX
+Text HLabel -3050 4300 0    50   Input ~ 0
+Bluetooth_CTS
+Text HLabel -3050 4200 0    50   Output ~ 0
+Bluetooth_RTS
+Text HLabel -3050 3900 0    50   Output ~ 0
+Bluetooth_~RESET
 $EndSCHEMATC
