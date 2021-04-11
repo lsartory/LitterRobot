@@ -1,4 +1,4 @@
-(module PCB_Push_Button_5mm_0.4mm (layer F.Cu) (tedit 6068A80E)
+(module PCB_Push_Button_5mm_0.4mm (layer F.Cu) (tedit 6073502F)
   (attr virtual)
   (fp_text reference REF** (at 0 -3.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -6,8 +6,26 @@
   (fp_text value PCB_Push_Button_5mm_0.4mm (at 0 3.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_poly (pts (xy -0.15 -1.1) (xy 0.15 -1.1) (xy 0.55 -2.1) (xy 0.65 -2.1)
+    (xy 0.2 -1) (xy -0.2 -1) (xy -0.65 -2.1) (xy -0.55 -2.1)) (layer F.Cu) (width 0))
   (fp_circle (center 0 0) (end 1 0) (layer F.Mask) (width 2.6))
-  (fp_circle (center 0 0) (end 2.2 0) (layer F.Cu) (width 0.1))
+  (fp_arc (start 0 0) (end -0.59 -2.07) (angle -328.1823362) (layer F.Cu) (width 0.1))
+  (pad 1 thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
+    (zone_connect 2))
+  (pad 2 smd custom (at 0 -2) (size 0.8 0.8) (layers F.Cu)
+    (zone_connect 2)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_circle (center 0 2) (end 2.3 2) (width 0.4))
+      (gr_poly (pts
+         (xy -0.2 1) (xy 0.2 1) (xy 0.73 -0.3) (xy -0.73 -0.3)) (width 0))
+      (gr_poly (pts
+         (xy 1 1.8) (xy 1 2.2) (xy 2.3 2.73) (xy 2.3 1.27)) (width 0))
+      (gr_poly (pts
+         (xy -0.2 3) (xy 0.2 3) (xy 0.73 4.3) (xy -0.73 4.3)) (width 0))
+      (gr_poly (pts
+         (xy -1 2.2) (xy -1 1.8) (xy -2.3 1.27) (xy -2.3 2.73)) (width 0))
+    ))
   (pad 1 smd custom (at 0 0) (size 0.6 0.6) (layers F.Cu)
     (zone_connect 2)
     (options (clearance outline) (anchor circle))
@@ -28,20 +46,4 @@
          (xy -0.565685 0.848528) (xy -0.848528 0.565685) (xy -1.477853 0.827315) (xy -1.202082 1.202082) (xy -0.827315 1.477853)
 ) (width 0))
     ))
-  (pad 2 smd custom (at 0 -2) (size 0.8 0.8) (layers F.Cu)
-    (zone_connect 2)
-    (options (clearance outline) (anchor circle))
-    (primitives
-      (gr_circle (center 0 2) (end 2.3 2) (width 0.4))
-      (gr_poly (pts
-         (xy -0.2 1) (xy 0.2 1) (xy 0.73 -0.3) (xy -0.73 -0.3)) (width 0))
-      (gr_poly (pts
-         (xy 1 1.8) (xy 1 2.2) (xy 2.3 2.73) (xy 2.3 1.27)) (width 0))
-      (gr_poly (pts
-         (xy -0.2 3) (xy 0.2 3) (xy 0.73 4.3) (xy -0.73 4.3)) (width 0))
-      (gr_poly (pts
-         (xy -1 2.2) (xy -1 1.8) (xy -2.3 1.27) (xy -2.3 2.73)) (width 0))
-    ))
-  (pad 1 thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
-    (zone_connect 2))
 )
