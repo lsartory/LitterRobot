@@ -65,17 +65,17 @@ Text HLabel 9000 4700 2    50   Output ~ 0
 Power_LED_G
 Text HLabel 9000 4600 2    50   Output ~ 0
 Power_LED_R
-Text HLabel 4500 3000 2    50   Output ~ 0
+Text HLabel 4500 4800 2    50   Output ~ 0
 Motor_PWM_2
-Text HLabel 4500 2900 2    50   Output ~ 0
+Text HLabel 4500 4700 2    50   Output ~ 0
 Motor_PWM_1
-Text HLabel 4500 4600 2    50   Output ~ 0
+Text HLabel 9000 1400 2    50   Output ~ 0
 Dome_LED
 Text HLabel 9000 2600 2    50   BiDi ~ 0
 Light_sensor_SDA
-Text HLabel 9000 2700 2    50   Output ~ 0
+Text HLabel 9000 2800 2    50   Output ~ 0
 Light_sensor_SCL
-Text HLabel 9000 2800 2    50   Input ~ 0
+Text HLabel 9000 2700 2    50   Input ~ 0
 Light_sensor_INT
 $Sheet
 S 2500 6000 1000 1000
@@ -506,8 +506,8 @@ Wire Wire Line
 Wire Wire Line
 	8650 4800 9000 4800
 Wire Wire Line
-	4150 4600 4500 4600
-Text HLabel 9000 5100 2    50   BiDi ~ 0
+	8650 1400 9000 1400
+Text HLabel 9000 5200 2    50   BiDi ~ 0
 Extension_1
 Wire Wire Line
 	8650 5100 9000 5100
@@ -515,13 +515,13 @@ Wire Wire Line
 	9000 5200 8650 5200
 Wire Wire Line
 	8650 5300 9000 5300
-Text HLabel 9000 5200 2    50   BiDi ~ 0
+Text HLabel 9000 5400 2    50   BiDi ~ 0
 Extension_2
 Text HLabel 9000 5300 2    50   BiDi ~ 0
 Extension_3
 Wire Wire Line
 	8650 5400 9000 5400
-Text HLabel 9000 5400 2    50   BiDi ~ 0
+Text HLabel 9000 5100 2    50   BiDi ~ 0
 Extension_4
 Wire Wire Line
 	2250 1000 2250 1100
@@ -689,19 +689,15 @@ Wire Wire Line
 	6250 5150 6250 5400
 Wire Wire Line
 	6250 5400 6750 5400
-Text HLabel 4500 4700 2    50   BiDi ~ 0
-DFI_1
 Wire Wire Line
 	4150 4700 4500 4700
 Wire Wire Line
 	4500 4800 4150 4800
-Text HLabel 4500 4800 2    50   BiDi ~ 0
-DFI_2
-Text HLabel 4500 5000 2    50   Output ~ 0
+Text HLabel 4500 5200 2    50   Output ~ 0
 Weight_ref
-Text HLabel 4500 5100 2    50   Output ~ 0
+Text HLabel 4500 5000 2    50   Output ~ 0
 Weight_FSR
-Text HLabel 4500 5200 2    50   3State ~ 0
+Text HLabel 4500 5100 2    50   3State ~ 0
 Weight
 Wire Wire Line
 	4150 5000 4500 5000
@@ -709,18 +705,17 @@ Wire Wire Line
 	4150 5100 4500 5100
 Wire Wire Line
 	4500 5200 4150 5200
-Text HLabel 9000 4900 2    50   Input ~ 0
+Text HLabel 4500 3000 2    50   Input ~ 0
 Hall_sensor_L
 Wire Wire Line
 	8650 4900 9000 4900
-Text HLabel 9000 5000 2    50   Input ~ 0
+Text HLabel 4500 2900 2    50   Input ~ 0
 Hall_sensor_R
 Wire Wire Line
 	8650 5000 9000 5000
 NoConn ~ 8650 3100
 NoConn ~ 8650 3000
 NoConn ~ 8650 2900
-NoConn ~ 8650 1400
 NoConn ~ 4150 4900
 Text HLabel 2000 6600 0    50   Output ~ 0
 Bluetooth_TX
@@ -744,4 +739,9 @@ Wire Wire Line
 	2000 6100 2500 6100
 Wire Wire Line
 	2000 6900 2500 6900
+Text HLabel 9000 5000 2    50   BiDi ~ 0
+DFI_2
+Text HLabel 9000 4900 2    50   BiDi ~ 0
+DFI_1
+NoConn ~ 4150 4600
 $EndSCHEMATC
