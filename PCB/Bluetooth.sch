@@ -21,6 +21,7 @@ F 0 "U4" H 5500 3967 50  0000 C CNN
 F 1 "EMB1061" H 5500 3876 50  0000 C CNN
 F 2 "LitterRobot:MXCHIP_EMB1061" H 5500 3950 50  0001 C CNN
 F 3 "https://newwezhanhkoss.oss-cn-hongkong.aliyuncs.com/contents/sitefiles3603/18015345/files/22510..pdf?response-content-type=application%2Fpdf" H 5500 3950 50  0001 C CNN
+F 4 "113990637" H 5500 3400 50  0001 C CNN "Part_number"
 	1    5500 3400
 	1    0    0    -1  
 $EndComp
