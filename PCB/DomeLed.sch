@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 23
 Title "Litter Robot 3 - Dome LED control"
-Date "2021-04-10"
+Date "2021-05-24"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -105,8 +105,8 @@ AR Path="/603F1F4D/605BE110/60786C03" Ref="R?"  Part="1"
 AR Path="/603F1F4D/605BE115/60786C03" Ref="R?"  Part="1" 
 AR Path="/603F1F4D/605BE11A/60786C03" Ref="R?"  Part="1" 
 AR Path="/603F1F4D/605BE15A/60786C03" Ref="R?"  Part="1" 
-AR Path="/60779D3B/60786C03" Ref="R31"  Part="1" 
-F 0 "R31" H 5570 4696 50  0000 L CNN
+AR Path="/60779D3B/60786C03" Ref="R35"  Part="1" 
+F 0 "R35" H 5570 4696 50  0000 L CNN
 F 1 "178R" H 5570 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 4650 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5500 4650 50  0001 C CNN

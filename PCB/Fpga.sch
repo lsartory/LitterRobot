@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 23
 Title "Litter Robot 3 - FPGA"
-Date "2021-04-10"
+Date "2021-05-24"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""

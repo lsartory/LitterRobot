@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 23
 Title "Litter Robot 3 - Weight sensor"
-Date "2021-04-10"
+Date "2021-05-24"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -51,8 +51,8 @@ P 6500 3700
 AR Path="/603F20AB/606BBD37" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/606BBD37" Ref="R?"  Part="1" 
 AR Path="/60624089/606BBD37" Ref="R?"  Part="1" 
-AR Path="/606A580A/606BBD37" Ref="R22"  Part="1" 
-F 0 "R22" H 6570 3746 50  0000 L CNN
+AR Path="/606A580A/606BBD37" Ref="R26"  Part="1" 
+F 0 "R26" H 6570 3746 50  0000 L CNN
 F 1 "10k" H 6570 3655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 3700 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6500 3700 50  0001 C CNN

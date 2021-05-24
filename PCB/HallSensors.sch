@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 23
 Title "Litter Robot 3 - Hall sensors level shifters"
-Date "2021-04-10"
+Date "2021-05-24"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -78,8 +78,8 @@ P 6250 3750
 AR Path="/603F20AB/606A5BB1" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/606A5BB1" Ref="R?"  Part="1" 
 AR Path="/60624089/606A5BB1" Ref="R?"  Part="1" 
-AR Path="/60690B6B/606A5BB1" Ref="R25"  Part="1" 
-F 0 "R25" H 6320 3796 50  0000 L CNN
+AR Path="/60690B6B/606A5BB1" Ref="R29"  Part="1" 
+F 0 "R29" H 6320 3796 50  0000 L CNN
 F 1 "10k" H 6320 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 3750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6250 3750 50  0001 C CNN
@@ -94,8 +94,8 @@ P 5250 3750
 AR Path="/603F20AB/606A5B75" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/606A5B75" Ref="R?"  Part="1" 
 AR Path="/60624089/606A5B75" Ref="R?"  Part="1" 
-AR Path="/60690B6B/606A5B75" Ref="R24"  Part="1" 
-F 0 "R24" H 5320 3796 50  0000 L CNN
+AR Path="/60690B6B/606A5B75" Ref="R28"  Part="1" 
+F 0 "R28" H 5320 3796 50  0000 L CNN
 F 1 "10k" H 5320 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5180 3750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5250 3750 50  0001 C CNN
@@ -112,8 +112,8 @@ P 6250 5250
 AR Path="/603F20AB/606AB6EA" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/606AB6EA" Ref="R?"  Part="1" 
 AR Path="/60624089/606AB6EA" Ref="R?"  Part="1" 
-AR Path="/60690B6B/606AB6EA" Ref="R27"  Part="1" 
-F 0 "R27" H 6320 5296 50  0000 L CNN
+AR Path="/60690B6B/606AB6EA" Ref="R31"  Part="1" 
+F 0 "R31" H 6320 5296 50  0000 L CNN
 F 1 "10k" H 6320 5205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 5250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6250 5250 50  0001 C CNN
@@ -130,8 +130,8 @@ P 5250 5250
 AR Path="/603F20AB/606AB6E3" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/606AB6E3" Ref="R?"  Part="1" 
 AR Path="/60624089/606AB6E3" Ref="R?"  Part="1" 
-AR Path="/60690B6B/606AB6E3" Ref="R26"  Part="1" 
-F 0 "R26" H 5320 5296 50  0000 L CNN
+AR Path="/60690B6B/606AB6E3" Ref="R30"  Part="1" 
+F 0 "R30" H 5320 5296 50  0000 L CNN
 F 1 "10k" H 5320 5205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5180 5250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5250 5250 50  0001 C CNN

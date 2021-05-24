@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 23
 Title "Litter Robot 3 - FPGA configuration"
-Date "2021-04-10"
+Date "2021-05-24"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -287,8 +287,8 @@ P 4750 1750
 AR Path="/603F20AB/6061CF64" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/6061CF64" Ref="R?"  Part="1" 
 AR Path="/60624089/6061CF64" Ref="R?"  Part="1" 
-AR Path="/603F1F4D/60647CC2/6061CF64" Ref="R16"  Part="1" 
-F 0 "R16" H 4820 1796 50  0000 L CNN
+AR Path="/603F1F4D/60647CC2/6061CF64" Ref="R20"  Part="1" 
+F 0 "R20" H 4820 1796 50  0000 L CNN
 F 1 "10k" H 4820 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 1750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4750 1750 50  0001 C CNN
@@ -345,8 +345,8 @@ P 8500 2750
 AR Path="/603F20AB/60629280" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/60629280" Ref="R?"  Part="1" 
 AR Path="/60624089/60629280" Ref="R?"  Part="1" 
-AR Path="/603F1F4D/60647CC2/60629280" Ref="R19"  Part="1" 
-F 0 "R19" H 8570 2796 50  0000 L CNN
+AR Path="/603F1F4D/60647CC2/60629280" Ref="R23"  Part="1" 
+F 0 "R23" H 8570 2796 50  0000 L CNN
 F 1 "1k" H 8570 2705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8430 2750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 8500 2750 50  0001 C CNN
@@ -361,8 +361,8 @@ P 7500 1750
 AR Path="/603F20AB/60629C28" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/60629C28" Ref="R?"  Part="1" 
 AR Path="/60624089/60629C28" Ref="R?"  Part="1" 
-AR Path="/603F1F4D/60647CC2/60629C28" Ref="R17"  Part="1" 
-F 0 "R17" H 7570 1796 50  0000 L CNN
+AR Path="/603F1F4D/60647CC2/60629C28" Ref="R21"  Part="1" 
+F 0 "R21" H 7570 1796 50  0000 L CNN
 F 1 "10k" H 7570 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7430 1750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 7500 1750 50  0001 C CNN
@@ -377,8 +377,8 @@ P 8000 1750
 AR Path="/603F20AB/6062A70D" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/6062A70D" Ref="R?"  Part="1" 
 AR Path="/60624089/6062A70D" Ref="R?"  Part="1" 
-AR Path="/603F1F4D/60647CC2/6062A70D" Ref="R18"  Part="1" 
-F 0 "R18" H 8070 1796 50  0000 L CNN
+AR Path="/603F1F4D/60647CC2/6062A70D" Ref="R22"  Part="1" 
+F 0 "R22" H 8070 1796 50  0000 L CNN
 F 1 "10k" H 8070 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7930 1750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 8000 1750 50  0001 C CNN
@@ -459,8 +459,8 @@ P 4500 3750
 AR Path="/603F20AB/606388B5" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/606388B5" Ref="R?"  Part="1" 
 AR Path="/60624089/606388B5" Ref="R?"  Part="1" 
-AR Path="/603F1F4D/60647CC2/606388B5" Ref="R20"  Part="1" 
-F 0 "R20" H 4570 3796 50  0000 L CNN
+AR Path="/603F1F4D/60647CC2/606388B5" Ref="R24"  Part="1" 
+F 0 "R24" H 4570 3796 50  0000 L CNN
 F 1 "10k" H 4570 3705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 3750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4500 3750 50  0001 C CNN
@@ -601,10 +601,10 @@ ASDO
 Text Label 3500 4300 2    50   ~ 0
 DATA0
 $Comp
-L Device:R R21
+L Device:R R25
 U 1 1 6066CAE2
 P 3000 4300
-F 0 "R21" V 2793 4300 50  0000 C CNN
+F 0 "R25" V 2793 4300 50  0000 C CNN
 F 1 "24.9" V 2884 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 4300 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 3000 4300 50  0001 C CNN
@@ -628,8 +628,8 @@ P 4250 1750
 AR Path="/603F20AB/6069D386" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/6069D386" Ref="R?"  Part="1" 
 AR Path="/60624089/6069D386" Ref="R?"  Part="1" 
-AR Path="/603F1F4D/60647CC2/6069D386" Ref="R15"  Part="1" 
-F 0 "R15" H 4320 1796 50  0000 L CNN
+AR Path="/603F1F4D/60647CC2/6069D386" Ref="R19"  Part="1" 
+F 0 "R19" H 4320 1796 50  0000 L CNN
 F 1 "10k" H 4320 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4180 1750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4250 1750 50  0001 C CNN

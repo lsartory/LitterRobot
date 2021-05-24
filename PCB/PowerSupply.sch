@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 23
 Title "Litter Robot 3 - Power supply"
-Date "2021-04-10"
+Date "2021-05-24"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -101,9 +101,9 @@ L Device:R R?
 U 1 1 604A32A1
 P 4400 3150
 AR Path="/603F20AB/604A32A1" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604A32A1" Ref="R7"  Part="1" 
+AR Path="/603F1DCE/604A32A1" Ref="R9"  Part="1" 
 AR Path="/60624089/604A32A1" Ref="R?"  Part="1" 
-F 0 "R7" H 4470 3196 50  0000 L CNN
+F 0 "R9" H 4470 3196 50  0000 L CNN
 F 1 "10k" H 4470 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 3150 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4400 3150 50  0001 C CNN
@@ -116,9 +116,9 @@ L Device:R R?
 U 1 1 604A3347
 P 3900 3150
 AR Path="/603F20AB/604A3347" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604A3347" Ref="R6"  Part="1" 
+AR Path="/603F1DCE/604A3347" Ref="R8"  Part="1" 
 AR Path="/60624089/604A3347" Ref="R?"  Part="1" 
-F 0 "R6" H 3970 3196 50  0000 L CNN
+F 0 "R8" H 3970 3196 50  0000 L CNN
 F 1 "10k" H 3970 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 3150 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 3900 3150 50  0001 C CNN
@@ -161,9 +161,9 @@ L Device:R R?
 U 1 1 604A40DF
 P 4400 4650
 AR Path="/603F20AB/604A40DF" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604A40DF" Ref="R11"  Part="1" 
+AR Path="/603F1DCE/604A40DF" Ref="R14"  Part="1" 
 AR Path="/60624089/604A40DF" Ref="R?"  Part="1" 
-F 0 "R11" H 4470 4696 50  0000 L CNN
+F 0 "R14" H 4470 4696 50  0000 L CNN
 F 1 "10k" H 4470 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 4650 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4400 4650 50  0001 C CNN
@@ -176,9 +176,9 @@ L Device:R R?
 U 1 1 604A4902
 P 4400 5150
 AR Path="/603F20AB/604A4902" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604A4902" Ref="R13"  Part="1" 
+AR Path="/603F1DCE/604A4902" Ref="R17"  Part="1" 
 AR Path="/60624089/604A4902" Ref="R?"  Part="1" 
-F 0 "R13" H 4470 5196 50  0000 L CNN
+F 0 "R17" H 4470 5196 50  0000 L CNN
 F 1 "3.3k" H 4470 5105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 5150 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 4400 5150 50  0001 C CNN
@@ -292,7 +292,7 @@ $EndComp
 Wire Wire Line
 	7900 1500 7900 1600
 Wire Wire Line
-	7900 1600 7400 1600
+	7900 1600 7800 1600
 Wire Wire Line
 	7900 2600 7900 2700
 Wire Wire Line
@@ -304,9 +304,9 @@ L Device:R R?
 U 1 1 604B4786
 P 6900 1800
 AR Path="/603F20AB/604B4786" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604B4786" Ref="R3"  Part="1" 
+AR Path="/603F1DCE/604B4786" Ref="R4"  Part="1" 
 AR Path="/60624089/604B4786" Ref="R?"  Part="1" 
-F 0 "R3" H 6970 1846 50  0000 L CNN
+F 0 "R4" H 6970 1846 50  0000 L CNN
 F 1 "20k" H 6970 1755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 1800 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 1800 50  0001 C CNN
@@ -319,9 +319,9 @@ L Device:R R?
 U 1 1 604B542F
 P 6900 2200
 AR Path="/603F20AB/604B542F" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604B542F" Ref="R4"  Part="1" 
+AR Path="/603F1DCE/604B542F" Ref="R5"  Part="1" 
 AR Path="/60624089/604B542F" Ref="R?"  Part="1" 
-F 0 "R4" H 6970 2246 50  0000 L CNN
+F 0 "R5" H 6970 2246 50  0000 L CNN
 F 1 "1.87k" H 6970 2155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 2200 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 2200 50  0001 C CNN
@@ -391,15 +391,15 @@ Wire Wire Line
 Wire Wire Line
 	6900 2400 7400 2400
 Wire Wire Line
-	7900 2700 7400 2700
+	7900 2700 7800 2700
 $Comp
 L Device:R R?
 U 1 1 604CD95C
 P 6900 2900
 AR Path="/603F20AB/604CD95C" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604CD95C" Ref="R5"  Part="1" 
+AR Path="/603F1DCE/604CD95C" Ref="R7"  Part="1" 
 AR Path="/60624089/604CD95C" Ref="R?"  Part="1" 
-F 0 "R5" H 6970 2946 50  0000 L CNN
+F 0 "R7" H 6970 2946 50  0000 L CNN
 F 1 "11.5k" H 6970 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 2900 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 2900 50  0001 C CNN
@@ -412,9 +412,9 @@ L Device:R R?
 U 1 1 604CD963
 P 6900 3300
 AR Path="/603F20AB/604CD963" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604CD963" Ref="R8"  Part="1" 
+AR Path="/603F1DCE/604CD963" Ref="R10"  Part="1" 
 AR Path="/60624089/604CD963" Ref="R?"  Part="1" 
-F 0 "R8" H 6970 3346 50  0000 L CNN
+F 0 "R10" H 6970 3346 50  0000 L CNN
 F 1 "2.55k" H 6970 3255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 3300 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 3300 50  0001 C CNN
@@ -478,15 +478,15 @@ Wire Wire Line
 Wire Wire Line
 	6900 3500 7400 3500
 Wire Wire Line
-	7900 3800 7400 3800
+	7900 3800 7800 3800
 $Comp
 L Device:R R?
 U 1 1 604D12FF
 P 6900 4000
 AR Path="/603F20AB/604D12FF" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604D12FF" Ref="R9"  Part="1" 
+AR Path="/603F1DCE/604D12FF" Ref="R12"  Part="1" 
 AR Path="/60624089/604D12FF" Ref="R?"  Part="1" 
-F 0 "R9" H 6970 4046 50  0000 L CNN
+F 0 "R12" H 6970 4046 50  0000 L CNN
 F 1 "9.31k" H 6970 3955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 4000 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 4000 50  0001 C CNN
@@ -499,9 +499,9 @@ L Device:R R?
 U 1 1 604D1306
 P 6900 4400
 AR Path="/603F20AB/604D1306" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604D1306" Ref="R10"  Part="1" 
+AR Path="/603F1DCE/604D1306" Ref="R13"  Part="1" 
 AR Path="/60624089/604D1306" Ref="R?"  Part="1" 
-F 0 "R10" H 6970 4446 50  0000 L CNN
+F 0 "R13" H 6970 4446 50  0000 L CNN
 F 1 "2.94k" H 6970 4355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 4400 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 4400 50  0001 C CNN
@@ -567,7 +567,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 4600 7400 4600
 Wire Wire Line
-	7900 4900 7400 4900
+	7900 4900 7800 4900
 $Comp
 L power:GND #PWR026
 U 1 1 604D31B7
@@ -662,9 +662,9 @@ L Device:R R?
 U 1 1 604FA5AF
 P 6900 5100
 AR Path="/603F20AB/604FA5AF" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604FA5AF" Ref="R12"  Part="1" 
+AR Path="/603F1DCE/604FA5AF" Ref="R16"  Part="1" 
 AR Path="/60624089/604FA5AF" Ref="R?"  Part="1" 
-F 0 "R12" H 6970 5146 50  0000 L CNN
+F 0 "R16" H 6970 5146 50  0000 L CNN
 F 1 "3.3k" H 6970 5055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 5100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 5100 50  0001 C CNN
@@ -677,9 +677,9 @@ L Device:R R?
 U 1 1 604FB145
 P 6900 5500
 AR Path="/603F20AB/604FB145" Ref="R?"  Part="1" 
-AR Path="/603F1DCE/604FB145" Ref="R14"  Part="1" 
+AR Path="/603F1DCE/604FB145" Ref="R18"  Part="1" 
 AR Path="/60624089/604FB145" Ref="R?"  Part="1" 
-F 0 "R14" H 6970 5546 50  0000 L CNN
+F 0 "R18" H 6970 5546 50  0000 L CNN
 F 1 "3.3k" H 6970 5455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 5500 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6900 5500 50  0001 C CNN
@@ -812,4 +812,60 @@ F 4 "VS-2EYH02HM3/H" H 2000 4500 50  0001 C CNN "Part_number"
 $EndComp
 Wire Wire Line
 	1850 4500 1500 4500
+$Comp
+L Device:R R3
+U 1 1 60AC8553
+P 7650 1600
+F 0 "R3" V 7443 1600 50  0000 C CNN
+F 1 "0R" V 7534 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 1600 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 7650 1600 50  0001 C CNN
+F 4 "CR0603-J/-000ELF" V 7650 1600 50  0001 C CNN "Part_number"
+	1    7650 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 1600 7400 1600
+$Comp
+L Device:R R6
+U 1 1 60ACB707
+P 7650 2700
+F 0 "R6" V 7443 2700 50  0000 C CNN
+F 1 "0R" V 7534 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 2700 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 7650 2700 50  0001 C CNN
+F 4 "CR0603-J/-000ELF" V 7650 2700 50  0001 C CNN "Part_number"
+	1    7650 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 2700 7400 2700
+$Comp
+L Device:R R11
+U 1 1 60ACBB92
+P 7650 3800
+F 0 "R11" V 7443 3800 50  0000 C CNN
+F 1 "0R" V 7534 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 3800 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 7650 3800 50  0001 C CNN
+F 4 "CR0603-J/-000ELF" V 7650 3800 50  0001 C CNN "Part_number"
+	1    7650 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 3800 7400 3800
+$Comp
+L Device:R R15
+U 1 1 60ACBF59
+P 7650 4900
+F 0 "R15" V 7443 4900 50  0000 C CNN
+F 1 "0R" V 7534 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 4900 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 7650 4900 50  0001 C CNN
+F 4 "CR0603-J/-000ELF" V 7650 4900 50  0001 C CNN "Part_number"
+	1    7650 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 4900 7400 4900
 $EndSCHEMATC

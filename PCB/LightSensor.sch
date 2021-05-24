@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 23
 Title "Litter Robot 3 - Ambient light sensor"
-Date "2021-04-10"
+Date "2021-05-24"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -59,8 +59,8 @@ U 1 1 60632EF7
 P 6000 3250
 AR Path="/603F20AB/60632EF7" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/60632EF7" Ref="R?"  Part="1" 
-AR Path="/60624089/60632EF7" Ref="R28"  Part="1" 
-F 0 "R28" H 6070 3296 50  0000 L CNN
+AR Path="/60624089/60632EF7" Ref="R32"  Part="1" 
+F 0 "R32" H 6070 3296 50  0000 L CNN
 F 1 "3.3k" H 6070 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 3250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6000 3250 50  0001 C CNN
@@ -74,8 +74,8 @@ U 1 1 60632F30
 P 6500 3250
 AR Path="/603F20AB/60632F30" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/60632F30" Ref="R?"  Part="1" 
-AR Path="/60624089/60632F30" Ref="R29"  Part="1" 
-F 0 "R29" H 6570 3296 50  0000 L CNN
+AR Path="/60624089/60632F30" Ref="R33"  Part="1" 
+F 0 "R33" H 6570 3296 50  0000 L CNN
 F 1 "3.3k" H 6570 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 3250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6500 3250 50  0001 C CNN
@@ -89,8 +89,8 @@ U 1 1 60633461
 P 7000 3250
 AR Path="/603F20AB/60633461" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/60633461" Ref="R?"  Part="1" 
-AR Path="/60624089/60633461" Ref="R30"  Part="1" 
-F 0 "R30" H 7070 3296 50  0000 L CNN
+AR Path="/60624089/60633461" Ref="R34"  Part="1" 
+F 0 "R34" H 7070 3296 50  0000 L CNN
 F 1 "3.3k" H 7070 3205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 3250 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 7000 3250 50  0001 C CNN

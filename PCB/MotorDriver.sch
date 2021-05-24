@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 23
 Title "Litter Robot 3 - Motor driver"
-Date "2021-04-10"
+Date "2021-05-24"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -156,10 +156,10 @@ Wire Wire Line
 Wire Wire Line
 	6000 4400 6000 4500
 $Comp
-L Device:R R23
+L Device:R R27
 U 1 1 604667F9
 P 6000 4650
-F 0 "R23" H 6070 4696 50  0000 L CNN
+F 0 "R27" H 6070 4696 50  0000 L CNN
 F 1 "28k" H 6070 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 4650 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 6000 4650 50  0001 C CNN

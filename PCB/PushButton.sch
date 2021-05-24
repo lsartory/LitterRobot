@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 15 23
 Title "Litter Robot 3 - Push button (single)"
-Date "2021-04-10"
+Date "2021-05-24"
 Rev "A1"
 Comp "L. Sartory"
 Comment1 ""
@@ -20,12 +20,12 @@ P 5000 3000
 AR Path="/603F20AB/604D6269" Ref="R?"  Part="1" 
 AR Path="/603F1DCE/604D6269" Ref="R?"  Part="1" 
 AR Path="/603E03AA/603C05C6/604D6269" Ref="R?"  Part="1" 
-AR Path="/603E03AA/603C0699/604D6269" Ref="R34"  Part="1" 
+AR Path="/603E03AA/603C0699/604D6269" Ref="R38"  Part="1" 
 AR Path="/603E03AA/603C06CF/604D6269" Ref="R?"  Part="1" 
-AR Path="/603E03AA/603C09F0/604D6269" Ref="R32"  Part="1" 
+AR Path="/603E03AA/603C09F0/604D6269" Ref="R36"  Part="1" 
 AR Path="/603F1F4D/605BE11D/604D6269" Ref="R?"  Part="1" 
 AR Path="/603F1F4D/605BE120/604D6269" Ref="R?"  Part="1" 
-F 0 "R34" H 5070 3046 50  0000 L CNN
+F 0 "R38" H 5070 3046 50  0000 L CNN
 F 1 "10k" H 5070 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 3000 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5000 3000 50  0001 C CNN
