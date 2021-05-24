@@ -110,7 +110,7 @@ F 0 "R31" H 5570 4696 50  0000 L CNN
 F 1 "178R" H 5570 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 4650 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5500 4650 50  0001 C CNN
-F 4 "CR0603-FX-1780ELF" H 5500 4650 50  0001 C CNN "Part_number"
+F 4 "CR0603-FX-1780ELF" H 5500 4650 50  0001 C CNN "Part_number"
 	1    5500 4650
 	1    0    0    -1  
 $EndComp
