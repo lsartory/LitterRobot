@@ -19,52 +19,46 @@ Text HLabel 4500 1300 2    50   Input ~ 0
 Empty_button
 Text HLabel 4500 1400 2    50   Input ~ 0
 Reset_button
-Text HLabel 9000 3200 2    50   Output ~ 0
-Cycle_LED_R
-Text HLabel 9000 3300 2    50   Output ~ 0
-Cycle_LED_G
-Text HLabel 9000 3400 2    50   Output ~ 0
-Cycle_LED_B
-Text HLabel 9000 1500 2    50   Output ~ 0
-Empty_LED_R
-Text HLabel 9000 1600 2    50   Output ~ 0
-Empty_LED_G
-Text HLabel 9000 1700 2    50   Output ~ 0
-Empty_LED_B
-Text HLabel 9000 1100 2    50   Output ~ 0
-Reset_LED_R
-Text HLabel 9000 1200 2    50   Output ~ 0
-Reset_LED_G
-Text HLabel 9000 1300 2    50   Output ~ 0
-Reset_LED_B
-Text HLabel 4500 5300 2    50   Output ~ 0
-Left_LED_R
-Text HLabel 4500 5400 2    50   Output ~ 0
-Left_LED_G
-Text HLabel 4500 5500 2    50   Output ~ 0
-Left_LED_B
-Text HLabel 4500 3100 2    50   Output ~ 0
-Center_LED_R
-Text HLabel 4500 3200 2    50   Output ~ 0
-Center_LED_G
-Text HLabel 4500 3300 2    50   Output ~ 0
-Center_LED_B
 Text HLabel 4500 2600 2    50   Output ~ 0
-Right_LED_R
-Text HLabel 4500 2700 2    50   Output ~ 0
-Right_LED_G
+Cycle_LED_R
 Text HLabel 4500 2800 2    50   Output ~ 0
+Cycle_LED_G
+Text HLabel 4500 2700 2    50   Output ~ 0
+Cycle_LED_B
+Text HLabel 4500 3200 2    50   Output ~ 0
+Empty_LED_R
+Text HLabel 4500 3300 2    50   Output ~ 0
+Empty_LED_G
+Text HLabel 4500 3100 2    50   Output ~ 0
+Empty_LED_B
+Text HLabel 9000 3200 2    50   Output ~ 0
+Reset_LED_G
+Text HLabel 9000 3400 2    50   Output ~ 0
+Reset_LED_B
+Text HLabel 9000 4700 2    50   Output ~ 0
+Left_LED_R
+Text HLabel 9000 4600 2    50   Output ~ 0
+Left_LED_G
+Text HLabel 9000 4800 2    50   Output ~ 0
+Left_LED_B
+Text HLabel 9000 1700 2    50   Output ~ 0
+Center_LED_R
+Text HLabel 9000 1600 2    50   Output ~ 0
+Center_LED_G
+Text HLabel 9000 1500 2    50   Output ~ 0
+Center_LED_B
+Text HLabel 4500 5300 2    50   Output ~ 0
+Right_LED_G
+Text HLabel 9000 1300 2    50   Output ~ 0
 Right_LED_B
 Text HLabel 4500 1100 2    50   Input ~ 0
 Power_button
 Text HLabel 2000 6100 0    50   Input ~ 0
 Power_good
-Text HLabel 9000 4800 2    50   Output ~ 0
+Text HLabel 4500 5400 2    50   Output ~ 0
 Power_LED_B
-Text HLabel 9000 4700 2    50   Output ~ 0
+Text HLabel 4500 5500 2    50   Output ~ 0
 Power_LED_G
-Text HLabel 9000 4600 2    50   Output ~ 0
-Power_LED_R
 Text HLabel 4500 4800 2    50   Output ~ 0
 Motor_PWM_2
 Text HLabel 4500 4700 2    50   Output ~ 0
@@ -744,4 +738,10 @@ DFI_2
 Text HLabel 9000 4900 2    50   BiDi ~ 0
 DFI_1
 NoConn ~ 4150 4600
+Text HLabel 9000 1100 2    50   Output ~ 0
+Power_LED_R
+Text HLabel 9000 3300 2    50   Output ~ 0
+Reset_LED_R
+Text HLabel 9000 1200 2    50   Output ~ 0
+Right_LED_R
 $EndSCHEMATC
