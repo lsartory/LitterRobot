@@ -36,9 +36,59 @@ set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
 set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
 set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
 
-set_global_assignment -name CRC_ERROR_CHECKING ON
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name CRC_ERROR_CHECKING OFF
 set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
-set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 8
+
+set_location_assignment PIN_22 -to CLK_20MHz
+set_location_assignment PIN_98 -to BLUETOOTH_RESETn
+set_location_assignment PIN_99 -to BLUETOOTH_TX
+set_location_assignment PIN_103 -to BLUETOOTH_RX
+set_location_assignment PIN_100 -to BLUETOOTH_RTSn
+set_location_assignment PIN_101 -to BLUETOOTH_CTSn
+set_location_assignment PIN_67 -to WEIGHT
+set_location_assignment PIN_68 -to WEIGHT_REF
+set_location_assignment PIN_66 -to WEIGHT_FSR
+set_location_assignment PIN_59 -to MOTOR_PWM_1
+set_location_assignment PIN_60 -to MOTOR_PWM_2
+set_location_assignment PIN_46 -to HALL_SENSOR_L
+set_location_assignment PIN_44 -to HALL_SENSOR_R
+set_location_assignment PIN_111 -to LIGHT_SENSOR_SDA
+set_location_assignment PIN_113 -to LIGHT_SENSOR_SCL
+set_location_assignment PIN_112 -to LIGHT_SENSOR_INT
+set_location_assignment PIN_83 -to DOME_LED
+set_location_assignment PIN_28 -to POWER_BUTTON
+set_location_assignment PIN_31 -to CYCLE_BUTTON
+set_location_assignment PIN_32 -to EMPTY_BUTTON
+set_location_assignment PIN_33 -to RESET_BUTTON
+set_location_assignment PIN_76 -to POWER_LED_R
+set_location_assignment PIN_72 -to POWER_LED_G
+set_location_assignment PIN_71 -to POWER_LED_B
+set_location_assignment PIN_39 -to CYCLE_LED_R
+set_location_assignment PIN_43 -to CYCLE_LED_G
+set_location_assignment PIN_42 -to CYCLE_LED_B
+set_location_assignment PIN_50 -to EMPTY_LED_R
+set_location_assignment PIN_51 -to EMPTY_LED_G
+set_location_assignment PIN_49 -to EMPTY_LED_B
+set_location_assignment PIN_121 -to RESET_LED_R
+set_location_assignment PIN_120 -to RESET_LED_G
+set_location_assignment PIN_125 -to RESET_LED_B
+set_location_assignment PIN_133 -to LEFT_LED_R
+set_location_assignment PIN_132 -to LEFT_LED_G
+set_location_assignment PIN_135 -to LEFT_LED_B
+set_location_assignment PIN_87 -to CENTER_LED_R
+set_location_assignment PIN_86 -to CENTER_LED_G
+set_location_assignment PIN_85 -to CENTER_LED_B
+set_location_assignment PIN_77 -to RIGHT_LED_R
+set_location_assignment PIN_69 -to RIGHT_LED_G
+set_location_assignment PIN_80 -to RIGHT_LED_B
+
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to BLUETOOTH_*
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to WEIGHT*
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to MOTOR_PWM_*
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to LIGHT_SENSOR_*
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DOME_LED
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to *_LED_*
 
 set_global_assignment -name SDC_FILE LitterRobot.sdc
 set_global_assignment -name VHDL_FILE LitterRobot.vhd
