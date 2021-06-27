@@ -1,3 +1,11 @@
+---- PulseDensityModulator.vhd
+ --
+ -- Author: L. Sartory
+ -- Creation: 2021-06-23
+----
+
+--------------------------------------------------
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -7,7 +15,7 @@ use ieee.numeric_std.all;
 entity PulseDensityModulator is
 	port (
 		CLK    : in  std_logic;
-		CLRn   : in  std_logic := '0';
+		CLRn   : in  std_logic := '1';
 		ENA    : in  std_logic := '1';
 
 		INPUT  : in  unsigned;

@@ -91,7 +91,10 @@ set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DOME_LE
 set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to *_LED_*
 
 set_global_assignment -name SDC_FILE LitterRobot.sdc
+set_global_assignment -name VHDL_FILE ClockScaler.vhd
+set_global_assignment -name VHDL_FILE LedController.vhd
 set_global_assignment -name VHDL_FILE LitterRobot.vhd
+set_global_assignment -name VHDL_FILE PulseDensityModulator.vhd
 
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
