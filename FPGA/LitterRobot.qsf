@@ -8,6 +8,7 @@ set_global_assignment -name SAVE_DISK_SPACE OFF
 set_global_assignment -name SMART_RECOMPILE ON
 set_global_assignment -name TIMING_ANALYZER_MULTICORNER_ANALYSIS ON
 set_global_assignment -name FLOW_ENABLE_IO_ASSIGNMENT_ANALYSIS ON
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 4
 
 set_global_assignment -name FAMILY "Cyclone 10 LP"
 set_global_assignment -name DEVICE 10CL016YE144C8G
@@ -93,6 +94,7 @@ set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to *_LED_*
 set_global_assignment -name SDC_FILE LitterRobot.sdc
 set_global_assignment -name VHDL_FILE ClockScaler.vhd
 set_global_assignment -name VHDL_FILE LedController.vhd
+set_global_assignment -name VHDL_FILE LedModulator.vhd
 set_global_assignment -name VHDL_FILE LitterRobot.vhd
 set_global_assignment -name VHDL_FILE PulseDensityModulator.vhd
 
