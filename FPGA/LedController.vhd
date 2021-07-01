@@ -19,6 +19,8 @@ entity LedController is
 		CLRn             : in  std_logic := '1';
 		PULSE_100kHz     : in  std_logic;
 
+		LOAD             : in  unsigned;
+
 		POWER_BUTTON     : in std_logic;
 		CYCLE_BUTTON     : in std_logic;
 		EMPTY_BUTTON     : in std_logic;
@@ -45,7 +47,7 @@ begin
 		variable triangle : ramp_t(2 downto 0) := (others => (others => '0'));
 	begin
 		if rising_edge(CLK) then
-			-- TODO: default colors
+			-- Default colors
 			POWER_LED_COLOR  <= (x"1000", x"1000", x"1000");
 			CYCLE_LED_COLOR  <= (x"0000", x"1000", x"0000");
 			EMPTY_LED_COLOR  <= (x"1000", x"0000", x"0000");
@@ -54,6 +56,7 @@ begin
 			CENTER_LED_COLOR <= (x"0000", x"0000", x"1000");
 			RIGHT_LED_COLOR  <= (x"0000", x"0000", x"1000");
 
+			-- Generate a simple triangular wave
 			if pulse_100kHz = '1' then
 				for i in sawtooth'low to sawtooth'high loop
 					sawtooth(i) := sawtooth(i) + 1;
@@ -64,10 +67,31 @@ begin
 					end if;
 				end loop;
 			end if;
-			LEFT_LED_COLOR.G   <= "000" & triangle(0)(19 downto 7);
-			CENTER_LED_COLOR.G <= "000" & triangle(1)(19 downto 7);
-			RIGHT_LED_COLOR.G  <= "000" & triangle(2)(19 downto 7);
 
+			-- Display the measured weight on the bottom LEDs
+			case to_integer(LOAD) is
+				when 0 =>
+					LEFT_LED_COLOR   <= (x"0000", "000" & triangle(0)(19 downto 7), x"1000");
+					CENTER_LED_COLOR <= (x"0000", "000" & triangle(1)(19 downto 7), x"1000");
+					RIGHT_LED_COLOR  <= (x"0000", "000" & triangle(2)(19 downto 7), x"1000");
+
+				when 1 =>
+					LEFT_LED_COLOR   <= (x"0000", x"1000", x"0000");
+					CENTER_LED_COLOR <= (x"0000", x"0000", x"0000");
+					RIGHT_LED_COLOR  <= (x"0000", x"0000", x"0000");
+
+				when 2 =>
+					LEFT_LED_COLOR   <= (x"1000", x"0600", x"0000");
+					CENTER_LED_COLOR <= (x"1000", x"0600", x"0000");
+					RIGHT_LED_COLOR  <= (x"0000", x"0000", x"0000");
+
+				when others =>
+					LEFT_LED_COLOR   <= (x"1000", x"0000", x"0000");
+					CENTER_LED_COLOR <= (x"1000", x"0000", x"0000");
+					RIGHT_LED_COLOR  <= (x"1000", x"0000", x"0000");
+			end case;
+
+			-- Change the button LED brightness when the button is pressed
 			if POWER_BUTTON = '0' then
 				POWER_LED_COLOR <= (x"4000", x"4000", x"4000");
 			end if;

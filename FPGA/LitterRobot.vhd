@@ -82,6 +82,9 @@ architecture LitterRobot_arch of LitterRobot is
 	constant clrn : std_logic := '1';
 	signal pulse_100kHz : std_logic;
 
+	-- Load measurement
+	signal load : unsigned(1 downto 0);
+
 	-- LED colors
 	signal power_led_color  : color_t;
 	signal cycle_led_color  : color_t;
@@ -104,12 +107,27 @@ begin
 			OUTPUT_PULSE => pulse_100kHz
 		);
 
+	-- Weight / load measurement
+	ws: entity work.WeightSensor
+		port map (
+			CLK        => CLK_20MHz,
+			CLRn       => CLRn,
+
+			WEIGHT     => WEIGHT,
+			WEIGHT_REF => WEIGHT_REF,
+			WEIGHT_FSR => WEIGHT_FSR,
+
+			LOAD       => load
+		);
+
 	-- LED color controller
 	lc: entity work.LedController
 		port map (
 			CLK              => CLK_20MHz,
 			CLRn             => clrn,
 			PULSE_100kHz     => pulse_100kHz,
+
+			LOAD             => load,
 
 			POWER_BUTTON     => POWER_BUTTON,
 			CYCLE_BUTTON     => CYCLE_BUTTON,

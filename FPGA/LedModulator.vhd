@@ -37,6 +37,7 @@ entity LedModulator is
 		ENA    : in  std_logic := '1';
 
 		COLOR  : in  color_t := (x"FFFF", x"FFFF", x"FFFF");
+
 		LED_R  : out std_logic;
 		LED_G  : out std_logic;
 		LED_B  : out std_logic
