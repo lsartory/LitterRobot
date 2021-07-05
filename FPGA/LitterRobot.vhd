@@ -27,11 +27,12 @@ entity LitterRobot is
 		WEIGHT_REF       : out   std_logic := 'Z';
 		WEIGHT_FSR       : out   std_logic := 'Z';
 
-		MOTOR_PWM_1      : out   std_logic := '0';
-		MOTOR_PWM_2      : out   std_logic := '0';
+		MOTOR_PWM        : out   std_logic_vector(2 downto 1) := "00";
 
 		HALL_SENSOR_L    : in    std_logic;
 		HALL_SENSOR_R    : in    std_logic;
+
+		DFI              : inout std_logic_vector(2 downto 1) := "ZZ";
 
 		LIGHT_SENSOR_SDA : inout std_logic := 'Z';
 		LIGHT_SENSOR_SCL : out   std_logic := '0';
@@ -78,12 +79,13 @@ end entity LitterRobot;
 
 architecture LitterRobot_arch of LitterRobot is
 	-- Timing signals
-	-- TODO: long press the reset button to generate CLRn
+	-- TODO: long press the reset button to generate CLRn?
 	constant clrn : std_logic := '1';
 	signal pulse_100kHz : std_logic;
 
 	-- Load measurement
-	signal load : unsigned(1 downto 0);
+	signal load  : unsigned(1 downto 0);
+	signal pinch : std_logic;
 
 	-- LED colors
 	signal power_led_color  : color_t;
@@ -120,6 +122,18 @@ begin
 			LOAD       => load
 		);
 
+	-- Pinch detection
+	ps: entity work.PinchSensor
+		port map (
+			CLK           => CLK_20MHz,
+			CLRn          => CLRn,
+			PULSE_100kHz  => pulse_100kHz,
+
+			DFI           => DFI,
+
+			PINCH         => pinch
+		);
+
 	-- LED color controller
 	lc: entity work.LedController
 		port map (
@@ -128,6 +142,7 @@ begin
 			PULSE_100kHz     => pulse_100kHz,
 
 			LOAD             => load,
+			PINCH            => pinch,
 
 			POWER_BUTTON     => POWER_BUTTON,
 			CYCLE_BUTTON     => CYCLE_BUTTON,

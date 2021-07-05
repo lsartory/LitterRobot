@@ -20,11 +20,12 @@ entity LedController is
 		PULSE_100kHz     : in  std_logic;
 
 		LOAD             : in  unsigned;
+		PINCH            : in  std_logic;
 
-		POWER_BUTTON     : in std_logic;
-		CYCLE_BUTTON     : in std_logic;
-		EMPTY_BUTTON     : in std_logic;
-		RESET_BUTTON     : in std_logic;
+		POWER_BUTTON     : in  std_logic;
+		CYCLE_BUTTON     : in  std_logic;
+		EMPTY_BUTTON     : in  std_logic;
+		RESET_BUTTON     : in  std_logic;
 
 		POWER_LED_COLOR  : out color_t;
 		CYCLE_LED_COLOR  : out color_t;
@@ -76,7 +77,7 @@ begin
 					RIGHT_LED_COLOR  <= (x"0000", "000" & triangle(2)(19 downto 7), x"1000");
 
 				when 1 =>
-					LEFT_LED_COLOR   <= (x"0000", x"1000", x"0000");
+					LEFT_LED_COLOR   <= (x"1000", x"0600", x"0000");
 					CENTER_LED_COLOR <= (x"0000", x"0000", x"0000");
 					RIGHT_LED_COLOR  <= (x"0000", x"0000", x"0000");
 
@@ -86,10 +87,17 @@ begin
 					RIGHT_LED_COLOR  <= (x"0000", x"0000", x"0000");
 
 				when others =>
-					LEFT_LED_COLOR   <= (x"1000", x"0000", x"0000");
-					CENTER_LED_COLOR <= (x"1000", x"0000", x"0000");
-					RIGHT_LED_COLOR  <= (x"1000", x"0000", x"0000");
+					LEFT_LED_COLOR   <= (x"1000", x"0600", x"0000");
+					CENTER_LED_COLOR <= (x"1000", x"0600", x"0000");
+					RIGHT_LED_COLOR  <= (x"1000", x"0600", x"0000");
 			end case;
+
+			-- Display the pinch sensor state on the bottom LEDs
+			if PINCH = '1' then
+				LEFT_LED_COLOR   <= (x"1000", x"0000", x"0000");
+				CENTER_LED_COLOR <= (x"1000", x"0000", x"0000");
+				RIGHT_LED_COLOR  <= (x"1000", x"0000", x"0000");
+			end if;
 
 			-- Change the button LED brightness when the button is pressed
 			if POWER_BUTTON = '0' then
@@ -103,6 +111,16 @@ begin
 			end if;
 			if RESET_BUTTON = '0' then
 				RESET_LED_COLOR <= (x"4000", x"1800", x"0000");
+			end if;
+
+			if CLRn = '0' then
+				POWER_LED_COLOR  <= (others => (others => '0'));
+				CYCLE_LED_COLOR  <= (others => (others => '0'));
+				EMPTY_LED_COLOR  <= (others => (others => '0'));
+				RESET_LED_COLOR  <= (others => (others => '0'));
+				LEFT_LED_COLOR   <= (others => (others => '0'));
+				CENTER_LED_COLOR <= (others => (others => '0'));
+				RIGHT_LED_COLOR  <= (others => (others => '0'));
 			end if;
 		end if;
 	end process;

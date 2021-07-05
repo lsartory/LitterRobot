@@ -50,10 +50,12 @@ set_location_assignment PIN_101 -to BLUETOOTH_CTSn
 set_location_assignment PIN_67 -to WEIGHT
 set_location_assignment PIN_68 -to WEIGHT_REF
 set_location_assignment PIN_66 -to WEIGHT_FSR
-set_location_assignment PIN_59 -to MOTOR_PWM_1
-set_location_assignment PIN_60 -to MOTOR_PWM_2
+set_location_assignment PIN_59 -to MOTOR_PWM[1]
+set_location_assignment PIN_60 -to MOTOR_PWM[2]
 set_location_assignment PIN_46 -to HALL_SENSOR_L
 set_location_assignment PIN_44 -to HALL_SENSOR_R
+set_location_assignment PIN_136 -to DFI[1]
+set_location_assignment PIN_137 -to DFI[2]
 set_location_assignment PIN_111 -to LIGHT_SENSOR_SDA
 set_location_assignment PIN_113 -to LIGHT_SENSOR_SCL
 set_location_assignment PIN_112 -to LIGHT_SENSOR_INT
@@ -84,18 +86,20 @@ set_location_assignment PIN_77 -to RIGHT_LED_R
 set_location_assignment PIN_69 -to RIGHT_LED_G
 set_location_assignment PIN_80 -to RIGHT_LED_B
 
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to BLUETOOTH_*
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to WEIGHT*
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to MOTOR_PWM_*
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to LIGHT_SENSOR_*
-set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DOME_LED
 set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to *_LED_*
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to BLUETOOTH_*
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DFI*
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DOME_LED
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to LIGHT_SENSOR_*
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to MOTOR_PWM*
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to WEIGHT*
 
 set_global_assignment -name SDC_FILE LitterRobot.sdc
 set_global_assignment -name VHDL_FILE ClockScaler.vhd
 set_global_assignment -name VHDL_FILE LedController.vhd
 set_global_assignment -name VHDL_FILE LedModulator.vhd
 set_global_assignment -name VHDL_FILE LitterRobot.vhd
+set_global_assignment -name VHDL_FILE PinchSensor.vhd
 set_global_assignment -name VHDL_FILE PulseDensityModulator.vhd
 set_global_assignment -name VHDL_FILE WeightSensor.vhd
 
