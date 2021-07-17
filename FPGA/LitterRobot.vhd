@@ -35,7 +35,7 @@ entity LitterRobot is
 		DFI              : inout std_logic_vector(2 downto 1) := "ZZ";
 
 		LIGHT_SENSOR_SDA : inout std_logic := 'Z';
-		LIGHT_SENSOR_SCL : out   std_logic := '0';
+		LIGHT_SENSOR_SCL : inout std_logic := 'Z';
 		LIGHT_SENSOR_INT : in    std_logic;
 
 		DOME_LED         : out   std_logic := '0';
@@ -87,6 +87,10 @@ architecture LitterRobot_arch of LitterRobot is
 	signal load  : unsigned(1 downto 0);
 	signal pinch : std_logic;
 
+	-- Light level and dome LED on / off switch
+	signal light_level : unsigned(15 downto 0);
+	constant dome_led_on : std_logic := '1';
+
 	-- LED colors
 	signal power_led_color  : color_t;
 	signal cycle_led_color  : color_t;
@@ -113,7 +117,7 @@ begin
 	ws: entity work.WeightSensor
 		port map (
 			CLK        => CLK_20MHz,
-			CLRn       => CLRn,
+			CLRn       => clrn,
 
 			WEIGHT     => WEIGHT,
 			WEIGHT_REF => WEIGHT_REF,
@@ -126,13 +130,32 @@ begin
 	ps: entity work.PinchSensor
 		port map (
 			CLK           => CLK_20MHz,
-			CLRn          => CLRn,
+			CLRn          => clrn,
 			PULSE_100kHz  => pulse_100kHz,
 
 			DFI           => DFI,
 
 			PINCH         => pinch
 		);
+
+	-- Ambient light sensor
+	als: entity work.AmbientLightSensor
+		generic map (
+			CLOCK_FREQUENCY => 20.000
+		)
+		port map (
+			CLK              => CLK_20MHz,
+			CLRn             => clrn,
+
+			LIGHT_SENSOR_SCL => LIGHT_SENSOR_SCL,
+			LIGHT_SENSOR_SDA => LIGHT_SENSOR_SDA,
+			LIGHT_SENSOR_INT => LIGHT_SENSOR_INT,
+
+			LIGHT_LEVEL      => light_level
+		);
+	-- TODO: find the proper threshold and/or modulate the intensity
+	-- TODO: use the power button as an ON / OFF switch
+	DOME_LED <= dome_led_on when light_level <= x"1234" else '0';
 
 	-- LED color controller
 	lc: entity work.LedController
