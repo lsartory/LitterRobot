@@ -79,8 +79,7 @@ end entity LitterRobot;
 
 architecture LitterRobot_arch of LitterRobot is
 	-- Timing signals
-	-- TODO: long press the reset button to generate CLRn?
-	constant clrn : std_logic := '1';
+	signal clrn         : std_logic := '0';
 	signal pulse_100kHz : std_logic;
 
 	-- Load measurement
@@ -100,6 +99,14 @@ architecture LitterRobot_arch of LitterRobot is
 	signal center_led_color : color_t;
 	signal right_led_color  : color_t;
 begin
+
+	-- TODO: long press the reset button to generate CLRn?
+	process (CLK_20MHz)
+	begin
+		if rising_edge(CLK_20MHz) then
+			clrn <= '1';
+		end if;
+	end process;
 
 	-- 100 kHz time base
 	cs: entity work.ClockScaler
@@ -182,12 +189,12 @@ begin
 		);
 
 	-- LED modulators
-	power_led:  entity work.LedModulator port map (CLK_20MHz, clrn, pulse_100kHz, power_led_color,  POWER_LED_R,  POWER_LED_G,  POWER_LED_B);
-	cycle_led:  entity work.LedModulator port map (CLK_20MHz, clrn, pulse_100kHz, cycle_led_color,  CYCLE_LED_R,  CYCLE_LED_G,  CYCLE_LED_B);
-	empty_led:  entity work.LedModulator port map (CLK_20MHz, clrn, pulse_100kHz, empty_led_color,  EMPTY_LED_R,  EMPTY_LED_G,  EMPTY_LED_B);
-	reset_led:  entity work.LedModulator port map (CLK_20MHz, clrn, pulse_100kHz, reset_led_color,  RESET_LED_R,  RESET_LED_G,  RESET_LED_B);
-	left_led:   entity work.LedModulator port map (CLK_20MHz, clrn, pulse_100kHz, left_led_color,   LEFT_LED_R,   LEFT_LED_G,   LEFT_LED_B);
-	center_led: entity work.LedModulator port map (CLK_20MHz, clrn, pulse_100kHz, center_led_color, CENTER_LED_R, CENTER_LED_G, CENTER_LED_B);
-	right_led:  entity work.LedModulator port map (CLK_20MHz, clrn, pulse_100kHz, right_led_color,  RIGHT_LED_R,  RIGHT_LED_G,  RIGHT_LED_B);
+	power_led:  entity work.LedModulator port map (CLK_20MHz, clrn, '1', power_led_color,  light_level, POWER_LED_R,  POWER_LED_G,  POWER_LED_B);
+	cycle_led:  entity work.LedModulator port map (CLK_20MHz, clrn, '1', cycle_led_color,  light_level, CYCLE_LED_R,  CYCLE_LED_G,  CYCLE_LED_B);
+	empty_led:  entity work.LedModulator port map (CLK_20MHz, clrn, '1', empty_led_color,  light_level, EMPTY_LED_R,  EMPTY_LED_G,  EMPTY_LED_B);
+	reset_led:  entity work.LedModulator port map (CLK_20MHz, clrn, '1', reset_led_color,  light_level, RESET_LED_R,  RESET_LED_G,  RESET_LED_B);
+	left_led:   entity work.LedModulator port map (CLK_20MHz, clrn, '1', left_led_color,   light_level, LEFT_LED_R,   LEFT_LED_G,   LEFT_LED_B);
+	center_led: entity work.LedModulator port map (CLK_20MHz, clrn, '1', center_led_color, light_level, CENTER_LED_R, CENTER_LED_G, CENTER_LED_B);
+	right_led:  entity work.LedModulator port map (CLK_20MHz, clrn, '1', right_led_color,  light_level, RIGHT_LED_R,  RIGHT_LED_G,  RIGHT_LED_B);
 
 end LitterRobot_arch;

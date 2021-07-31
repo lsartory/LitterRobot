@@ -41,7 +41,6 @@ architecture AmbientLightSensor_arch of AmbientLightSensor is
 	signal i2c_data_in  : std_logic_vector(15 downto 0);
 	signal i2c_start    : std_logic;
 	signal i2c_done     : std_logic;
-	signal i2c_error    : std_logic;
 begin
 
 	-- 2 Hz time base
@@ -77,13 +76,13 @@ begin
 			end if;
 
 			if i2c_done = '1' then
-				-- TODO: compute a proper value, or use the raw one?
 				LIGHT_LEVEL <= unsigned(i2c_data_in(7 downto 0) & i2c_data_in(15 downto 8));
 			end if;
 
 			if CLRn = '0' then
 				send_config <= '1';
 				i2c_start   <= '0';
+				LIGHT_LEVEL <= (LIGHT_LEVEL'high => '1', others => '0');
 			end if;
 		end if;
 	end process;
@@ -104,7 +103,6 @@ begin
 			DATA_IN  => i2c_data_in,
 			START    => i2c_start,
 			DONE     => i2c_done,
-			ERROR    => i2c_error,
 
 			SCL      => LIGHT_SENSOR_SCL,
 			SDA      => LIGHT_SENSOR_SDA

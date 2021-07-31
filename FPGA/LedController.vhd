@@ -49,13 +49,13 @@ begin
 	begin
 		if rising_edge(CLK) then
 			-- Default colors
-			POWER_LED_COLOR  <= (x"1000", x"1000", x"1000");
-			CYCLE_LED_COLOR  <= (x"0000", x"1000", x"0000");
-			EMPTY_LED_COLOR  <= (x"1000", x"0000", x"0000");
-			RESET_LED_COLOR  <= (x"1000", x"0600", x"0000");
-			LEFT_LED_COLOR   <= (x"0000", x"0000", x"1000");
-			CENTER_LED_COLOR <= (x"0000", x"0000", x"1000");
-			RIGHT_LED_COLOR  <= (x"0000", x"0000", x"1000");
+			POWER_LED_COLOR  <= (x"2000", x"2000", x"2000");
+			CYCLE_LED_COLOR  <= (x"0000", x"2000", x"0000");
+			EMPTY_LED_COLOR  <= (x"2000", x"0000", x"0000");
+			RESET_LED_COLOR  <= (x"2000", x"0C00", x"0000");
+			LEFT_LED_COLOR   <= (x"0000", x"0000", x"2000");
+			CENTER_LED_COLOR <= (x"0000", x"0000", x"2000");
+			RIGHT_LED_COLOR  <= (x"0000", x"0000", x"2000");
 
 			-- Generate a simple triangular wave
 			if pulse_100kHz = '1' then
@@ -72,45 +72,45 @@ begin
 			-- Display the measured weight on the bottom LEDs
 			case to_integer(LOAD) is
 				when 0 =>
-					LEFT_LED_COLOR   <= (x"0000", "000" & triangle(0)(19 downto 7), x"1000");
-					CENTER_LED_COLOR <= (x"0000", "000" & triangle(1)(19 downto 7), x"1000");
-					RIGHT_LED_COLOR  <= (x"0000", "000" & triangle(2)(19 downto 7), x"1000");
+					LEFT_LED_COLOR   <= (x"0000", "00" & triangle(0)(19 downto 6), x"2000");
+					CENTER_LED_COLOR <= (x"0000", "00" & triangle(1)(19 downto 6), x"2000");
+					RIGHT_LED_COLOR  <= (x"0000", "00" & triangle(2)(19 downto 6), x"2000");
 
 				when 1 =>
-					LEFT_LED_COLOR   <= (x"1000", x"0600", x"0000");
+					LEFT_LED_COLOR   <= (x"2000", x"0C00", x"0000");
 					CENTER_LED_COLOR <= (x"0000", x"0000", x"0000");
 					RIGHT_LED_COLOR  <= (x"0000", x"0000", x"0000");
 
 				when 2 =>
-					LEFT_LED_COLOR   <= (x"1000", x"0600", x"0000");
-					CENTER_LED_COLOR <= (x"1000", x"0600", x"0000");
+					LEFT_LED_COLOR   <= (x"2000", x"0C00", x"0000");
+					CENTER_LED_COLOR <= (x"2000", x"0C00", x"0000");
 					RIGHT_LED_COLOR  <= (x"0000", x"0000", x"0000");
 
 				when others =>
-					LEFT_LED_COLOR   <= (x"1000", x"0600", x"0000");
-					CENTER_LED_COLOR <= (x"1000", x"0600", x"0000");
-					RIGHT_LED_COLOR  <= (x"1000", x"0600", x"0000");
+					LEFT_LED_COLOR   <= (x"2000", x"0C00", x"0000");
+					CENTER_LED_COLOR <= (x"2000", x"0C00", x"0000");
+					RIGHT_LED_COLOR  <= (x"2000", x"0C00", x"0000");
 			end case;
 
 			-- Display the pinch sensor state on the bottom LEDs
 			if PINCH = '1' then
-				LEFT_LED_COLOR   <= (x"1000", x"0000", x"0000");
-				CENTER_LED_COLOR <= (x"1000", x"0000", x"0000");
-				RIGHT_LED_COLOR  <= (x"1000", x"0000", x"0000");
+				LEFT_LED_COLOR   <= (x"2000", x"0000", x"0000");
+				CENTER_LED_COLOR <= (x"2000", x"0000", x"0000");
+				RIGHT_LED_COLOR  <= (x"2000", x"0000", x"0000");
 			end if;
 
 			-- Change the button LED brightness when the button is pressed
 			if POWER_BUTTON = '0' then
-				POWER_LED_COLOR <= (x"4000", x"4000", x"4000");
+				POWER_LED_COLOR <= (x"8000", x"8000", x"8000");
 			end if;
 			if CYCLE_BUTTON = '0' then
-				CYCLE_LED_COLOR <= (x"0000", x"4000", x"0000");
+				CYCLE_LED_COLOR <= (x"0000", x"8000", x"0000");
 			end if;
 			if EMPTY_BUTTON = '0' then
-				EMPTY_LED_COLOR <= (x"4000", x"0000", x"0000");
+				EMPTY_LED_COLOR <= (x"8000", x"0000", x"0000");
 			end if;
 			if RESET_BUTTON = '0' then
-				RESET_LED_COLOR <= (x"4000", x"1800", x"0000");
+				RESET_LED_COLOR <= (x"8000", x"3000", x"0000");
 			end if;
 
 			if CLRn = '0' then
