@@ -49,7 +49,7 @@ begin
 	begin
 		if rising_edge(CLK) then
 			-- Default colors
-			POWER_LED_COLOR  <= (x"2000", x"2000", x"2000");
+			POWER_LED_COLOR  <= (x"1000", x"1000", x"1000");
 			CYCLE_LED_COLOR  <= (x"0000", x"2000", x"0000");
 			EMPTY_LED_COLOR  <= (x"2000", x"0000", x"0000");
 			RESET_LED_COLOR  <= (x"2000", x"0C00", x"0000");

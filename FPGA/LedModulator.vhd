@@ -63,8 +63,10 @@ begin
 	process (CLK)
 	begin
 		if rising_edge(CLK) then
-			brightness <= (LIGHT_LEVEL(LIGHT_LEVEL'high - 1 downto LIGHT_LEVEL'low) & '0');
-			brightness(brightness'high) <= LIGHT_LEVEL(LIGHT_LEVEL'high) or LIGHT_LEVEL(LIGHT_LEVEL'high - 1);
+			brightness <= (LIGHT_LEVEL(LIGHT_LEVEL'high - 2 downto LIGHT_LEVEL'low) & "11");
+			if LIGHT_LEVEL(LIGHT_LEVEL'high downto LIGHT_LEVEL'high - 1) /= 0 then
+				brightness <= (others => '1');
+			end if;
 			if (LIGHT_LEVEL < MINIMUM_LIGHT) then
 				brightness <= MINIMUM_LIGHT;
 			end if;
