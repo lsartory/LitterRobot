@@ -97,6 +97,7 @@ set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to WEIGHT*
 set_global_assignment -name SDC_FILE LitterRobot.sdc
 set_global_assignment -name VHDL_FILE AmbientLightSensor.vhd
 set_global_assignment -name VHDL_FILE ClockScaler.vhd
+set_global_assignment -name VHDL_FILE CycleProcess.vhd
 set_global_assignment -name VHDL_FILE I2cController.vhd
 set_global_assignment -name VHDL_FILE LedController.vhd
 set_global_assignment -name VHDL_FILE LedModulator.vhd

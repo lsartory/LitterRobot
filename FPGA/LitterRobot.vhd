@@ -145,6 +145,25 @@ begin
 			PINCH         => pinch
 		);
 
+	-- Main cycle process controller
+	cpc: entity work.CycleProcess
+		port map (
+			CLK           => CLK_20MHz,
+			CLRn          => clrn,
+			PULSE_100kHz  => pulse_100kHz,
+
+			MOTOR_PWM     => MOTOR_PWM,
+
+			HALL_SENSOR_L => HALL_SENSOR_L,
+			HALL_SENSOR_R => HALL_SENSOR_R,
+
+			PINCH         => pinch,
+
+			CYCLE_BUTTON  => CYCLE_BUTTON,
+			EMPTY_BUTTON  => EMPTY_BUTTON,
+			RESET_BUTTON  => RESET_BUTTON
+		);
+
 	-- Ambient light sensor
 	als: entity work.AmbientLightSensor
 		generic map (
@@ -160,9 +179,8 @@ begin
 
 			LIGHT_LEVEL      => light_level
 		);
-	-- TODO: find the proper threshold and/or modulate the intensity
 	-- TODO: use the power button as an ON / OFF switch
-	DOME_LED <= dome_led_on when light_level <= x"1234" else '0';
+	DOME_LED <= dome_led_on when light_level <= x"0A00" else '0';
 
 	-- LED color controller
 	lc: entity work.LedController
